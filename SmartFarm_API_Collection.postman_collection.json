@@ -1,0 +1,750 @@
+{
+  "info": {
+    "name": "SmartFarm API Collection",
+    "_postman_id": "smartfarm-api-2026",
+    "description": "Complete API collection for the AI/ML-Powered Smart Farm project.\n\n**Two servers:**\n- Flask (AI/ML): http://localhost:5000\n- Laravel (Data/Auth): http://localhost:8000/api\n\n**After login, copy the token into the `token` collection variable.**",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "flask_url",   "value": "http://localhost:5000",      "type": "string" },
+    { "key": "laravel_url", "value": "http://localhost:8000/api",  "type": "string" },
+    { "key": "token",       "value": "",                           "type": "string" },
+    { "key": "cow_id",      "value": "1",                         "type": "string" }
+  ],
+  "item": [
+    {
+      "name": "🔐 Auth (Laravel)",
+      "item": [
+        {
+          "name": "Register",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Accept", "value": "application/json" }],
+            "url": { "raw": "{{laravel_url}}/register", "host": ["{{laravel_url}}"], "path": ["register"] },
+            "body": {
+              "mode": "raw",
+              "options": { "raw": { "language": "json" } },
+              "raw": "{\n  \"name\": \"Deshan\",\n  \"email\": \"deshan@smartfarm.com\",\n  \"password\": \"password123\",\n  \"password_confirmation\": \"password123\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Login",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "const json = pm.response.json();",
+                  "if (json.token) { pm.collectionVariables.set('token', json.token); }"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Accept", "value": "application/json" }],
+            "url": { "raw": "{{laravel_url}}/login", "host": ["{{laravel_url}}"], "path": ["login"] },
+            "body": {
+              "mode": "raw",
+              "options": { "raw": { "language": "json" } },
+              "raw": "{\n  \"email\": \"deshan@smartfarm.com\",\n  \"password\": \"password123\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Logout",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Accept",        "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" }
+            ],
+            "url": { "raw": "{{laravel_url}}/logout", "host": ["{{laravel_url}}"], "path": ["logout"] }
+          }
+        },
+        {
+          "name": "Get Current User",
+          "request": {
+            "method": "GET",
+            "header": [
+              { "key": "Accept",        "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" }
+            ],
+            "url": { "raw": "{{laravel_url}}/me", "host": ["{{laravel_url}}"], "path": ["me"] }
+          }
+        }
+      ]
+    },
+    {
+      "name": "🐄 Cows (Laravel)",
+      "item": [
+        {
+          "name": "Get All Cows",
+          "request": {
+            "method": "GET",
+            "header": [
+              { "key": "Accept",        "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" }
+            ],
+            "url": { "raw": "{{laravel_url}}/cows", "host": ["{{laravel_url}}"], "path": ["cows"] }
+          }
+        },
+        {
+          "name": "Get Cows (Public - no embedding)",
+          "request": {
+            "method": "GET",
+            "header": [{ "key": "Accept", "value": "application/json" }],
+            "url": { "raw": "{{laravel_url}}/cows/public", "host": ["{{laravel_url}}"], "path": ["cows", "public"] }
+          }
+        },
+        {
+          "name": "Register Cow (with image + embedding)",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Accept",        "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" }
+            ],
+            "url": { "raw": "{{laravel_url}}/cows", "host": ["{{laravel_url}}"], "path": ["cows"] },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                { "key": "cow_id",          "value": "COW-001",    "type": "text" },
+                { "key": "name",            "value": "Bella",      "type": "text" },
+                { "key": "breed",           "value": "Holstein",   "type": "text" },
+                { "key": "lactation_month", "value": "3",          "type": "text" },
+                { "key": "birthdate",       "value": "2022-05-15", "type": "text" },
+                { "key": "image",           "value": "",           "type": "file", "description": "Select cow image file (.jpg/.png)" }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get Single Cow",
+          "request": {
+            "method": "GET",
+            "header": [
+              { "key": "Accept",        "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" }
+            ],
+            "url": { "raw": "{{laravel_url}}/cows/{{cow_id}}", "host": ["{{laravel_url}}"], "path": ["cows", "{{cow_id}}"] }
+          }
+        },
+        {
+          "name": "Update Cow",
+          "request": {
+            "method": "PUT",
+            "header": [
+              { "key": "Accept",       "value": "application/json" },
+              { "key": "Authorization","value": "Bearer {{token}}" },
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "url": { "raw": "{{laravel_url}}/cows/{{cow_id}}", "host": ["{{laravel_url}}"], "path": ["cows", "{{cow_id}}"] },
+            "body": {
+              "mode": "raw",
+              "options": { "raw": { "language": "json" } },
+              "raw": "{\n  \"name\": \"BellaUpdated\",\n  \"breed\": \"Jersey\",\n  \"lactation_month\": 5\n}"
+            }
+          }
+        },
+        {
+          "name": "Delete Cow",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              { "key": "Accept",        "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" }
+            ],
+            "url": { "raw": "{{laravel_url}}/cows/{{cow_id}}", "host": ["{{laravel_url}}"], "path": ["cows", "{{cow_id}}"] }
+          }
+        },
+        {
+          "name": "Identify Cow (by image)",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Accept",        "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" }
+            ],
+            "url": { "raw": "{{laravel_url}}/cows/identify", "host": ["{{laravel_url}}"], "path": ["cows", "identify"] },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                { "key": "image", "value": "", "type": "file", "description": "Cow query image" }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "🥛 Cow Feed (Laravel)",
+      "item": [
+        {
+          "name": "Get Feed Records for Cow",
+          "request": {
+            "method": "GET",
+            "header": [
+              { "key": "Accept",        "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" }
+            ],
+            "url": { "raw": "{{laravel_url}}/cows/{{cow_id}}/feed", "host": ["{{laravel_url}}"], "path": ["cows", "{{cow_id}}", "feed"] }
+          }
+        },
+        {
+          "name": "Calculate Feed (Manual)",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Accept",        "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" },
+              { "key": "Content-Type",  "value": "application/json" }
+            ],
+            "url": { "raw": "{{laravel_url}}/cows/{{cow_id}}/feed", "host": ["{{laravel_url}}"], "path": ["cows", "{{cow_id}}", "feed"] },
+            "body": {
+              "mode": "raw",
+              "options": { "raw": { "language": "json" } },
+              "raw": "{\n  \"weight_kg\":    450,\n  \"milk_yield\":   20,\n  \"activity\":     \"Medium\",\n  \"date\":         \"2026-03-04\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Calculate Feed (From Image - YOLO weight)",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Accept",        "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" }
+            ],
+            "url": { "raw": "{{laravel_url}}/cows/{{cow_id}}/feed-from-image", "host": ["{{laravel_url}}"], "path": ["cows", "{{cow_id}}", "feed-from-image"] },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                { "key": "image",       "value": "", "type": "file", "description": "Cow image for YOLO weight estimation" },
+                { "key": "milk_yield",  "value": "20",      "type": "text" },
+                { "key": "activity",    "value": "Medium",  "type": "text" },
+                { "key": "date",        "value": "2026-03-04", "type": "text" }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "📊 Prediction History (Laravel)",
+      "item": [
+        {
+          "name": "Save Animal Birth Prediction",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Accept",        "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" },
+              { "key": "Content-Type",  "value": "application/json" }
+            ],
+            "url": { "raw": "{{laravel_url}}/predictions/animal-birth", "host": ["{{laravel_url}}"], "path": ["predictions", "animal-birth"] },
+            "body": {
+              "mode": "raw",
+              "options": { "raw": { "language": "json" } },
+              "raw": "{\n  \"features\": [101.5, 1200, 270, 5.0, 7.0],\n  \"estimated_days_to_birth\": 1.8,\n  \"will_birth_in_2_days\": \"Yes\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Get Animal Birth History",
+          "request": {
+            "method": "GET",
+            "header": [
+              { "key": "Accept",        "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" }
+            ],
+            "url": { "raw": "{{laravel_url}}/predictions/animal-birth", "host": ["{{laravel_url}}"], "path": ["predictions", "animal-birth"] }
+          }
+        },
+        {
+          "name": "Save Disease Detection",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Accept",        "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" },
+              { "key": "Content-Type",  "value": "application/json" }
+            ],
+            "url": { "raw": "{{laravel_url}}/predictions/disease", "host": ["{{laravel_url}}"], "path": ["predictions", "disease"] },
+            "body": {
+              "mode": "raw",
+              "options": { "raw": { "language": "json" } },
+              "raw": "{\n  \"model_used\": \"densenet\",\n  \"disease_name\": \"Mastitis\",\n  \"confidence\": 0.92,\n  \"all_predictions\": { \"Mastitis\": 0.92, \"Healthy\": 0.05, \"FMD\": 0.03 }\n}"
+            }
+          }
+        },
+        {
+          "name": "Get Disease History",
+          "request": {
+            "method": "GET",
+            "header": [
+              { "key": "Accept",        "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" }
+            ],
+            "url": { "raw": "{{laravel_url}}/predictions/disease", "host": ["{{laravel_url}}"], "path": ["predictions", "disease"] }
+          }
+        },
+        {
+          "name": "Save Behavior Detection",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Accept",        "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" },
+              { "key": "Content-Type",  "value": "application/json" }
+            ],
+            "url": { "raw": "{{laravel_url}}/predictions/behavior", "host": ["{{laravel_url}}"], "path": ["predictions", "behavior"] },
+            "body": {
+              "mode": "raw",
+              "options": { "raw": { "language": "json" } },
+              "raw": "{\n  \"detection_type\": \"video\",\n  \"behavior\": \"Eating\",\n  \"confidence\": 0.87,\n  \"details\": { \"count\": 2, \"behaviors\": [{\"behavior\": \"Eating\", \"confidence\": 0.87}] }\n}"
+            }
+          }
+        },
+        {
+          "name": "Get Behavior History",
+          "request": {
+            "method": "GET",
+            "header": [
+              { "key": "Accept",        "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" }
+            ],
+            "url": { "raw": "{{laravel_url}}/predictions/behavior", "host": ["{{laravel_url}}"], "path": ["predictions", "behavior"] }
+          }
+        },
+        {
+          "name": "Save Egg Hatch Prediction",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Accept",        "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" },
+              { "key": "Content-Type",  "value": "application/json" }
+            ],
+            "url": { "raw": "{{laravel_url}}/predictions/egg-hatch", "host": ["{{laravel_url}}"], "path": ["predictions", "egg-hatch"] },
+            "body": {
+              "mode": "raw",
+              "options": { "raw": { "language": "json" } },
+              "raw": "{\n  \"temperature\": 37.5,\n  \"humidity\": 60.0,\n  \"egg_weight\": 60.0,\n  \"egg_turning_frequency\": 4,\n  \"incubation_duration\": 18,\n  \"hatch_probability\": 0.82,\n  \"predicted_class\": 1\n}"
+            }
+          }
+        },
+        {
+          "name": "Get Egg Hatch History",
+          "request": {
+            "method": "GET",
+            "header": [
+              { "key": "Accept",        "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" }
+            ],
+            "url": { "raw": "{{laravel_url}}/predictions/egg-hatch", "host": ["{{laravel_url}}"], "path": ["predictions", "egg-hatch"] }
+          }
+        },
+        {
+          "name": "Save Milk Market Prediction",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Accept",        "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" },
+              { "key": "Content-Type",  "value": "application/json" }
+            ],
+            "url": { "raw": "{{laravel_url}}/predictions/milk-market", "host": ["{{laravel_url}}"], "path": ["predictions", "milk-market"] },
+            "body": {
+              "mode": "raw",
+              "options": { "raw": { "language": "json" } },
+              "raw": "{\n  \"current_price\": 50.0,\n  \"monthly_milk_litres\": 1000.0,\n  \"fat_percentage\": 4.0,\n  \"snf_percentage\": 8.5,\n  \"disease_stage\": 0,\n  \"feed_quality\": 5,\n  \"lactation_month\": 3,\n  \"month\": 3,\n  \"predicted_price_change\": 2.5,\n  \"predicted_next_price\": 52.5,\n  \"predicted_next_income\": 52500.0\n}"
+            }
+          }
+        },
+        {
+          "name": "Get Milk Market History",
+          "request": {
+            "method": "GET",
+            "header": [
+              { "key": "Accept",        "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" }
+            ],
+            "url": { "raw": "{{laravel_url}}/predictions/milk-market", "host": ["{{laravel_url}}"], "path": ["predictions", "milk-market"] }
+          }
+        },
+        {
+          "name": "Save Nutrition Recommendation",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Accept",        "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" },
+              { "key": "Content-Type",  "value": "application/json" }
+            ],
+            "url": { "raw": "{{laravel_url}}/predictions/nutrition", "host": ["{{laravel_url}}"], "path": ["predictions", "nutrition"] },
+            "body": {
+              "mode": "raw",
+              "options": { "raw": { "language": "json" } },
+              "raw": "{\n  \"input_data\": { \"Breed\": \"Holstein\", \"Weight_kg\": 450, \"Age_Months\": 36 },\n  \"dry_matter_intake_kg\": 18.5,\n  \"calcium_g_per_day\": 62.0,\n  \"phosphorus_g_per_day\": 48.0\n}"
+            }
+          }
+        },
+        {
+          "name": "Get Nutrition History",
+          "request": {
+            "method": "GET",
+            "header": [
+              { "key": "Accept",        "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" }
+            ],
+            "url": { "raw": "{{laravel_url}}/predictions/nutrition", "host": ["{{laravel_url}}"], "path": ["predictions", "nutrition"] }
+          }
+        },
+        {
+          "name": "Save Cow Identification",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Accept",        "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" },
+              { "key": "Content-Type",  "value": "application/json" }
+            ],
+            "url": { "raw": "{{laravel_url}}/predictions/cow-identification", "host": ["{{laravel_url}}"], "path": ["predictions", "cow-identification"] },
+            "body": {
+              "mode": "raw",
+              "options": { "raw": { "language": "json" } },
+              "raw": "{\n  \"matched_cow_id\": 1,\n  \"similarity_score\": 0.94,\n  \"match_found\": true,\n  \"all_scores\": { \"COW-001\": 0.94, \"COW-002\": 0.41 }\n}"
+            }
+          }
+        },
+        {
+          "name": "Get Cow Identification History",
+          "request": {
+            "method": "GET",
+            "header": [
+              { "key": "Accept",        "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" }
+            ],
+            "url": { "raw": "{{laravel_url}}/predictions/cow-identification", "host": ["{{laravel_url}}"], "path": ["predictions", "cow-identification"] }
+          }
+        }
+      ]
+    },
+    {
+      "name": "🤖 Flask AI/ML (port 5000)",
+      "item": [
+        {
+          "name": "Health Check",
+          "item": [
+            {
+              "name": "Root",
+              "request": {
+                "method": "GET",
+                "url": { "raw": "{{flask_url}}/", "host": ["{{flask_url}}"], "path": [""] }
+              }
+            },
+            {
+              "name": "Health",
+              "request": {
+                "method": "GET",
+                "url": { "raw": "{{flask_url}}/health", "host": ["{{flask_url}}"], "path": ["health"] }
+              }
+            },
+            {
+              "name": "API Health",
+              "request": {
+                "method": "GET",
+                "url": { "raw": "{{flask_url}}/api/health", "host": ["{{flask_url}}"], "path": ["api", "health"] }
+              }
+            },
+            {
+              "name": "Model Status",
+              "request": {
+                "method": "GET",
+                "url": { "raw": "{{flask_url}}/api/models/status", "host": ["{{flask_url}}"], "path": ["api", "models", "status"] }
+              }
+            }
+          ]
+        },
+        {
+          "name": "🐄 Animal Birth",
+          "item": [
+            {
+              "name": "Predict Animal Birth",
+              "request": {
+                "method": "POST",
+                "header": [{ "key": "Content-Type", "value": "application/json" }],
+                "url": { "raw": "{{flask_url}}/animal-birth/predict", "host": ["{{flask_url}}"], "path": ["animal-birth", "predict"] },
+                "body": {
+                  "mode": "raw",
+                  "options": { "raw": { "language": "json" } },
+                  "raw": "{\n  \"features\": [101.5, 1200, 270, 5.0, 7.0]\n}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "🔍 Cow Identification (Flask)",
+          "item": [
+            {
+              "name": "Detect Cow (YOLO local identify)",
+              "request": {
+                "method": "POST",
+                "url": { "raw": "{{flask_url}}/cow-identify/detect", "host": ["{{flask_url}}"], "path": ["cow-identify", "detect"] },
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    { "key": "image", "value": "", "type": "file", "description": "Cow image" }
+                  ]
+                }
+              }
+            },
+            {
+              "name": "Register Cow (get embedding) [called by Laravel]",
+              "request": {
+                "method": "POST",
+                "url": { "raw": "{{flask_url}}/register", "host": ["{{flask_url}}"], "path": ["register"] },
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    { "key": "image", "value": "", "type": "file", "description": "Cow image" }
+                  ]
+                }
+              }
+            },
+            {
+              "name": "Identify Cow (embedding comparison) [called by Laravel]",
+              "request": {
+                "method": "POST",
+                "header": [{ "key": "Content-Type", "value": "application/json" }],
+                "url": { "raw": "{{flask_url}}/identify", "host": ["{{flask_url}}"], "path": ["identify"] },
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    { "key": "image", "value": "", "type": "file" },
+                    { "key": "embeddings", "value": "[[0.1,0.2,...]]", "type": "text", "description": "JSON array of stored embeddings" }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "🥛 Cow Feed (Flask)",
+          "item": [
+            {
+              "name": "Predict Feed from Image (YOLO weight)",
+              "request": {
+                "method": "POST",
+                "url": { "raw": "{{flask_url}}/cow-feed/predict-from-image", "host": ["{{flask_url}}"], "path": ["cow-feed", "predict-from-image"] },
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    { "key": "image",       "value": "", "type": "file" },
+                    { "key": "breed",       "value": "Holstein", "type": "text" },
+                    { "key": "age",         "value": "36",       "type": "text" },
+                    { "key": "milk_yield",  "value": "20",       "type": "text" },
+                    { "key": "activity",    "value": "Medium",   "type": "text" }
+                  ]
+                }
+              }
+            },
+            {
+              "name": "Predict Feed Manual",
+              "request": {
+                "method": "POST",
+                "header": [{ "key": "Content-Type", "value": "application/json" }],
+                "url": { "raw": "{{flask_url}}/cow-feed/predict-manual", "host": ["{{flask_url}}"], "path": ["cow-feed", "predict-manual"] },
+                "body": {
+                  "mode": "raw",
+                  "options": { "raw": { "language": "json" } },
+                  "raw": "{\n  \"weight_kg\":   450,\n  \"breed\":       \"Holstein\",\n  \"age\":         36,\n  \"milk_yield\":  20,\n  \"activity\":    \"Medium\"\n}"
+                }
+              }
+            },
+            {
+              "name": "Predict Feed from Image [called by Laravel]",
+              "request": {
+                "method": "POST",
+                "url": { "raw": "{{flask_url}}/predict", "host": ["{{flask_url}}"], "path": ["predict"] },
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    { "key": "image",       "value": "", "type": "file" },
+                    { "key": "breed",       "value": "Holstein", "type": "text" },
+                    { "key": "age",         "value": "36",       "type": "text" },
+                    { "key": "milk_yield",  "value": "20",       "type": "text" },
+                    { "key": "activity",    "value": "Medium",   "type": "text" }
+                  ]
+                }
+              }
+            },
+            {
+              "name": "Predict Feed Manual [called by Laravel]",
+              "request": {
+                "method": "POST",
+                "header": [{ "key": "Content-Type", "value": "application/json" }],
+                "url": { "raw": "{{flask_url}}/predict_manual", "host": ["{{flask_url}}"], "path": ["predict_manual"] },
+                "body": {
+                  "mode": "raw",
+                  "options": { "raw": { "language": "json" } },
+                  "raw": "{\n  \"weight_kg\":   450,\n  \"breed\":       \"Holstein\",\n  \"age\":         36,\n  \"milk_yield\":  20,\n  \"activity\":    \"Medium\"\n}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "🥚 Egg Hatching",
+          "item": [
+            {
+              "name": "Predict Egg Hatch",
+              "request": {
+                "method": "POST",
+                "header": [{ "key": "Content-Type", "value": "application/json" }],
+                "url": { "raw": "{{flask_url}}/egg-hatch/predict", "host": ["{{flask_url}}"], "path": ["egg-hatch", "predict"] },
+                "body": {
+                  "mode": "raw",
+                  "options": { "raw": { "language": "json" } },
+                  "raw": "{\n  \"Temperature\": 37.5,\n  \"Humidity\": 60.0,\n  \"Egg_Weight\": 60.0,\n  \"Egg_Turning_Frequency\": 4,\n  \"Incubation_Duration\": 18\n}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "📈 Milk Market",
+          "item": [
+            {
+              "name": "Predict Milk Market Income",
+              "request": {
+                "method": "POST",
+                "header": [{ "key": "Content-Type", "value": "application/json" }],
+                "url": { "raw": "{{flask_url}}/milk-market/predict-income", "host": ["{{flask_url}}"], "path": ["milk-market", "predict-income"] },
+                "body": {
+                  "mode": "raw",
+                  "options": { "raw": { "language": "json" } },
+                  "raw": "{\n  \"current_price\": 50.0,\n  \"monthly_milk_litres\": 1000,\n  \"fat_percentage\": 4.0,\n  \"snf_percentage\": 8.5,\n  \"disease_stage\": 0,\n  \"feed_quality\": 5,\n  \"lactation_month\": 3,\n  \"month\": 3\n}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "🌿 Nutrition",
+          "item": [
+            {
+              "name": "Recommend Nutrition",
+              "request": {
+                "method": "POST",
+                "header": [{ "key": "Content-Type", "value": "application/json" }],
+                "url": { "raw": "{{flask_url}}/nutrition/predict", "host": ["{{flask_url}}"], "path": ["nutrition", "predict"] },
+                "body": {
+                  "mode": "raw",
+                  "options": { "raw": { "language": "json" } },
+                  "raw": "{\n  \"Age_Months\": 36,\n  \"Weight_kg\": 450,\n  \"Breed\": \"Holstein\",\n  \"Milk_Yield_L_per_day\": 25,\n  \"Health_Status\": \"Healthy\",\n  \"Disease\": \"None\",\n  \"Body_Condition_Score\": 3.0,\n  \"Location\": \"Farm\",\n  \"Energy_MJ_per_day\": 120,\n  \"Crude_Protein_g_per_day\": 1500,\n  \"Recommended_Feed_Type\": \"Mixed\"\n}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "🦠 Disease Detection",
+          "item": [
+            {
+              "name": "Detect Disease (DenseNet + YOLO)",
+              "request": {
+                "method": "POST",
+                "url": { "raw": "{{flask_url}}/api/disease/detect", "host": ["{{flask_url}}"], "path": ["api", "disease", "detect"] },
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    { "key": "image",    "value": "", "type": "file", "description": "Cattle image" },
+                    { "key": "use_yolo", "value": "true", "type": "text" }
+                  ]
+                }
+              }
+            },
+            {
+              "name": "Analyze Disease (Full - Severity + Treatment)",
+              "request": {
+                "method": "POST",
+                "url": { "raw": "{{flask_url}}/api/disease/analyze", "host": ["{{flask_url}}"], "path": ["api", "disease", "analyze"] },
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    { "key": "image",            "value": "", "type": "file" },
+                    { "key": "weight",           "value": "450",  "type": "text" },
+                    { "key": "age",              "value": "40",   "type": "text" },
+                    { "key": "temperature",      "value": "38.5", "type": "text" },
+                    { "key": "previous_disease", "value": "None", "type": "text" }
+                  ]
+                }
+              }
+            },
+            {
+              "name": "Quick Diagnosis",
+              "request": {
+                "method": "POST",
+                "url": { "raw": "{{flask_url}}/api/quick-diagnosis", "host": ["{{flask_url}}"], "path": ["api", "quick-diagnosis"] },
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    { "key": "image", "value": "", "type": "file" }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "🐾 Behavior Detection",
+          "item": [
+            {
+              "name": "Detect Behavior from Video/Image",
+              "request": {
+                "method": "POST",
+                "url": { "raw": "{{flask_url}}/api/behavior/detect-from-video", "host": ["{{flask_url}}"], "path": ["api", "behavior", "detect-from-video"] },
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    { "key": "image", "value": "", "type": "file", "description": "Video frame or image" }
+                  ]
+                }
+              }
+            },
+            {
+              "name": "Save Behavior Snapshot",
+              "request": {
+                "method": "POST",
+                "header": [{ "key": "Content-Type", "value": "application/json" }],
+                "url": { "raw": "{{flask_url}}/api/behavior/snapshot", "host": ["{{flask_url}}"], "path": ["api", "behavior", "snapshot"] },
+                "body": {
+                  "mode": "raw",
+                  "options": { "raw": { "language": "json" } },
+                  "raw": "{\n  \"cow_id\": \"COW-001\",\n  \"eating_time\": 3.5,\n  \"lying_time\": 4.0,\n  \"steps\": 120,\n  \"rumination_time\": 2.0,\n  \"temperature\": 38.5\n}"
+                }
+              }
+            },
+            {
+              "name": "Analyze Behavior for Cow",
+              "request": {
+                "method": "GET",
+                "url": {
+                  "raw": "{{flask_url}}/api/behavior/analyze/COW-001?hours=24",
+                  "host": ["{{flask_url}}"],
+                  "path": ["api", "behavior", "analyze", "COW-001"],
+                  "query": [{ "key": "hours", "value": "24" }]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
