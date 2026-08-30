@@ -1,1 +1,0 @@
-# Egg hatch prediction module
