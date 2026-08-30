@@ -22,7 +22,14 @@ def predict_income():
 
         # Convert input JSON to DataFrame
         input_df = pd.DataFrame([{
-            
+            'Local_Milk_Price_LKR_per_Litre': data['current_price'],
+            'Monthly_Milk_Litres': data['monthly_milk_litres'],
+            'Fat_Percentage': data['fat_percentage'],
+            'SNF_Percentage': data['snf_percentage'],
+            'Disease_Stage': data['disease_stage'],
+            'Feed_Quality_Encoded': data['feed_quality'],  # 1,2,3
+            'Lactation_Month': data['lactation_month'],
+            'Month': data['month']
         }])
 
         # Predict price change
