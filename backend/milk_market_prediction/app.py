@@ -36,8 +36,7 @@ def predict_income():
         price_change = model.predict(input_df)[0]
 
         # Calculate next month price & income
-        next_price = data['current_price'] + price_change
-        next_income = next_price * data['monthly_milk_litres']
+        
 
         return jsonify({
             "predicted_price_change_lkr_per_litre": round(price_change, 2),
