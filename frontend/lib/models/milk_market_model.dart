@@ -5,12 +5,7 @@ import 'dart:ui' as ui;
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
-class MarketScreen extends StatefulWidget {
-  const MarketScreen({super.key});
 
-  @override
-  State<MarketScreen> createState() => _MarketScreenState();
-}
 
 class _MarketScreenState extends State<MarketScreen> {
   final _formKey = GlobalKey<FormState>();
