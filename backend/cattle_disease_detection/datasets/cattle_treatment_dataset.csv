@@ -1,0 +1,2001 @@
+Disease,Severity,Weight,Age,Breed,Temperature,Previous_Disease,Treatment,Feed_Adjustment_Percent
+Pediculosis,1,386.7,83,AFS,39.5,None,Antiparasitic + Monitoring,-9.4
+FMD,1,416.7,35,AFS,39.5,None,Antibiotics + Isolation,-14.1
+Mastitis,0,386.4,32,AFS,38.8,None,Anti-inflammatory + Rest,-8.0
+Contagious,0,472.4,53,AFS,38.5,Ringworm,Antibiotics + Isolation,-9.1
+Mastitis,1,389.9,66,AFS,39.8,None,Anti-inflammatory + Rest,-10.6
+Pediculosis,0,363.0,15,AFS,39.0,None,Antiparasitic + Monitoring,-4.5
+Dermatophilosis,0,486.8,71,AFS,38.6,None,Topical Treatment + Monitoring,-6.9
+Mastitis,0,386.4,15,AFS,38.7,None,Anti-inflammatory + Rest,-5.8
+Mastitis,0,518.5,55,AFS,39.0,Mastitis,Anti-inflammatory + Rest,-5.6
+Ringworm,0,464.1,73,AFS,38.7,None,Topical Treatment + Monitoring,-3.9
+Lumpy Skin,1,543.1,71,AFS,39.4,None,Antibiotics + Isolation,-13.8
+Contagious,0,434.7,12,AFS,38.6,None,Antibiotics + Isolation,-6.7
+Contagious,1,508.0,16,AFS,39.7,Contagious,Antibiotics + Isolation,-12.3
+Contagious,1,416.2,59,AFS,39.3,Contagious,Antibiotics + Isolation,-13.3
+Healthy,0,477.5,46,AFS,38.5,None,No Treatment Required,0.0
+Mastitis,2,494.3,25,AFS,40.6,None,Antibiotics + Isolation,-20.3
+Dermatophilosis,1,390.3,63,AFS,39.5,Contagious,Antibiotics + Isolation,-13.4
+Pediculosis,1,501.1,47,AFS,39.8,None,Antiparasitic + Monitoring,-7.2
+Healthy,0,535.9,56,AFS,38.4,None,No Treatment Required,0.0
+Healthy,0,510.7,55,AFS,38.5,Mastitis,No Treatment Required,0.0
+Ringworm,2,529.2,73,AFS,40.0,None,Antifungal + Topical Care,-10.3
+Healthy,0,420.5,14,AFS,38.3,None,No Treatment Required,0.0
+Contagious,1,488.5,55,AFS,39.2,None,Antibiotics + Isolation,-15.1
+Ringworm,1,422.7,69,AFS,39.8,None,Topical Treatment + Monitoring,-8.0
+Contagious,0,549.5,70,AFS,38.8,None,Antibiotics + Isolation,-9.8
+Lumpy Skin,0,476.9,13,AFS,38.8,None,Topical Treatment + Monitoring,-4.8
+Pediculosis,1,502.3,28,AFS,39.6,None,Antiparasitic + Monitoring,-7.5
+Mastitis,0,513.3,27,AFS,38.9,None,Anti-inflammatory + Rest,-7.3
+Lumpy Skin,2,415.2,47,AFS,39.8,None,Antiviral + Quarantine,-24.1
+Ringworm,0,538.1,51,AFS,38.7,Pediculosis,Topical Treatment + Monitoring,-4.4
+Healthy,0,497.0,61,AFS,38.8,Mastitis,No Treatment Required,0.0
+FMD,0,385.0,71,AFS,38.6,Ringworm,Supportive Care Only,-3.1
+Lumpy Skin,2,476.6,20,AFS,40.3,Dermatophilosis,Antiviral + Quarantine,-21.6
+Healthy,0,527.4,44,AFS,38.6,None,No Treatment Required,0.0
+Ringworm,1,483.8,36,AFS,39.0,None,Topical Treatment + Monitoring,-7.8
+Mastitis,1,548.9,44,AFS,39.0,None,Anti-inflammatory + Rest,-13.3
+Ringworm,1,519.8,28,AFS,39.2,None,Topical Treatment + Monitoring,-8.0
+Mastitis,0,398.8,49,AFS,39.0,None,Anti-inflammatory + Rest,-4.4
+FMD,1,450.5,39,AFS,39.5,Mastitis,Antibiotics + Isolation,-16.1
+Ringworm,0,354.9,60,AFS,38.5,Ringworm,Topical Treatment + Monitoring,-3.1
+Mastitis,2,424.0,48,AFS,41.4,None,Antibiotics + Isolation,-18.1
+FMD,2,365.1,43,AFS,41.2,None,Antiviral + Quarantine,-26.3
+Contagious,0,518.8,78,AFS,38.8,None,Antibiotics + Isolation,-7.5
+Mastitis,0,400.8,13,AFS,38.7,Lumpy Skin,Anti-inflammatory + Rest,-7.5
+Mastitis,0,408.7,37,AFS,38.9,Mastitis,Anti-inflammatory + Rest,-4.3
+Dermatophilosis,0,475.6,31,AFS,38.8,Dermatophilosis,Topical Treatment + Monitoring,-3.8
+Healthy,0,527.3,26,AFS,38.5,None,No Treatment Required,0.0
+Pediculosis,1,415.6,69,AFS,39.4,None,Antiparasitic + Monitoring,-7.6
+Mastitis,0,357.8,26,AFS,38.7,None,Anti-inflammatory + Rest,-5.9
+Lumpy Skin,0,543.1,79,AFS,38.9,None,Topical Treatment + Monitoring,-5.4
+FMD,1,495.2,24,AFS,39.8,Dermatophilosis,Antibiotics + Isolation,-16.8
+Ringworm,0,437.8,66,AFS,38.6,None,Topical Treatment + Monitoring,-4.7
+Pediculosis,1,431.8,69,AFS,39.7,None,Antiparasitic + Monitoring,-9.0
+Mastitis,1,482.0,12,AFS,39.8,Dermatophilosis,Anti-inflammatory + Rest,-11.8
+Mastitis,1,359.5,37,AFS,39.3,FMD,Anti-inflammatory + Rest,-13.9
+Mastitis,0,368.8,73,AFS,38.9,None,Anti-inflammatory + Rest,-7.6
+Ringworm,2,419.3,34,AFS,39.9,Pediculosis,Antifungal + Topical Care,-8.5
+Healthy,0,424.9,30,AFS,38.6,Mastitis,No Treatment Required,0.0
+Lumpy Skin,1,473.2,91,AFS,39.5,None,Antibiotics + Isolation,-14.7
+FMD,2,485.4,46,AFS,40.9,None,Antiviral + Quarantine,-24.8
+Lumpy Skin,1,514.1,51,AFS,39.7,None,Antibiotics + Isolation,-16.7
+Pediculosis,0,357.8,46,AFS,38.7,Contagious,Antiparasitic + Monitoring,-4.5
+Dermatophilosis,0,512.9,18,AFS,38.6,Contagious,Topical Treatment + Monitoring,-4.5
+Lumpy Skin,0,433.6,47,AFS,38.6,FMD,Topical Treatment + Monitoring,-3.8
+Contagious,1,375.5,35,AFS,39.7,None,Antibiotics + Isolation,-15.0
+Pediculosis,1,500.9,41,AFS,39.7,None,Antiparasitic + Monitoring,-6.7
+Mastitis,0,370.0,23,AFS,39.0,Lumpy Skin,Anti-inflammatory + Rest,-6.6
+Healthy,0,540.0,63,AFS,38.6,None,No Treatment Required,0.0
+Lumpy Skin,0,470.5,63,AFS,38.8,FMD,Topical Treatment + Monitoring,-3.8
+Contagious,0,536.2,69,AFS,38.5,None,Antibiotics + Isolation,-8.2
+Pediculosis,1,491.2,87,AFS,39.6,Lumpy Skin,Antiparasitic + Monitoring,-6.5
+Mastitis,0,490.2,53,AFS,38.7,Mastitis,Anti-inflammatory + Rest,-7.4
+Lumpy Skin,0,547.3,76,AFS,38.9,None,Topical Treatment + Monitoring,-3.4
+Lumpy Skin,1,425.3,42,AFS,39.4,None,Antibiotics + Isolation,-14.2
+Dermatophilosis,2,372.2,78,AFS,40.2,None,Antibiotics + Isolation,-17.7
+Healthy,0,373.8,72,AFS,38.7,Dermatophilosis,No Treatment Required,0.0
+FMD,1,542.4,74,AFS,39.4,None,Antibiotics + Isolation,-14.9
+Lumpy Skin,2,352.4,43,AFS,40.7,None,Antiviral + Quarantine,-24.8
+Lumpy Skin,2,364.8,30,AFS,41.4,None,Antiviral + Quarantine,-22.5
+Mastitis,0,549.2,65,AFS,38.8,Pediculosis,Anti-inflammatory + Rest,-7.8
+Healthy,0,541.7,27,AFS,38.7,None,No Treatment Required,0.0
+Healthy,0,417.1,47,AFS,38.5,None,No Treatment Required,0.0
+Dermatophilosis,0,422.1,75,AFS,38.7,None,Topical Treatment + Monitoring,-5.9
+Lumpy Skin,2,486.9,40,AFS,40.0,None,Antiviral + Quarantine,-21.2
+FMD,1,472.7,77,AFS,39.1,Mastitis,Antibiotics + Isolation,-14.8
+Lumpy Skin,0,425.3,76,AFS,38.7,Ringworm,Topical Treatment + Monitoring,-5.5
+Dermatophilosis,0,544.0,38,AFS,38.8,None,Topical Treatment + Monitoring,-6.9
+Pediculosis,0,361.3,17,AFS,38.8,None,Antiparasitic + Monitoring,-3.0
+FMD,1,503.8,48,AFS,39.6,None,Antibiotics + Isolation,-16.0
+Contagious,0,540.8,88,AFS,38.6,Mastitis,Antibiotics + Isolation,-7.0
+Dermatophilosis,0,372.7,37,AFS,38.7,None,Topical Treatment + Monitoring,-3.7
+Dermatophilosis,2,460.4,16,AFS,40.0,FMD,Antibiotics + Isolation,-17.6
+Pediculosis,0,501.0,25,AFS,38.9,None,Antiparasitic + Monitoring,-5.5
+Healthy,0,546.1,61,AFS,38.6,None,No Treatment Required,0.0
+FMD,0,495.3,49,AFS,38.7,Pediculosis,Supportive Care Only,-5.8
+Dermatophilosis,2,539.9,15,AFS,40.6,Lumpy Skin,Antibiotics + Isolation,-16.9
+Healthy,0,441.8,45,AFS,38.6,None,No Treatment Required,0.0
+Mastitis,1,398.0,34,AFS,39.1,None,Anti-inflammatory + Rest,-13.4
+Ringworm,0,489.3,36,AFS,38.9,None,Topical Treatment + Monitoring,-2.3
+Dermatophilosis,1,394.8,32,AFS,39.1,None,Antibiotics + Isolation,-13.3
+Lumpy Skin,1,456.9,23,AFS,39.2,None,Antibiotics + Isolation,-15.0
+Lumpy Skin,0,368.5,58,AFS,38.8,None,Topical Treatment + Monitoring,-3.5
+Pediculosis,0,350.5,47,AFS,38.9,Dermatophilosis,Antiparasitic + Monitoring,-5.3
+Pediculosis,1,534.8,25,AFS,39.5,None,Antiparasitic + Monitoring,-8.1
+Lumpy Skin,0,379.5,18,AFS,38.8,Lumpy Skin,Topical Treatment + Monitoring,-4.0
+Healthy,0,371.4,49,AFS,38.6,None,No Treatment Required,0.0
+Contagious,1,386.5,50,AFS,39.3,None,Antibiotics + Isolation,-14.7
+Healthy,0,396.6,24,AFS,38.6,Contagious,No Treatment Required,0.0
+FMD,1,445.9,45,AFS,39.4,None,Antibiotics + Isolation,-14.7
+Dermatophilosis,0,422.6,37,AFS,38.8,None,Topical Treatment + Monitoring,-5.0
+Mastitis,1,397.4,33,AFS,39.2,None,Anti-inflammatory + Rest,-12.0
+Mastitis,0,407.0,35,AFS,38.9,None,Anti-inflammatory + Rest,-5.9
+Ringworm,1,549.5,17,AFS,39.3,Ringworm,Topical Treatment + Monitoring,-6.5
+Mastitis,2,448.1,62,AFS,41.2,Dermatophilosis,Antibiotics + Isolation,-19.9
+Dermatophilosis,0,503.9,81,AFS,39.0,Dermatophilosis,Topical Treatment + Monitoring,-6.2
+Healthy,0,398.5,58,AFS,38.7,FMD,No Treatment Required,0.0
+Mastitis,1,380.9,88,AFS,39.4,None,Anti-inflammatory + Rest,-12.7
+Dermatophilosis,1,459.8,13,AFS,39.3,Lumpy Skin,Antibiotics + Isolation,-13.0
+Lumpy Skin,0,373.3,26,AFS,38.7,None,Topical Treatment + Monitoring,-5.6
+Contagious,2,499.2,61,AFS,40.0,Dermatophilosis,Antibiotics + Isolation,-20.2
+Healthy,0,425.8,12,AFS,38.7,None,No Treatment Required,0.0
+Ringworm,1,515.6,25,AFS,39.6,Lumpy Skin,Topical Treatment + Monitoring,-9.3
+FMD,1,454.6,15,AFS,39.3,None,Antibiotics + Isolation,-14.3
+Ringworm,1,425.4,62,AFS,39.5,None,Topical Treatment + Monitoring,-8.2
+Contagious,0,529.9,77,AFS,38.8,Pediculosis,Antibiotics + Isolation,-7.5
+FMD,1,416.6,62,AFS,39.3,None,Antibiotics + Isolation,-13.8
+Lumpy Skin,1,498.3,38,AFS,39.6,None,Antibiotics + Isolation,-15.8
+Lumpy Skin,1,378.6,79,AFS,39.5,FMD,Antibiotics + Isolation,-13.5
+Contagious,0,457.3,58,AFS,38.9,None,Antibiotics + Isolation,-8.4
+Lumpy Skin,1,447.3,79,AFS,39.6,Dermatophilosis,Antibiotics + Isolation,-14.4
+FMD,1,493.2,38,AFS,39.3,None,Antibiotics + Isolation,-13.4
+Mastitis,0,434.7,57,AFS,38.8,Pediculosis,Anti-inflammatory + Rest,-7.4
+Dermatophilosis,1,353.6,71,AFS,39.5,None,Antibiotics + Isolation,-10.3
+Lumpy Skin,2,491.4,42,AFS,40.8,None,Antiviral + Quarantine,-22.1
+Ringworm,2,532.1,12,AFS,40.0,Ringworm,Antifungal + Topical Care,-8.6
+Mastitis,2,416.4,65,AFS,40.7,None,Antibiotics + Isolation,-20.4
+Contagious,1,391.1,68,AFS,39.0,None,Antibiotics + Isolation,-14.4
+Contagious,2,534.6,18,AFS,40.4,Dermatophilosis,Antibiotics + Isolation,-22.2
+FMD,0,532.5,65,AFS,38.6,None,Supportive Care Only,-5.3
+Ringworm,0,506.1,33,AFS,38.6,None,Topical Treatment + Monitoring,-2.9
+Contagious,2,379.7,74,AFS,41.5,None,Antibiotics + Isolation,-21.6
+Lumpy Skin,0,435.4,67,AFS,38.9,None,Topical Treatment + Monitoring,-6.2
+Lumpy Skin,0,517.3,30,AFS,38.5,FMD,Topical Treatment + Monitoring,-5.2
+Dermatophilosis,1,446.2,49,AFS,39.6,None,Antibiotics + Isolation,-12.7
+Pediculosis,2,424.7,85,AFS,41.3,None,Antiparasitic + Monitoring,-10.8
+Pediculosis,0,493.2,19,AFS,38.5,None,Antiparasitic + Monitoring,-5.1
+FMD,1,469.0,78,AFS,39.7,None,Antibiotics + Isolation,-14.1
+FMD,0,494.5,57,AFS,38.9,None,Supportive Care Only,-4.3
+Lumpy Skin,1,414.8,93,AFS,39.0,None,Antibiotics + Isolation,-16.2
+FMD,0,525.3,40,AFS,38.7,Mastitis,Supportive Care Only,-3.7
+Healthy,0,417.2,13,AFS,38.5,None,No Treatment Required,0.0
+Healthy,0,474.8,49,AFS,38.7,None,No Treatment Required,0.0
+Lumpy Skin,0,539.7,35,AFS,38.6,None,Topical Treatment + Monitoring,-3.1
+Pediculosis,1,435.0,92,AFS,39.2,None,Antiparasitic + Monitoring,-7.5
+Pediculosis,0,479.0,15,AFS,38.6,Pediculosis,Antiparasitic + Monitoring,-3.2
+Lumpy Skin,0,532.9,53,AFS,38.8,None,Topical Treatment + Monitoring,-4.8
+Contagious,1,494.0,38,AFS,39.7,Mastitis,Antibiotics + Isolation,-13.6
+Healthy,0,476.6,64,AFS,38.4,Pediculosis,No Treatment Required,0.0
+Dermatophilosis,1,504.2,57,AFS,39.0,None,Antibiotics + Isolation,-11.0
+FMD,0,504.2,40,AFS,38.7,None,Supportive Care Only,-5.6
+Contagious,1,472.1,65,AFS,39.4,Contagious,Antibiotics + Isolation,-12.3
+Lumpy Skin,1,404.0,31,AFS,39.1,Lumpy Skin,Antibiotics + Isolation,-13.6
+FMD,1,416.8,37,AFS,39.4,None,Antibiotics + Isolation,-15.6
+Contagious,1,487.7,53,AFS,39.4,None,Antibiotics + Isolation,-15.7
+Healthy,0,488.9,23,AFS,38.5,None,No Treatment Required,0.0
+FMD,2,508.0,68,AFS,40.6,None,Antiviral + Quarantine,-24.8
+Ringworm,1,477.8,92,AFS,39.5,Contagious,Topical Treatment + Monitoring,-6.6
+Contagious,2,479.3,70,AFS,41.5,Pediculosis,Antibiotics + Isolation,-23.8
+Dermatophilosis,1,549.9,37,AFS,39.5,Pediculosis,Antibiotics + Isolation,-13.9
+Lumpy Skin,1,388.5,83,AFS,39.8,Pediculosis,Antibiotics + Isolation,-15.1
+Mastitis,0,441.0,70,AFS,38.9,None,Anti-inflammatory + Rest,-5.6
+FMD,1,446.2,14,AFS,39.6,None,Antibiotics + Isolation,-14.1
+Healthy,0,464.5,15,AFS,38.7,None,No Treatment Required,0.0
+Dermatophilosis,1,435.4,77,AFS,39.0,Mastitis,Antibiotics + Isolation,-13.9
+Pediculosis,0,426.8,50,AFS,38.5,None,Antiparasitic + Monitoring,-5.6
+Mastitis,1,475.5,67,AFS,39.2,None,Anti-inflammatory + Rest,-13.6
+Pediculosis,1,497.5,60,AFS,39.1,None,Antiparasitic + Monitoring,-8.9
+Healthy,0,493.1,48,AFS,38.3,None,No Treatment Required,0.0
+Mastitis,0,371.9,79,AFS,38.6,Pediculosis,Anti-inflammatory + Rest,-4.9
+FMD,1,546.5,74,AFS,39.8,None,Antibiotics + Isolation,-14.5
+Contagious,1,363.0,83,AFS,39.8,None,Antibiotics + Isolation,-13.6
+Lumpy Skin,0,359.4,68,AFS,38.6,None,Topical Treatment + Monitoring,-3.9
+Mastitis,2,476.0,60,AFS,40.7,None,Antibiotics + Isolation,-19.9
+FMD,0,501.6,73,AFS,39.0,Mastitis,Supportive Care Only,-5.1
+Lumpy Skin,0,457.4,84,AFS,38.9,Mastitis,Topical Treatment + Monitoring,-5.2
+Ringworm,0,375.9,20,AFS,38.5,Mastitis,Topical Treatment + Monitoring,-4.9
+Pediculosis,1,460.2,70,AFS,39.2,None,Antiparasitic + Monitoring,-10.0
+FMD,1,449.2,81,AFS,39.8,None,Antibiotics + Isolation,-13.4
+Lumpy Skin,2,449.0,73,AFS,40.8,Lumpy Skin,Antiviral + Quarantine,-23.6
+Dermatophilosis,1,522.9,44,AFS,39.7,FMD,Antibiotics + Isolation,-11.4
+Contagious,0,382.1,24,AFS,38.9,Contagious,Antibiotics + Isolation,-7.3
+Pediculosis,1,387.8,16,AFS,39.7,Mastitis,Antiparasitic + Monitoring,-9.9
+Pediculosis,0,514.0,64,AFS,38.9,None,Antiparasitic + Monitoring,-2.7
+Mastitis,1,401.7,77,AFS,39.2,None,Anti-inflammatory + Rest,-10.1
+Contagious,0,425.3,75,AFS,38.8,FMD,Antibiotics + Isolation,-9.6
+Mastitis,0,436.4,74,AFS,38.7,None,Anti-inflammatory + Rest,-5.0
+Mastitis,2,487.6,79,AFS,40.3,Dermatophilosis,Antibiotics + Isolation,-21.7
+Dermatophilosis,1,361.6,93,AFS,39.7,Ringworm,Antibiotics + Isolation,-10.1
+Healthy,0,479.5,63,AFS,38.7,None,No Treatment Required,0.0
+FMD,2,424.4,43,AFS,41.1,Contagious,Antiviral + Quarantine,-25.2
+Mastitis,1,538.9,24,AFS,39.7,None,Anti-inflammatory + Rest,-10.7
+FMD,0,366.5,89,AFS,38.6,None,Supportive Care Only,-3.5
+Mastitis,0,436.5,32,AFS,39.0,Mastitis,Anti-inflammatory + Rest,-4.1
+FMD,0,546.8,12,AFS,38.7,Dermatophilosis,Supportive Care Only,-4.0
+FMD,0,480.3,23,AFS,38.8,None,Supportive Care Only,-4.8
+Healthy,0,387.1,28,AFS,38.3,None,No Treatment Required,0.0
+FMD,2,502.2,14,AFS,41.2,None,Antiviral + Quarantine,-23.4
+Dermatophilosis,1,509.3,36,AFS,39.0,None,Antibiotics + Isolation,-11.6
+Healthy,0,436.1,49,AFS,38.4,None,No Treatment Required,0.0
+Mastitis,1,403.8,83,AFS,39.2,None,Anti-inflammatory + Rest,-14.0
+Dermatophilosis,1,429.1,49,AFS,39.2,Contagious,Antibiotics + Isolation,-10.6
+Mastitis,2,494.9,62,AFS,40.0,None,Antibiotics + Isolation,-18.1
+Ringworm,0,446.5,31,AFS,38.7,FMD,Topical Treatment + Monitoring,-1.2
+Contagious,1,367.6,88,AFS,39.1,Lumpy Skin,Antibiotics + Isolation,-14.6
+Pediculosis,0,463.5,57,AFS,38.8,Lumpy Skin,Antiparasitic + Monitoring,-5.8
+Healthy,0,370.9,86,AFS,38.4,Mastitis,No Treatment Required,0.0
+Contagious,2,360.4,43,AFS,40.3,Pediculosis,Antibiotics + Isolation,-20.2
+Healthy,0,510.3,73,AFS,38.6,None,No Treatment Required,0.0
+FMD,2,459.5,69,AFS,41.1,None,Antiviral + Quarantine,-26.8
+Healthy,0,496.3,86,AFS,38.7,None,No Treatment Required,0.0
+Healthy,0,381.9,56,AFS,38.6,None,No Treatment Required,0.0
+Mastitis,0,386.4,64,AFS,38.8,None,Anti-inflammatory + Rest,-5.8
+Dermatophilosis,1,416.5,67,AFS,39.8,Contagious,Antibiotics + Isolation,-13.2
+FMD,0,433.7,90,AFS,38.6,None,Supportive Care Only,-3.5
+Pediculosis,1,519.2,48,AFS,39.3,None,Antiparasitic + Monitoring,-6.0
+Ringworm,1,452.8,47,AFS,39.0,None,Topical Treatment + Monitoring,-7.6
+Pediculosis,2,434.3,53,AFS,41.5,None,Antiparasitic + Monitoring,-12.6
+FMD,1,476.3,26,AFS,39.2,FMD,Antibiotics + Isolation,-15.4
+Mastitis,0,397.5,89,AFS,38.8,None,Anti-inflammatory + Rest,-7.7
+Contagious,0,524.1,25,AFS,38.8,None,Antibiotics + Isolation,-7.6
+Mastitis,1,412.4,39,AFS,39.2,Contagious,Anti-inflammatory + Rest,-12.7
+Ringworm,1,429.3,34,AFS,39.4,None,Topical Treatment + Monitoring,-9.7
+Mastitis,0,439.8,87,AFS,38.9,None,Anti-inflammatory + Rest,-7.0
+FMD,2,400.5,95,AFS,40.4,None,Antiviral + Quarantine,-25.6
+Healthy,0,444.9,55,AFS,38.5,Mastitis,No Treatment Required,0.0
+Mastitis,0,372.4,89,AFS,38.5,None,Anti-inflammatory + Rest,-4.3
+Lumpy Skin,1,394.9,70,AFS,39.3,None,Antibiotics + Isolation,-16.8
+Dermatophilosis,0,446.0,54,AFS,38.5,None,Topical Treatment + Monitoring,-3.1
+Pediculosis,1,453.1,61,AFS,39.3,None,Antiparasitic + Monitoring,-9.5
+Mastitis,0,490.9,19,AFS,39.0,None,Anti-inflammatory + Rest,-5.3
+Ringworm,0,542.7,58,AFS,38.8,Lumpy Skin,Topical Treatment + Monitoring,-1.2
+Dermatophilosis,0,398.8,37,AFS,38.9,None,Topical Treatment + Monitoring,-6.9
+Ringworm,1,533.7,12,AFS,39.2,Contagious,Topical Treatment + Monitoring,-8.4
+Lumpy Skin,1,419.7,77,AFS,39.8,None,Antibiotics + Isolation,-13.1
+Contagious,2,500.5,88,AFS,40.3,None,Antibiotics + Isolation,-21.4
+Mastitis,0,483.5,81,AFS,39.0,Mastitis,Anti-inflammatory + Rest,-6.7
+Lumpy Skin,2,374.0,65,AFS,40.9,None,Antiviral + Quarantine,-22.5
+Dermatophilosis,0,489.1,71,AFS,38.8,None,Topical Treatment + Monitoring,-4.8
+FMD,0,364.6,83,AFS,38.8,None,Supportive Care Only,-5.1
+FMD,1,540.3,77,AFS,39.4,None,Antibiotics + Isolation,-15.6
+Healthy,0,379.8,59,AFS,38.6,None,No Treatment Required,0.0
+Pediculosis,0,459.9,57,AFS,38.9,Ringworm,Antiparasitic + Monitoring,-5.9
+Pediculosis,1,529.3,26,AFS,39.2,Pediculosis,Antiparasitic + Monitoring,-9.8
+Lumpy Skin,1,388.9,89,AFS,39.4,None,Antibiotics + Isolation,-15.9
+FMD,2,456.5,19,AFS,40.3,None,Antiviral + Quarantine,-24.1
+Contagious,2,514.6,86,AFS,40.0,Mastitis,Antibiotics + Isolation,-20.8
+Pediculosis,1,371.4,53,AFS,39.1,Pediculosis,Antiparasitic + Monitoring,-8.3
+Mastitis,2,460.0,56,AFS,40.9,Ringworm,Antibiotics + Isolation,-19.6
+Mastitis,1,468.7,37,AFS,39.2,None,Anti-inflammatory + Rest,-12.4
+Lumpy Skin,2,504.0,60,AFS,40.2,FMD,Antiviral + Quarantine,-23.9
+FMD,2,484.3,29,AFS,41.1,None,Antiviral + Quarantine,-25.3
+Lumpy Skin,0,497.4,44,AFS,38.6,None,Topical Treatment + Monitoring,-6.9
+Pediculosis,0,391.2,22,AFS,38.6,None,Antiparasitic + Monitoring,-3.6
+Mastitis,0,404.9,18,AFS,38.8,None,Anti-inflammatory + Rest,-6.3
+Pediculosis,1,353.2,35,AFS,39.1,None,Antiparasitic + Monitoring,-7.1
+Dermatophilosis,2,504.5,47,AFS,39.9,Mastitis,Antibiotics + Isolation,-19.2
+Ringworm,0,418.7,79,AFS,38.7,Lumpy Skin,Topical Treatment + Monitoring,-2.3
+Healthy,0,396.7,32,AFS,38.4,None,No Treatment Required,0.0
+FMD,1,414.9,14,AFS,39.2,None,Antibiotics + Isolation,-15.5
+Mastitis,1,496.1,41,AFS,39.3,None,Anti-inflammatory + Rest,-13.6
+Lumpy Skin,0,488.0,66,AFS,38.8,None,Topical Treatment + Monitoring,-5.2
+Ringworm,0,410.2,19,AFS,38.9,Pediculosis,Topical Treatment + Monitoring,-4.1
+Healthy,0,544.8,16,AFS,38.7,FMD,No Treatment Required,0.0
+Contagious,2,454.2,81,AFS,40.2,FMD,Antibiotics + Isolation,-20.5
+Lumpy Skin,2,506.4,25,AFS,40.0,None,Antiviral + Quarantine,-23.6
+Contagious,0,537.4,84,AFS,38.8,Lumpy Skin,Antibiotics + Isolation,-8.9
+Dermatophilosis,1,453.1,46,AFS,39.6,None,Antibiotics + Isolation,-11.7
+Healthy,0,391.7,60,AFS,38.4,Lumpy Skin,No Treatment Required,0.0
+FMD,1,456.5,89,AFS,39.6,FMD,Antibiotics + Isolation,-15.8
+Contagious,0,354.6,13,AFS,38.6,Ringworm,Antibiotics + Isolation,-7.7
+Dermatophilosis,2,376.5,65,AFS,40.3,None,Antibiotics + Isolation,-19.4
+Ringworm,1,385.0,14,AFS,39.8,Lumpy Skin,Topical Treatment + Monitoring,-7.3
+Dermatophilosis,0,355.2,36,AFS,38.6,None,Topical Treatment + Monitoring,-3.9
+Ringworm,1,412.4,89,AFS,39.7,None,Topical Treatment + Monitoring,-6.6
+Ringworm,0,473.9,71,AFS,38.7,None,Topical Treatment + Monitoring,-2.7
+Dermatophilosis,1,361.6,22,AFS,39.6,None,Antibiotics + Isolation,-12.8
+Pediculosis,0,378.4,84,AFS,38.9,None,Antiparasitic + Monitoring,-5.3
+Ringworm,0,451.9,51,AFS,38.9,None,Topical Treatment + Monitoring,-3.8
+Healthy,0,481.1,49,AFS,38.5,None,No Treatment Required,0.0
+Healthy,0,431.0,18,AFS,38.6,None,No Treatment Required,0.0
+Pediculosis,1,503.9,66,AFS,39.3,None,Antiparasitic + Monitoring,-9.9
+Pediculosis,1,486.2,50,AFS,39.5,None,Antiparasitic + Monitoring,-6.7
+Lumpy Skin,2,510.3,56,AFS,39.9,None,Antiviral + Quarantine,-23.9
+FMD,1,518.9,66,AFS,39.1,None,Antibiotics + Isolation,-13.5
+Ringworm,1,445.2,63,AFS,39.7,None,Topical Treatment + Monitoring,-6.2
+Contagious,2,507.4,20,AFS,41.4,Lumpy Skin,Antibiotics + Isolation,-23.7
+Contagious,2,357.7,71,AFS,41.1,Lumpy Skin,Antibiotics + Isolation,-22.0
+Ringworm,2,477.3,90,AFS,41.3,None,Antifungal + Topical Care,-8.5
+Lumpy Skin,1,452.4,19,AFS,39.0,None,Antibiotics + Isolation,-14.1
+Lumpy Skin,2,371.1,28,AFS,41.4,Dermatophilosis,Antiviral + Quarantine,-23.6
+Mastitis,2,544.1,94,AFS,40.9,None,Antibiotics + Isolation,-21.3
+Lumpy Skin,1,516.1,19,AFS,39.2,None,Antibiotics + Isolation,-16.7
+Healthy,0,529.8,19,AFS,38.7,None,No Treatment Required,0.0
+Dermatophilosis,1,352.1,47,AFS,39.5,FMD,Antibiotics + Isolation,-11.4
+Dermatophilosis,1,529.2,21,AFS,39.6,None,Antibiotics + Isolation,-10.1
+Mastitis,1,534.1,27,AFS,39.6,Contagious,Anti-inflammatory + Rest,-13.5
+Pediculosis,0,469.7,84,AFS,38.7,None,Antiparasitic + Monitoring,-4.2
+Contagious,0,404.8,95,AFS,38.6,None,Antibiotics + Isolation,-6.5
+Ringworm,2,484.3,50,AFS,41.2,Pediculosis,Antifungal + Topical Care,-11.0
+Lumpy Skin,0,545.7,57,AFS,38.9,FMD,Topical Treatment + Monitoring,-4.4
+FMD,0,500.6,33,AFS,38.8,Dermatophilosis,Supportive Care Only,-6.6
+Lumpy Skin,1,513.6,90,AFS,39.4,Lumpy Skin,Antibiotics + Isolation,-14.1
+FMD,1,498.7,14,AFS,39.2,None,Antibiotics + Isolation,-14.2
+Pediculosis,1,525.4,19,AFS,39.4,None,Antiparasitic + Monitoring,-9.0
+Lumpy Skin,2,405.6,75,AFS,41.2,None,Antiviral + Quarantine,-22.8
+Ringworm,2,473.0,77,AFS,40.4,FMD,Antifungal + Topical Care,-9.8
+Mastitis,2,518.0,23,AFS,41.1,None,Antibiotics + Isolation,-18.2
+Contagious,1,501.3,81,AFS,39.7,Ringworm,Antibiotics + Isolation,-14.5
+Lumpy Skin,1,506.1,37,AFS,39.3,None,Antibiotics + Isolation,-14.2
+Lumpy Skin,0,383.4,71,AFS,38.9,None,Topical Treatment + Monitoring,-4.6
+Healthy,0,452.0,14,AFS,38.3,None,No Treatment Required,0.0
+Pediculosis,1,360.6,35,AFS,39.5,Lumpy Skin,Antiparasitic + Monitoring,-8.9
+Healthy,0,414.4,74,AFS,38.3,None,No Treatment Required,0.0
+Lumpy Skin,1,546.4,42,AFS,39.7,None,Antibiotics + Isolation,-15.5
+Mastitis,0,436.8,29,AFS,38.7,None,Anti-inflammatory + Rest,-4.8
+Pediculosis,2,536.6,56,AFS,40.1,None,Antiparasitic + Monitoring,-12.0
+Pediculosis,0,432.0,89,AFS,38.9,Dermatophilosis,Antiparasitic + Monitoring,-2.2
+Lumpy Skin,0,422.4,61,AFS,38.6,Dermatophilosis,Topical Treatment + Monitoring,-4.7
+Mastitis,0,453.6,62,AFS,39.0,None,Anti-inflammatory + Rest,-6.3
+FMD,0,442.3,95,AFS,38.9,None,Supportive Care Only,-5.1
+Mastitis,1,360.0,50,AFS,39.4,None,Anti-inflammatory + Rest,-11.1
+Mastitis,0,395.0,71,AFS,38.7,Pediculosis,Anti-inflammatory + Rest,-6.1
+Lumpy Skin,0,361.4,41,AFS,38.5,None,Topical Treatment + Monitoring,-5.9
+Mastitis,0,404.4,65,AFS,38.7,Lumpy Skin,Anti-inflammatory + Rest,-6.9
+Contagious,1,356.7,95,AFS,39.5,None,Antibiotics + Isolation,-14.6
+Dermatophilosis,1,419.5,26,AFS,39.0,Contagious,Antibiotics + Isolation,-10.1
+Pediculosis,2,428.7,37,AFS,40.5,None,Antiparasitic + Monitoring,-11.1
+Dermatophilosis,2,379.0,48,AFS,40.8,None,Antibiotics + Isolation,-16.1
+Ringworm,2,386.6,44,AFS,40.1,None,Antifungal + Topical Care,-11.0
+Pediculosis,1,459.0,35,AFS,39.1,Mastitis,Antiparasitic + Monitoring,-7.1
+Contagious,1,459.8,81,AFS,39.2,Lumpy Skin,Antibiotics + Isolation,-14.3
+Lumpy Skin,2,520.0,77,AFS,40.0,Mastitis,Antiviral + Quarantine,-23.2
+Pediculosis,1,362.5,51,AFS,39.1,None,Antiparasitic + Monitoring,-6.1
+FMD,1,390.3,18,AFS,39.7,None,Antibiotics + Isolation,-14.0
+Healthy,0,453.9,90,AFS,38.7,Mastitis,No Treatment Required,0.0
+FMD,2,462.0,39,AFS,41.1,None,Antiviral + Quarantine,-26.7
+Mastitis,0,406.5,53,AFS,38.7,None,Anti-inflammatory + Rest,-5.4
+Contagious,0,368.7,80,AFS,39.0,None,Antibiotics + Isolation,-7.9
+Ringworm,0,501.5,83,AFS,38.9,None,Topical Treatment + Monitoring,-1.3
+Ringworm,1,439.5,81,AFS,39.6,None,Topical Treatment + Monitoring,-6.6
+FMD,2,383.8,44,AFS,40.8,None,Antiviral + Quarantine,-25.5
+Ringworm,1,380.4,15,AFS,39.6,Ringworm,Topical Treatment + Monitoring,-6.6
+Contagious,2,451.0,27,AFS,41.5,None,Antibiotics + Isolation,-23.5
+Mastitis,1,383.2,70,AFS,39.1,None,Anti-inflammatory + Rest,-11.8
+Contagious,0,514.6,37,AFS,38.5,Dermatophilosis,Antibiotics + Isolation,-9.3
+Lumpy Skin,0,533.6,17,AFS,38.9,None,Topical Treatment + Monitoring,-5.1
+Pediculosis,1,412.8,14,AFS,39.7,None,Antiparasitic + Monitoring,-9.0
+Healthy,0,515.2,73,AFS,38.7,None,No Treatment Required,0.0
+Dermatophilosis,0,440.1,69,AFS,38.8,None,Topical Treatment + Monitoring,-4.7
+Contagious,2,444.3,26,AFS,40.2,None,Antibiotics + Isolation,-21.0
+Dermatophilosis,0,487.3,39,AFS,38.8,None,Topical Treatment + Monitoring,-4.4
+Contagious,2,405.9,74,AFS,40.4,Mastitis,Antibiotics + Isolation,-23.1
+Pediculosis,0,356.6,64,AFS,38.8,Pediculosis,Antiparasitic + Monitoring,-2.5
+Pediculosis,2,361.8,90,AFS,40.2,Pediculosis,Antiparasitic + Monitoring,-11.3
+Pediculosis,0,428.0,57,AFS,38.7,Mastitis,Antiparasitic + Monitoring,-3.8
+FMD,1,510.5,95,AFS,39.0,None,Antibiotics + Isolation,-16.9
+Mastitis,0,521.7,94,AFS,39.0,Lumpy Skin,Anti-inflammatory + Rest,-5.2
+Healthy,0,353.6,82,AFS,38.6,None,No Treatment Required,0.0
+Healthy,0,515.9,30,AFS,38.7,None,No Treatment Required,0.0
+Mastitis,0,363.7,92,AFS,38.6,None,Anti-inflammatory + Rest,-6.1
+Contagious,2,364.8,70,AFS,41.0,None,Antibiotics + Isolation,-23.7
+Healthy,0,520.5,52,AFS,38.8,None,No Treatment Required,0.0
+Ringworm,0,508.9,41,AFS,38.7,None,Topical Treatment + Monitoring,-1.8
+Lumpy Skin,1,362.7,31,AFS,39.2,None,Antibiotics + Isolation,-14.0
+Contagious,2,483.8,92,AFS,39.9,Ringworm,Antibiotics + Isolation,-23.9
+Pediculosis,1,413.4,87,AFS,39.4,None,Antiparasitic + Monitoring,-8.6
+Healthy,0,438.7,32,AFS,38.6,None,No Treatment Required,0.0
+Lumpy Skin,1,485.3,39,AFS,39.2,FMD,Antibiotics + Isolation,-13.1
+Healthy,0,540.1,45,AFS,38.5,Ringworm,No Treatment Required,0.0
+Ringworm,1,364.2,36,AFS,39.0,None,Topical Treatment + Monitoring,-7.6
+FMD,0,405.4,76,AFS,38.7,None,Supportive Care Only,-4.5
+Mastitis,1,406.1,67,AFS,39.5,None,Anti-inflammatory + Rest,-10.6
+Contagious,0,357.3,50,AFS,38.9,None,Antibiotics + Isolation,-7.9
+FMD,0,405.6,48,AFS,38.6,Lumpy Skin,Supportive Care Only,-4.9
+FMD,1,524.8,24,AFS,39.5,None,Antibiotics + Isolation,-15.2
+Pediculosis,0,428.9,30,AFS,38.7,Pediculosis,Antiparasitic + Monitoring,-3.1
+Healthy,0,484.9,44,AFS,38.7,Ringworm,No Treatment Required,0.0
+Dermatophilosis,1,522.6,57,AFS,39.0,None,Antibiotics + Isolation,-13.8
+Pediculosis,2,401.3,79,AFS,40.5,None,Antiparasitic + Monitoring,-12.5
+FMD,1,459.9,87,AFS,39.1,None,Antibiotics + Isolation,-13.2
+Pediculosis,1,479.3,62,AFS,39.5,None,Antiparasitic + Monitoring,-7.5
+Mastitis,0,380.9,14,AFS,38.9,None,Anti-inflammatory + Rest,-4.4
+Mastitis,2,548.3,13,AFS,39.8,None,Antibiotics + Isolation,-20.8
+Contagious,0,429.9,73,AFS,38.8,None,Antibiotics + Isolation,-7.1
+Contagious,0,427.5,29,AFS,38.7,None,Antibiotics + Isolation,-7.8
+Mastitis,1,439.3,43,AFS,39.7,Mastitis,Anti-inflammatory + Rest,-10.3
+Pediculosis,0,527.9,43,AFS,38.7,None,Antiparasitic + Monitoring,-3.2
+Contagious,1,452.3,39,AFS,39.3,None,Antibiotics + Isolation,-12.4
+Contagious,2,418.0,85,AFS,40.9,None,Antibiotics + Isolation,-22.6
+Pediculosis,1,469.2,49,AFS,39.7,None,Antiparasitic + Monitoring,-6.6
+Ringworm,2,440.8,15,AFS,40.1,Ringworm,Antifungal + Topical Care,-11.1
+Ringworm,1,542.8,15,AFS,39.1,None,Topical Treatment + Monitoring,-6.3
+FMD,0,354.7,70,AFS,38.6,None,Supportive Care Only,-6.5
+Dermatophilosis,0,541.2,46,AFS,38.9,None,Topical Treatment + Monitoring,-3.7
+Contagious,0,471.4,28,AFS,38.7,None,Antibiotics + Isolation,-7.8
+Lumpy Skin,1,456.5,64,AFS,39.7,None,Antibiotics + Isolation,-15.8
+Ringworm,1,385.4,57,AFS,39.5,None,Topical Treatment + Monitoring,-6.7
+Healthy,0,419.5,74,AFS,38.4,None,No Treatment Required,0.0
+Pediculosis,2,391.5,28,AFS,41.0,None,Antiparasitic + Monitoring,-12.7
+Ringworm,1,390.3,19,AFS,39.0,None,Topical Treatment + Monitoring,-7.8
+FMD,0,468.6,22,AFS,38.7,None,Supportive Care Only,-6.8
+Mastitis,1,375.0,92,AFS,39.5,None,Anti-inflammatory + Rest,-13.9
+Mastitis,0,442.5,59,AFS,38.5,FMD,Anti-inflammatory + Rest,-6.0
+Pediculosis,0,407.2,44,AFS,38.8,None,Antiparasitic + Monitoring,-3.6
+Ringworm,1,465.5,62,AFS,39.7,None,Topical Treatment + Monitoring,-8.2
+Pediculosis,1,464.7,46,AFS,39.2,None,Antiparasitic + Monitoring,-6.6
+Contagious,1,409.7,83,AFS,39.0,Mastitis,Antibiotics + Isolation,-14.2
+Lumpy Skin,2,394.1,91,AFS,41.1,Pediculosis,Antiviral + Quarantine,-24.9
+FMD,1,376.9,32,AFS,39.3,Lumpy Skin,Antibiotics + Isolation,-15.9
+Ringworm,1,508.7,46,AFS,39.8,Contagious,Topical Treatment + Monitoring,-6.7
+Pediculosis,0,358.8,47,AFS,38.9,Dermatophilosis,Antiparasitic + Monitoring,-5.4
+Ringworm,2,514.4,84,AFS,41.1,Lumpy Skin,Antifungal + Topical Care,-9.5
+Ringworm,0,494.6,89,AFS,38.7,None,Topical Treatment + Monitoring,-4.7
+FMD,1,476.4,88,AFS,39.8,None,Antibiotics + Isolation,-13.2
+FMD,2,486.3,28,AFS,40.7,FMD,Antiviral + Quarantine,-24.2
+Healthy,0,379.0,24,AFS,38.6,None,No Treatment Required,0.0
+Dermatophilosis,0,510.7,89,AFS,38.6,None,Topical Treatment + Monitoring,-6.9
+Pediculosis,1,395.2,41,AFS,39.8,None,Antiparasitic + Monitoring,-8.6
+Contagious,1,387.6,66,AFS,39.4,None,Antibiotics + Isolation,-13.7
+Ringworm,1,477.4,25,AFS,39.4,None,Topical Treatment + Monitoring,-8.8
+Pediculosis,1,454.0,88,AFS,39.7,Dermatophilosis,Antiparasitic + Monitoring,-8.4
+Pediculosis,0,376.8,86,AFS,38.6,None,Antiparasitic + Monitoring,-5.6
+Contagious,1,359.4,49,AFS,39.7,None,Antibiotics + Isolation,-14.1
+Mastitis,0,498.2,40,AFS,39.0,Lumpy Skin,Anti-inflammatory + Rest,-7.5
+Contagious,2,412.7,93,AFS,41.3,None,Antibiotics + Isolation,-20.4
+Ringworm,2,485.0,28,AFS,41.0,None,Antifungal + Topical Care,-10.4
+FMD,2,485.2,58,AFS,40.1,Dermatophilosis,Antiviral + Quarantine,-24.3
+Contagious,0,375.9,79,AFS,38.9,None,Antibiotics + Isolation,-9.6
+FMD,1,549.9,28,AFS,39.3,Ringworm,Antibiotics + Isolation,-15.0
+Contagious,1,372.2,89,AFS,39.6,None,Antibiotics + Isolation,-12.6
+Lumpy Skin,1,514.4,42,AFS,39.6,None,Antibiotics + Isolation,-13.5
+Mastitis,2,393.1,56,AFS,39.9,None,Antibiotics + Isolation,-18.3
+Healthy,0,497.7,39,AFS,38.8,None,No Treatment Required,0.0
+Healthy,0,492.6,65,AFS,38.6,None,No Treatment Required,0.0
+FMD,0,361.6,65,AFS,38.8,None,Supportive Care Only,-3.7
+Mastitis,0,532.2,13,AFS,38.5,None,Anti-inflammatory + Rest,-6.3
+Contagious,1,416.0,23,AFS,39.5,None,Antibiotics + Isolation,-14.1
+Healthy,0,358.3,76,AFS,38.5,FMD,No Treatment Required,0.0
+Pediculosis,0,376.3,87,AFS,38.6,None,Antiparasitic + Monitoring,-2.9
+Mastitis,0,386.3,18,AFS,38.5,None,Anti-inflammatory + Rest,-4.9
+Dermatophilosis,0,478.4,23,AFS,38.5,None,Topical Treatment + Monitoring,-4.4
+Pediculosis,2,485.1,43,AFS,41.3,FMD,Antiparasitic + Monitoring,-10.9
+Ringworm,0,380.5,78,AFS,38.9,Pediculosis,Topical Treatment + Monitoring,-2.6
+Lumpy Skin,1,444.8,15,AFS,39.8,Pediculosis,Antibiotics + Isolation,-13.9
+Ringworm,1,478.9,43,AFS,39.1,None,Topical Treatment + Monitoring,-9.1
+Healthy,0,473.9,68,AFS,38.6,FMD,No Treatment Required,0.0
+Lumpy Skin,0,546.3,83,AFS,38.8,None,Topical Treatment + Monitoring,-4.3
+FMD,2,539.5,65,AFS,40.6,Mastitis,Antiviral + Quarantine,-24.2
+Dermatophilosis,1,536.1,95,AFS,39.5,None,Antibiotics + Isolation,-13.5
+Dermatophilosis,0,502.2,72,AFS,39.0,Ringworm,Topical Treatment + Monitoring,-4.5
+Mastitis,2,441.9,85,AFS,40.1,None,Antibiotics + Isolation,-19.8
+Mastitis,1,391.8,44,AFS,39.1,Ringworm,Anti-inflammatory + Rest,-11.9
+Pediculosis,0,542.1,27,AFS,38.8,None,Antiparasitic + Monitoring,-4.4
+FMD,2,463.9,22,AFS,40.6,Pediculosis,Antiviral + Quarantine,-26.3
+Mastitis,1,546.2,15,AFS,39.7,Dermatophilosis,Anti-inflammatory + Rest,-12.6
+Contagious,2,454.3,77,AFS,41.4,None,Antibiotics + Isolation,-20.6
+Mastitis,1,399.5,76,AFS,39.4,FMD,Anti-inflammatory + Rest,-10.2
+Dermatophilosis,1,449.8,20,AFS,39.7,FMD,Antibiotics + Isolation,-12.5
+Healthy,0,395.7,54,AFS,38.3,Lumpy Skin,No Treatment Required,0.0
+Ringworm,2,495.8,33,AFS,40.5,None,Antifungal + Topical Care,-10.1
+Lumpy Skin,0,530.3,65,AFS,38.7,Pediculosis,Topical Treatment + Monitoring,-3.0
+Ringworm,1,446.3,78,AFS,39.3,FMD,Topical Treatment + Monitoring,-6.3
+Contagious,1,405.1,28,AFS,39.6,None,Antibiotics + Isolation,-13.7
+FMD,1,519.5,12,AFS,39.2,Pediculosis,Antibiotics + Isolation,-16.6
+Dermatophilosis,2,500.4,16,AFS,39.9,None,Antibiotics + Isolation,-16.5
+Lumpy Skin,0,436.3,22,AFS,38.8,None,Topical Treatment + Monitoring,-5.7
+FMD,0,420.6,58,AFS,39.0,Lumpy Skin,Supportive Care Only,-5.4
+Mastitis,1,445.3,26,AFS,39.4,None,Anti-inflammatory + Rest,-13.0
+Ringworm,0,521.0,39,AFS,38.8,None,Topical Treatment + Monitoring,-3.8
+FMD,1,431.9,35,AFS,39.7,None,Antibiotics + Isolation,-14.1
+Lumpy Skin,1,480.9,78,AFS,39.4,None,Antibiotics + Isolation,-16.8
+Healthy,0,435.0,80,AFS,38.5,None,No Treatment Required,0.0
+Contagious,0,433.3,65,AFS,38.7,Dermatophilosis,Antibiotics + Isolation,-9.2
+Pediculosis,0,410.8,14,AFS,38.9,None,Antiparasitic + Monitoring,-5.2
+Healthy,0,394.9,47,AFS,38.7,Lumpy Skin,No Treatment Required,0.0
+Pediculosis,1,529.2,36,AFS,39.2,None,Antiparasitic + Monitoring,-9.5
+Ringworm,2,511.3,50,AFS,40.2,FMD,Antifungal + Topical Care,-9.8
+Ringworm,1,365.7,42,AFS,39.6,None,Topical Treatment + Monitoring,-8.9
+Mastitis,1,540.4,21,AFS,39.4,None,Anti-inflammatory + Rest,-10.2
+Pediculosis,1,501.8,76,AFS,39.6,None,Antiparasitic + Monitoring,-6.1
+Pediculosis,2,489.4,50,AFS,40.6,Pediculosis,Antiparasitic + Monitoring,-11.2
+Pediculosis,2,418.9,45,AFS,41.2,None,Antiparasitic + Monitoring,-12.6
+Mastitis,1,381.5,92,AFS,39.6,Dermatophilosis,Anti-inflammatory + Rest,-11.8
+Pediculosis,1,412.4,26,AFS,39.4,None,Antiparasitic + Monitoring,-6.4
+Contagious,0,517.8,89,AFS,38.9,Ringworm,Antibiotics + Isolation,-8.2
+Healthy,0,461.8,40,AFS,38.7,None,No Treatment Required,0.0
+Contagious,1,435.9,80,AFS,39.6,Mastitis,Antibiotics + Isolation,-15.3
+Ringworm,1,540.5,91,AFS,39.1,Mastitis,Topical Treatment + Monitoring,-9.4
+Healthy,0,475.0,13,AFS,38.7,Contagious,No Treatment Required,0.0
+Lumpy Skin,0,412.6,78,AFS,38.9,Ringworm,Topical Treatment + Monitoring,-4.5
+Healthy,0,484.8,23,AFS,38.4,None,No Treatment Required,0.0
+FMD,1,537.0,16,AFS,39.6,None,Antibiotics + Isolation,-16.7
+FMD,0,366.8,30,AFS,38.8,None,Supportive Care Only,-6.2
+Pediculosis,2,478.3,65,AFS,41.0,None,Antiparasitic + Monitoring,-10.9
+Ringworm,1,370.3,40,AFS,39.3,Pediculosis,Topical Treatment + Monitoring,-6.3
+Ringworm,0,453.7,28,AFS,38.6,None,Topical Treatment + Monitoring,-1.1
+Contagious,1,490.9,52,AFS,39.2,None,Antibiotics + Isolation,-15.7
+FMD,0,446.6,91,AFS,38.8,None,Supportive Care Only,-4.2
+Dermatophilosis,1,365.4,40,AFS,39.7,None,Antibiotics + Isolation,-12.3
+Healthy,0,469.8,95,AFS,38.3,None,No Treatment Required,0.0
+Lumpy Skin,0,543.0,90,AFS,38.8,None,Topical Treatment + Monitoring,-4.3
+Mastitis,0,404.2,13,AFS,38.9,Pediculosis,Anti-inflammatory + Rest,-7.6
+Dermatophilosis,1,392.6,62,AFS,39.7,None,Antibiotics + Isolation,-11.6
+Dermatophilosis,0,360.1,76,AFS,38.5,None,Topical Treatment + Monitoring,-6.0
+Healthy,0,537.9,21,AFS,38.5,Lumpy Skin,No Treatment Required,0.0
+Dermatophilosis,1,392.9,49,AFS,39.1,None,Antibiotics + Isolation,-12.3
+FMD,2,366.9,36,AFS,40.5,None,Antiviral + Quarantine,-25.3
+Contagious,1,549.3,28,AFS,39.4,Contagious,Antibiotics + Isolation,-13.2
+Lumpy Skin,0,389.9,34,AFS,38.5,Pediculosis,Topical Treatment + Monitoring,-6.9
+Contagious,0,404.2,59,AFS,39.0,None,Antibiotics + Isolation,-8.3
+Mastitis,1,484.6,93,AFS,39.3,None,Anti-inflammatory + Rest,-10.5
+Pediculosis,2,536.5,88,AFS,41.1,None,Antiparasitic + Monitoring,-11.9
+Pediculosis,1,454.3,62,AFS,39.6,None,Antiparasitic + Monitoring,-9.2
+FMD,1,403.8,39,AFS,39.7,Mastitis,Antibiotics + Isolation,-16.9
+FMD,1,476.0,71,AFS,39.7,None,Antibiotics + Isolation,-14.9
+FMD,2,362.8,74,AFS,40.3,None,Antiviral + Quarantine,-26.9
+Healthy,0,468.0,18,AFS,38.3,None,No Treatment Required,0.0
+Healthy,0,392.0,12,AFS,38.7,None,No Treatment Required,0.0
+Dermatophilosis,1,534.8,40,AFS,39.1,None,Antibiotics + Isolation,-11.3
+Pediculosis,1,515.3,94,AFS,39.1,None,Antiparasitic + Monitoring,-8.8
+Healthy,0,438.7,34,AFS,38.4,Dermatophilosis,No Treatment Required,0.0
+Dermatophilosis,2,507.9,66,AFS,40.2,Lumpy Skin,Antibiotics + Isolation,-16.9
+Mastitis,0,451.1,50,AFS,38.6,None,Anti-inflammatory + Rest,-4.4
+Mastitis,1,450.6,33,AFS,39.4,FMD,Anti-inflammatory + Rest,-10.5
+Healthy,0,521.8,78,AFS,38.5,None,No Treatment Required,0.0
+Contagious,0,484.7,24,AFS,38.9,None,Antibiotics + Isolation,-8.0
+Lumpy Skin,0,350.4,77,AFS,38.8,FMD,Topical Treatment + Monitoring,-5.8
+Mastitis,0,353.8,43,AFS,38.9,None,Anti-inflammatory + Rest,-6.6
+Healthy,0,466.4,45,AFS,38.6,None,No Treatment Required,0.0
+Mastitis,0,398.7,30,AFS,38.7,Dermatophilosis,Anti-inflammatory + Rest,-5.7
+FMD,1,433.2,73,AFS,39.7,Contagious,Antibiotics + Isolation,-15.4
+Dermatophilosis,0,450.0,24,AFS,38.9,None,Topical Treatment + Monitoring,-4.9
+Lumpy Skin,1,449.1,72,AFS,39.3,None,Antibiotics + Isolation,-14.2
+Pediculosis,0,503.0,78,AFS,38.6,None,Antiparasitic + Monitoring,-4.3
+Contagious,1,521.5,14,AFS,39.4,None,Antibiotics + Isolation,-13.2
+Healthy,0,526.3,65,AFS,38.7,None,No Treatment Required,0.0
+Contagious,1,524.8,52,AFS,39.4,None,Antibiotics + Isolation,-12.8
+Mastitis,1,514.1,52,AFS,39.7,None,Anti-inflammatory + Rest,-13.7
+Mastitis,1,353.1,59,AFS,39.2,None,Anti-inflammatory + Rest,-12.1
+Pediculosis,1,543.6,68,AFS,39.8,None,Antiparasitic + Monitoring,-7.9
+Mastitis,1,549.4,78,AFS,39.2,None,Anti-inflammatory + Rest,-12.5
+FMD,1,424.9,71,AFS,39.6,Contagious,Antibiotics + Isolation,-14.2
+FMD,0,516.3,60,AFS,38.7,None,Supportive Care Only,-6.6
+Ringworm,1,363.3,19,AFS,39.3,None,Topical Treatment + Monitoring,-7.9
+Mastitis,2,453.6,92,AFS,39.8,None,Antibiotics + Isolation,-19.1
+FMD,0,389.0,17,AFS,38.9,Pediculosis,Supportive Care Only,-4.0
+FMD,1,504.9,73,AFS,39.1,None,Antibiotics + Isolation,-14.1
+Mastitis,0,467.7,68,AFS,38.6,None,Anti-inflammatory + Rest,-6.3
+Healthy,0,494.9,22,AFS,38.4,None,No Treatment Required,0.0
+Dermatophilosis,0,438.8,34,AFS,38.8,FMD,Topical Treatment + Monitoring,-5.9
+Mastitis,1,477.4,78,AFS,39.5,None,Anti-inflammatory + Rest,-12.9
+Healthy,0,442.6,24,AFS,38.6,Lumpy Skin,No Treatment Required,0.0
+Dermatophilosis,1,513.0,15,AFS,39.4,Ringworm,Antibiotics + Isolation,-10.9
+Dermatophilosis,1,423.7,39,AFS,39.2,None,Antibiotics + Isolation,-12.9
+Lumpy Skin,2,398.7,16,AFS,40.9,Mastitis,Antiviral + Quarantine,-21.9
+Contagious,2,527.6,40,AFS,40.5,Contagious,Antibiotics + Isolation,-23.6
+Ringworm,0,465.3,49,AFS,38.5,Ringworm,Topical Treatment + Monitoring,-3.7
+Pediculosis,2,484.9,78,AFS,41.5,None,Antiparasitic + Monitoring,-13.8
+Lumpy Skin,0,542.2,86,AFS,38.7,FMD,Topical Treatment + Monitoring,-4.7
+Pediculosis,0,412.4,49,AFS,38.5,Pediculosis,Antiparasitic + Monitoring,-3.2
+Healthy,0,357.8,90,AFS,38.6,None,No Treatment Required,0.0
+FMD,1,522.9,21,AFS,39.3,None,Antibiotics + Isolation,-14.4
+FMD,1,491.5,54,AFS,39.5,None,Antibiotics + Isolation,-13.5
+FMD,2,418.4,80,AFS,40.9,None,Antiviral + Quarantine,-25.2
+Dermatophilosis,1,510.9,95,AFS,39.8,None,Antibiotics + Isolation,-10.2
+Lumpy Skin,1,485.5,93,AFS,39.1,Pediculosis,Antibiotics + Isolation,-14.5
+Pediculosis,1,489.4,65,AFS,39.2,None,Antiparasitic + Monitoring,-7.5
+Healthy,0,432.8,87,AFS,38.3,None,No Treatment Required,0.0
+Contagious,2,383.9,31,AFS,41.0,None,Antibiotics + Isolation,-23.3
+Pediculosis,2,510.6,49,AFS,40.7,None,Antiparasitic + Monitoring,-12.4
+Lumpy Skin,1,516.8,77,AFS,39.7,None,Antibiotics + Isolation,-14.6
+Ringworm,1,490.5,40,AFS,39.3,None,Topical Treatment + Monitoring,-7.6
+Healthy,0,399.3,57,AFS,38.6,None,No Treatment Required,0.0
+Lumpy Skin,2,486.7,38,AFS,41.1,None,Antiviral + Quarantine,-21.8
+FMD,0,393.2,92,AFS,38.8,Ringworm,Supportive Care Only,-5.1
+Pediculosis,1,375.6,64,AFS,39.8,Lumpy Skin,Antiparasitic + Monitoring,-6.6
+Mastitis,0,460.4,61,AFS,38.7,None,Anti-inflammatory + Rest,-6.1
+Dermatophilosis,0,370.2,63,AFS,38.7,None,Topical Treatment + Monitoring,-3.1
+Contagious,2,437.9,67,AFS,40.1,None,Antibiotics + Isolation,-21.5
+Lumpy Skin,0,375.9,50,AFS,38.7,None,Topical Treatment + Monitoring,-5.8
+Healthy,0,392.1,15,AFS,38.4,None,No Treatment Required,0.0
+Pediculosis,2,404.3,33,AFS,40.6,None,Antiparasitic + Monitoring,-11.7
+Ringworm,0,445.7,21,AFS,38.8,None,Topical Treatment + Monitoring,-2.5
+Ringworm,0,525.1,76,AFS,38.7,None,Topical Treatment + Monitoring,-1.7
+Dermatophilosis,0,422.8,33,AFS,38.9,None,Topical Treatment + Monitoring,-4.3
+Ringworm,1,389.8,90,AFS,39.4,Lumpy Skin,Topical Treatment + Monitoring,-6.0
+Contagious,2,353.2,93,AFS,40.6,Contagious,Antibiotics + Isolation,-21.8
+Mastitis,2,422.3,59,AFS,40.5,None,Antibiotics + Isolation,-20.2
+Contagious,1,530.7,92,AFS,39.7,None,Antibiotics + Isolation,-13.1
+Healthy,0,447.9,65,AFS,38.4,None,No Treatment Required,0.0
+Contagious,1,405.9,74,AFS,39.5,None,Antibiotics + Isolation,-14.9
+Healthy,0,448.2,91,AFS,38.4,Pediculosis,No Treatment Required,0.0
+Ringworm,1,424.2,17,AFS,39.3,FMD,Topical Treatment + Monitoring,-8.5
+FMD,0,495.9,80,AFS,38.6,Contagious,Supportive Care Only,-6.1
+Mastitis,1,454.4,33,AFS,39.6,None,Anti-inflammatory + Rest,-11.6
+Contagious,1,500.1,65,AFS,39.2,None,Antibiotics + Isolation,-15.2
+Ringworm,1,534.1,34,AFS,39.2,None,Topical Treatment + Monitoring,-9.0
+FMD,1,351.3,39,AFS,39.6,None,Antibiotics + Isolation,-15.1
+Dermatophilosis,1,490.8,24,AFS,39.6,None,Antibiotics + Isolation,-10.7
+Lumpy Skin,1,502.6,66,AFS,39.5,None,Antibiotics + Isolation,-14.3
+Healthy,0,452.0,64,AFS,38.3,None,No Treatment Required,0.0
+Contagious,2,535.7,12,AFS,41.2,FMD,Antibiotics + Isolation,-23.1
+Ringworm,0,494.9,89,AFS,39.0,None,Topical Treatment + Monitoring,-1.3
+Healthy,0,426.0,53,AFS,38.5,FMD,No Treatment Required,0.0
+FMD,1,392.2,51,AFS,39.7,None,Antibiotics + Isolation,-16.7
+Lumpy Skin,1,436.2,83,AFS,39.6,None,Antibiotics + Isolation,-15.6
+Contagious,0,408.8,94,AFS,38.8,None,Antibiotics + Isolation,-7.4
+Ringworm,0,519.6,48,AFS,38.9,Dermatophilosis,Topical Treatment + Monitoring,-3.9
+FMD,0,441.1,69,AFS,38.9,Dermatophilosis,Supportive Care Only,-4.5
+Mastitis,1,405.6,67,AFS,39.4,None,Anti-inflammatory + Rest,-12.6
+Ringworm,1,547.0,91,AFS,39.4,None,Topical Treatment + Monitoring,-9.3
+Pediculosis,0,469.0,25,AFS,38.7,Pediculosis,Antiparasitic + Monitoring,-5.2
+Ringworm,1,482.4,37,AFS,39.5,None,Topical Treatment + Monitoring,-9.3
+Ringworm,2,501.4,91,AFS,41.1,None,Antifungal + Topical Care,-8.5
+Healthy,0,432.2,45,AFS,38.7,None,No Treatment Required,0.0
+Healthy,0,531.8,59,AFS,38.6,None,No Treatment Required,0.0
+Contagious,1,538.0,32,AFS,39.3,Lumpy Skin,Antibiotics + Isolation,-15.5
+Mastitis,1,373.4,26,AFS,39.8,None,Anti-inflammatory + Rest,-11.1
+Contagious,0,373.3,16,AFS,38.7,None,Antibiotics + Isolation,-9.1
+Pediculosis,1,536.3,34,AFS,39.6,None,Antiparasitic + Monitoring,-7.8
+Healthy,0,352.2,86,AFS,38.7,None,No Treatment Required,0.0
+Lumpy Skin,0,422.3,70,AFS,39.0,None,Topical Treatment + Monitoring,-6.7
+Ringworm,1,489.9,62,AFS,39.5,None,Topical Treatment + Monitoring,-9.6
+Dermatophilosis,1,499.6,75,AFS,39.8,Lumpy Skin,Antibiotics + Isolation,-10.1
+Contagious,0,506.4,67,AFS,38.7,None,Antibiotics + Isolation,-9.8
+Healthy,0,454.7,33,AFS,38.4,None,No Treatment Required,0.0
+Contagious,0,487.8,53,AFS,38.9,Lumpy Skin,Antibiotics + Isolation,-8.1
+Lumpy Skin,1,381.7,28,AFS,39.3,None,Antibiotics + Isolation,-16.7
+Contagious,0,532.6,46,AFS,38.6,None,Antibiotics + Isolation,-6.8
+Mastitis,1,506.3,42,AFS,39.2,Pediculosis,Anti-inflammatory + Rest,-13.5
+Mastitis,0,434.2,45,AFS,38.5,None,Anti-inflammatory + Rest,-6.4
+Mastitis,1,473.8,15,AFS,39.4,Dermatophilosis,Anti-inflammatory + Rest,-13.7
+Ringworm,0,452.5,74,AFS,39.0,Contagious,Topical Treatment + Monitoring,-4.7
+FMD,0,486.3,59,AFS,38.5,None,Supportive Care Only,-5.2
+Pediculosis,0,371.2,43,AFS,38.9,None,Antiparasitic + Monitoring,-3.8
+Lumpy Skin,0,429.1,79,AFS,38.8,None,Topical Treatment + Monitoring,-3.4
+Healthy,0,433.8,39,AFS,38.6,Dermatophilosis,No Treatment Required,0.0
+FMD,0,450.5,54,AFS,38.6,None,Supportive Care Only,-3.7
+Pediculosis,2,533.3,68,AFS,40.3,None,Antiparasitic + Monitoring,-12.7
+Dermatophilosis,1,435.7,71,AFS,39.4,Mastitis,Antibiotics + Isolation,-11.4
+Mastitis,1,518.9,15,AFS,39.6,None,Anti-inflammatory + Rest,-12.3
+Pediculosis,1,452.8,85,AFS,39.5,None,Antiparasitic + Monitoring,-9.8
+FMD,2,492.6,15,AFS,40.4,None,Antiviral + Quarantine,-26.2
+Ringworm,1,511.1,33,AFS,39.1,None,Topical Treatment + Monitoring,-7.5
+Lumpy Skin,2,355.2,71,AFS,40.1,None,Antiviral + Quarantine,-23.3
+FMD,2,386.2,94,AFS,41.3,None,Antiviral + Quarantine,-25.0
+Pediculosis,1,382.0,36,AFS,39.6,Dermatophilosis,Antiparasitic + Monitoring,-7.2
+Mastitis,0,353.3,89,AFS,38.6,None,Anti-inflammatory + Rest,-7.7
+FMD,0,517.0,56,AFS,38.7,None,Supportive Care Only,-5.9
+Dermatophilosis,2,433.9,65,AFS,40.2,None,Antibiotics + Isolation,-20.0
+FMD,0,466.7,17,AFS,38.9,None,Supportive Care Only,-6.0
+Dermatophilosis,1,429.5,13,AFS,39.0,None,Antibiotics + Isolation,-11.7
+Ringworm,2,424.9,57,AFS,40.1,None,Antifungal + Topical Care,-10.4
+FMD,2,394.9,47,AFS,41.2,Pediculosis,Antiviral + Quarantine,-26.6
+Healthy,0,360.1,58,AFS,38.7,None,No Treatment Required,0.0
+Ringworm,0,482.6,63,AFS,38.7,None,Topical Treatment + Monitoring,-3.7
+Healthy,0,488.8,63,AFS,38.4,None,No Treatment Required,0.0
+Ringworm,0,532.2,40,AFS,38.6,None,Topical Treatment + Monitoring,-3.6
+Mastitis,0,384.3,65,AFS,38.5,None,Anti-inflammatory + Rest,-5.2
+Lumpy Skin,0,545.2,33,AFS,38.7,None,Topical Treatment + Monitoring,-6.5
+FMD,1,398.1,90,AFS,39.7,Contagious,Antibiotics + Isolation,-13.7
+Dermatophilosis,0,481.3,86,AFS,38.7,Contagious,Topical Treatment + Monitoring,-5.9
+Dermatophilosis,0,438.9,18,AFS,38.6,None,Topical Treatment + Monitoring,-5.6
+FMD,1,523.2,94,AFS,39.8,FMD,Antibiotics + Isolation,-15.3
+Dermatophilosis,1,416.1,28,AFS,39.4,None,Antibiotics + Isolation,-13.9
+Pediculosis,1,514.7,15,AFS,39.5,None,Antiparasitic + Monitoring,-9.0
+Contagious,2,548.4,76,AFS,40.9,FMD,Antibiotics + Isolation,-20.8
+Dermatophilosis,2,370.6,37,AFS,40.3,None,Antibiotics + Isolation,-16.1
+FMD,0,485.3,65,AFS,38.8,Contagious,Supportive Care Only,-4.7
+Mastitis,0,378.7,21,AFS,38.8,None,Anti-inflammatory + Rest,-5.5
+Contagious,1,400.2,91,AFS,39.2,None,Antibiotics + Isolation,-13.2
+FMD,1,418.3,77,AFS,39.3,None,Antibiotics + Isolation,-16.9
+Dermatophilosis,0,401.7,31,AFS,38.7,FMD,Topical Treatment + Monitoring,-4.3
+Healthy,0,384.9,38,AFS,38.6,Lumpy Skin,No Treatment Required,0.0
+Dermatophilosis,0,528.1,39,AFS,38.6,None,Topical Treatment + Monitoring,-5.5
+Mastitis,0,470.2,25,AFS,38.9,Mastitis,Anti-inflammatory + Rest,-7.4
+Mastitis,1,408.7,89,AFS,39.6,Ringworm,Anti-inflammatory + Rest,-11.6
+Ringworm,1,485.9,29,AFS,39.5,None,Topical Treatment + Monitoring,-7.0
+Ringworm,0,482.4,89,AFS,38.7,None,Topical Treatment + Monitoring,-2.3
+Contagious,1,461.3,82,AFS,39.1,Lumpy Skin,Antibiotics + Isolation,-12.3
+Mastitis,2,480.0,38,AFS,40.5,Dermatophilosis,Antibiotics + Isolation,-18.9
+Pediculosis,2,352.7,28,AFS,40.7,None,Antiparasitic + Monitoring,-13.6
+Ringworm,2,541.5,46,AFS,41.3,None,Antifungal + Topical Care,-8.8
+Pediculosis,0,471.4,83,AFS,38.5,None,Antiparasitic + Monitoring,-5.6
+FMD,2,545.4,86,AFS,40.7,Mastitis,Antiviral + Quarantine,-23.0
+Mastitis,1,414.0,64,AFS,39.2,None,Anti-inflammatory + Rest,-11.3
+Mastitis,1,488.9,44,AFS,39.5,None,Anti-inflammatory + Rest,-11.7
+Healthy,0,464.5,31,AFS,38.7,Mastitis,No Treatment Required,0.0
+Mastitis,2,368.5,54,AFS,40.1,None,Antibiotics + Isolation,-20.9
+Healthy,0,448.4,54,AFS,38.4,None,No Treatment Required,0.0
+Dermatophilosis,1,406.5,34,AFS,39.5,None,Antibiotics + Isolation,-13.7
+FMD,2,545.1,90,AFS,40.7,None,Antiviral + Quarantine,-24.4
+FMD,2,454.6,30,AFS,41.0,None,Antiviral + Quarantine,-25.8
+Dermatophilosis,0,545.4,83,AFS,38.8,Dermatophilosis,Topical Treatment + Monitoring,-5.5
+FMD,2,549.3,23,AFS,41.0,None,Antiviral + Quarantine,-25.6
+Lumpy Skin,1,496.5,91,AFS,39.0,FMD,Antibiotics + Isolation,-14.2
+Contagious,2,475.6,60,AFS,40.9,None,Antibiotics + Isolation,-22.5
+Contagious,0,374.1,39,AFS,38.8,None,Antibiotics + Isolation,-6.7
+Lumpy Skin,0,451.2,89,AFS,38.5,None,Topical Treatment + Monitoring,-6.6
+Mastitis,0,430.1,90,AFS,38.7,Ringworm,Anti-inflammatory + Rest,-8.0
+FMD,1,438.4,49,AFS,39.4,None,Antibiotics + Isolation,-14.1
+Contagious,2,380.3,21,AFS,40.2,None,Antibiotics + Isolation,-23.6
+FMD,0,375.4,64,AFS,38.8,None,Supportive Care Only,-4.5
+Mastitis,0,460.5,61,AFS,38.9,None,Anti-inflammatory + Rest,-6.6
+FMD,0,456.0,54,AFS,38.8,Pediculosis,Supportive Care Only,-5.4
+Healthy,0,525.8,58,AFS,38.7,None,No Treatment Required,0.0
+Lumpy Skin,0,537.9,59,AFS,38.8,Lumpy Skin,Topical Treatment + Monitoring,-6.7
+FMD,1,533.2,47,AFS,39.6,None,Antibiotics + Isolation,-13.2
+Contagious,0,547.5,17,AFS,38.9,None,Antibiotics + Isolation,-8.4
+Lumpy Skin,1,549.1,41,AFS,39.5,None,Antibiotics + Isolation,-13.8
+Mastitis,1,418.4,32,AFS,39.0,None,Anti-inflammatory + Rest,-11.7
+Lumpy Skin,1,478.8,55,AFS,39.0,None,Antibiotics + Isolation,-13.4
+Healthy,0,500.4,69,AFS,38.5,None,No Treatment Required,0.0
+Dermatophilosis,1,389.9,79,AFS,39.3,FMD,Antibiotics + Isolation,-11.8
+Healthy,0,537.1,53,AFS,38.7,None,No Treatment Required,0.0
+Pediculosis,0,523.3,50,AFS,38.8,None,Antiparasitic + Monitoring,-3.5
+Contagious,0,513.9,80,AFS,38.8,FMD,Antibiotics + Isolation,-7.9
+Dermatophilosis,1,424.8,82,AFS,39.4,None,Antibiotics + Isolation,-13.3
+Healthy,0,398.8,46,AFS,38.3,None,No Treatment Required,0.0
+Lumpy Skin,2,526.7,19,AFS,41.2,None,Antiviral + Quarantine,-23.0
+Lumpy Skin,0,460.7,27,AFS,38.8,Mastitis,Topical Treatment + Monitoring,-4.8
+Lumpy Skin,0,533.5,82,AFS,38.5,None,Topical Treatment + Monitoring,-4.8
+Lumpy Skin,1,416.1,91,AFS,39.7,None,Antibiotics + Isolation,-16.7
+Healthy,0,546.8,71,AFS,38.4,None,No Treatment Required,0.0
+Contagious,0,361.8,17,AFS,38.8,Pediculosis,Antibiotics + Isolation,-9.4
+Lumpy Skin,0,407.2,70,AFS,38.5,Contagious,Topical Treatment + Monitoring,-4.4
+FMD,1,432.7,95,AFS,39.5,None,Antibiotics + Isolation,-13.0
+Ringworm,2,469.9,91,AFS,41.4,None,Antifungal + Topical Care,-10.0
+Lumpy Skin,0,385.8,93,AFS,38.8,None,Topical Treatment + Monitoring,-5.1
+Pediculosis,1,437.4,66,AFS,39.6,Ringworm,Antiparasitic + Monitoring,-9.0
+Mastitis,2,496.0,76,AFS,40.5,Ringworm,Antibiotics + Isolation,-21.3
+Mastitis,0,512.1,71,AFS,38.8,Lumpy Skin,Anti-inflammatory + Rest,-4.8
+Lumpy Skin,0,541.4,51,AFS,38.8,None,Topical Treatment + Monitoring,-4.9
+Mastitis,0,476.6,46,AFS,38.7,None,Anti-inflammatory + Rest,-7.4
+Pediculosis,1,436.8,36,AFS,39.3,None,Antiparasitic + Monitoring,-8.8
+Pediculosis,1,433.7,41,AFS,39.8,None,Antiparasitic + Monitoring,-9.0
+Lumpy Skin,1,460.7,56,AFS,39.2,None,Antibiotics + Isolation,-13.7
+FMD,0,506.0,95,AFS,38.8,None,Supportive Care Only,-4.0
+Contagious,1,497.0,56,AFS,39.4,None,Antibiotics + Isolation,-15.0
+Lumpy Skin,0,488.8,77,AFS,38.6,None,Topical Treatment + Monitoring,-5.0
+Contagious,0,368.3,86,AFS,38.8,Pediculosis,Antibiotics + Isolation,-9.3
+FMD,0,356.2,75,AFS,38.8,None,Supportive Care Only,-4.9
+Mastitis,1,405.1,60,AFS,39.7,None,Anti-inflammatory + Rest,-10.4
+Dermatophilosis,1,511.7,36,AFS,39.6,Pediculosis,Antibiotics + Isolation,-11.7
+FMD,0,386.2,66,AFS,38.7,None,Supportive Care Only,-4.6
+Lumpy Skin,1,473.1,59,AFS,39.1,Dermatophilosis,Antibiotics + Isolation,-13.9
+Contagious,0,406.7,84,AFS,38.8,None,Antibiotics + Isolation,-6.5
+Lumpy Skin,1,536.6,27,AFS,39.3,None,Antibiotics + Isolation,-14.2
+Lumpy Skin,1,482.6,13,AFS,39.7,None,Antibiotics + Isolation,-14.1
+Lumpy Skin,0,526.0,74,AFS,38.6,Mastitis,Topical Treatment + Monitoring,-6.0
+FMD,2,354.9,47,AFS,40.7,Contagious,Antiviral + Quarantine,-26.0
+Ringworm,0,452.4,67,AFS,39.0,None,Topical Treatment + Monitoring,-1.8
+Lumpy Skin,2,410.7,62,AFS,41.3,None,Antiviral + Quarantine,-24.4
+Healthy,0,428.7,92,AFS,38.4,Ringworm,No Treatment Required,0.0
+Dermatophilosis,1,391.4,81,AFS,39.3,None,Antibiotics + Isolation,-13.2
+Healthy,0,499.0,94,AFS,38.5,None,No Treatment Required,0.0
+Mastitis,0,506.7,79,AFS,38.9,None,Anti-inflammatory + Rest,-4.9
+Mastitis,0,541.3,18,AFS,38.5,FMD,Anti-inflammatory + Rest,-4.4
+Mastitis,0,399.7,91,AFS,38.9,Mastitis,Anti-inflammatory + Rest,-6.8
+Lumpy Skin,2,507.0,47,AFS,40.0,Contagious,Antiviral + Quarantine,-21.2
+Lumpy Skin,0,360.8,57,AFS,38.8,None,Topical Treatment + Monitoring,-6.5
+Dermatophilosis,0,385.4,72,AFS,38.6,Ringworm,Topical Treatment + Monitoring,-5.7
+Ringworm,0,538.7,62,AFS,39.0,None,Topical Treatment + Monitoring,-1.6
+Contagious,2,469.6,83,AFS,41.0,None,Antibiotics + Isolation,-20.5
+Mastitis,0,521.9,12,AFS,38.7,Lumpy Skin,Anti-inflammatory + Rest,-6.5
+Contagious,2,485.3,44,AFS,40.1,Dermatophilosis,Antibiotics + Isolation,-22.0
+Pediculosis,1,508.6,59,AFS,39.7,Dermatophilosis,Antiparasitic + Monitoring,-9.6
+Healthy,0,443.8,72,AFS,38.5,Mastitis,No Treatment Required,0.0
+Ringworm,0,472.4,89,AFS,38.7,None,Topical Treatment + Monitoring,-3.6
+Dermatophilosis,1,404.1,14,AFS,39.5,Mastitis,Antibiotics + Isolation,-13.5
+Ringworm,0,377.9,24,AFS,39.0,None,Topical Treatment + Monitoring,-3.6
+Contagious,0,383.5,82,AFS,38.9,None,Antibiotics + Isolation,-8.0
+Mastitis,0,429.4,13,AFS,38.5,Contagious,Anti-inflammatory + Rest,-5.6
+Lumpy Skin,1,432.1,33,AFS,39.2,Lumpy Skin,Antibiotics + Isolation,-14.4
+Contagious,0,405.4,13,AFS,39.0,Contagious,Antibiotics + Isolation,-7.0
+Contagious,2,437.1,31,AFS,39.8,None,Antibiotics + Isolation,-21.7
+Contagious,1,393.9,20,AFS,39.4,None,Antibiotics + Isolation,-14.9
+Dermatophilosis,0,374.1,29,AFS,38.9,None,Topical Treatment + Monitoring,-4.2
+Healthy,0,452.5,93,AFS,38.3,Dermatophilosis,No Treatment Required,0.0
+Contagious,1,372.1,71,AFS,39.8,None,Antibiotics + Isolation,-15.8
+Dermatophilosis,0,474.9,67,AFS,38.9,None,Topical Treatment + Monitoring,-5.2
+Pediculosis,2,525.5,29,AFS,41.3,None,Antiparasitic + Monitoring,-10.9
+Dermatophilosis,0,511.6,29,AFS,39.0,FMD,Topical Treatment + Monitoring,-6.0
+Contagious,2,429.7,40,AFS,41.0,None,Antibiotics + Isolation,-24.0
+Healthy,0,540.8,67,AFS,38.7,None,No Treatment Required,0.0
+Ringworm,0,548.4,65,AFS,38.6,None,Topical Treatment + Monitoring,-4.7
+FMD,1,362.3,71,AFS,39.3,None,Antibiotics + Isolation,-13.5
+Healthy,0,511.6,52,AFS,38.6,Lumpy Skin,No Treatment Required,0.0
+Mastitis,0,409.5,28,AFS,38.7,Contagious,Anti-inflammatory + Rest,-4.6
+Ringworm,0,477.0,30,AFS,38.7,None,Topical Treatment + Monitoring,-2.0
+Contagious,2,458.9,48,AFS,40.1,None,Antibiotics + Isolation,-21.0
+Ringworm,0,520.8,51,AFS,38.6,None,Topical Treatment + Monitoring,-1.7
+Ringworm,2,513.9,34,AFS,41.5,None,Antifungal + Topical Care,-10.0
+Dermatophilosis,0,428.7,89,AFS,38.7,None,Topical Treatment + Monitoring,-4.2
+Dermatophilosis,0,450.7,81,AFS,38.8,None,Topical Treatment + Monitoring,-4.3
+Pediculosis,1,367.5,29,AFS,39.2,None,Antiparasitic + Monitoring,-6.2
+Lumpy Skin,2,540.7,37,AFS,41.0,Contagious,Antiviral + Quarantine,-21.6
+FMD,2,378.2,66,AFS,41.2,None,Antiviral + Quarantine,-24.5
+Ringworm,1,418.5,90,AFS,39.5,None,Topical Treatment + Monitoring,-8.2
+Contagious,2,527.5,43,AFS,41.0,Pediculosis,Antibiotics + Isolation,-20.7
+Lumpy Skin,0,477.1,21,AFS,38.6,None,Topical Treatment + Monitoring,-3.7
+Mastitis,0,435.2,74,AFS,38.8,None,Anti-inflammatory + Rest,-4.3
+Ringworm,1,422.5,38,AFS,39.6,None,Topical Treatment + Monitoring,-8.1
+Dermatophilosis,0,372.0,82,AFS,38.7,None,Topical Treatment + Monitoring,-5.4
+Ringworm,1,413.2,85,AFS,39.6,None,Topical Treatment + Monitoring,-9.7
+Contagious,0,379.4,28,AFS,38.6,Lumpy Skin,Antibiotics + Isolation,-8.4
+Healthy,0,374.6,20,AFS,38.5,None,No Treatment Required,0.0
+Dermatophilosis,2,391.2,86,AFS,40.2,None,Antibiotics + Isolation,-18.9
+Dermatophilosis,1,389.1,95,AFS,39.7,None,Antibiotics + Isolation,-12.5
+Contagious,0,350.8,31,AFS,38.8,None,Antibiotics + Isolation,-9.8
+Lumpy Skin,0,443.0,30,AFS,38.5,None,Topical Treatment + Monitoring,-4.2
+Mastitis,2,439.0,64,AFS,40.1,Pediculosis,Antibiotics + Isolation,-19.8
+Healthy,0,502.4,60,AFS,38.5,Dermatophilosis,No Treatment Required,0.0
+Contagious,2,422.7,63,AFS,41.1,None,Antibiotics + Isolation,-22.6
+Healthy,0,511.0,72,AFS,38.7,None,No Treatment Required,0.0
+Contagious,1,484.8,69,AFS,39.5,None,Antibiotics + Isolation,-13.5
+Healthy,0,387.3,89,AFS,38.6,None,No Treatment Required,0.0
+Pediculosis,1,355.4,95,AFS,39.2,Ringworm,Antiparasitic + Monitoring,-7.1
+FMD,1,511.1,60,AFS,39.7,None,Antibiotics + Isolation,-14.2
+Ringworm,1,483.3,32,AFS,39.2,None,Topical Treatment + Monitoring,-9.8
+Contagious,0,416.7,92,AFS,38.9,None,Antibiotics + Isolation,-9.4
+FMD,2,448.5,51,AFS,41.1,Ringworm,Antiviral + Quarantine,-24.7
+Dermatophilosis,2,453.1,88,AFS,41.3,None,Antibiotics + Isolation,-18.7
+FMD,1,415.2,82,AFS,39.4,None,Antibiotics + Isolation,-16.2
+Lumpy Skin,0,505.4,70,AFS,38.8,None,Topical Treatment + Monitoring,-3.7
+Lumpy Skin,1,457.1,26,AFS,39.1,None,Antibiotics + Isolation,-14.9
+Ringworm,0,461.9,83,AFS,39.0,Dermatophilosis,Topical Treatment + Monitoring,-3.8
+Pediculosis,1,536.0,45,AFS,39.0,Dermatophilosis,Antiparasitic + Monitoring,-9.5
+Mastitis,2,446.5,15,AFS,40.1,Dermatophilosis,Antibiotics + Isolation,-19.2
+Contagious,2,495.5,13,AFS,40.0,Dermatophilosis,Antibiotics + Isolation,-23.3
+Lumpy Skin,1,474.7,23,AFS,39.4,None,Antibiotics + Isolation,-15.7
+Lumpy Skin,1,512.6,19,AFS,39.6,None,Antibiotics + Isolation,-15.0
+Ringworm,1,405.4,32,AFS,39.1,None,Topical Treatment + Monitoring,-6.4
+Pediculosis,1,415.6,49,AFS,39.7,Mastitis,Antiparasitic + Monitoring,-8.7
+Dermatophilosis,2,352.4,28,AFS,40.9,None,Antibiotics + Isolation,-18.7
+Ringworm,2,453.6,68,AFS,40.2,None,Antifungal + Topical Care,-10.3
+Ringworm,1,441.4,87,AFS,39.2,None,Topical Treatment + Monitoring,-8.0
+Healthy,0,425.6,37,AFS,38.5,FMD,No Treatment Required,0.0
+Contagious,0,516.8,42,AFS,38.5,None,Antibiotics + Isolation,-6.6
+Dermatophilosis,0,428.7,95,AFS,38.7,None,Topical Treatment + Monitoring,-4.7
+Mastitis,0,473.4,41,AFS,38.7,None,Anti-inflammatory + Rest,-4.9
+FMD,2,462.9,44,AFS,40.8,Dermatophilosis,Antiviral + Quarantine,-25.9
+FMD,1,408.0,69,AFS,39.6,None,Antibiotics + Isolation,-15.7
+Ringworm,1,372.7,29,AFS,39.7,None,Topical Treatment + Monitoring,-7.8
+Lumpy Skin,0,394.1,69,AFS,38.8,None,Topical Treatment + Monitoring,-6.9
+Healthy,0,456.6,87,AFS,38.3,Contagious,No Treatment Required,0.0
+Dermatophilosis,2,419.2,34,AFS,40.8,FMD,Antibiotics + Isolation,-18.4
+Lumpy Skin,1,388.4,63,AFS,39.5,None,Antibiotics + Isolation,-15.8
+Dermatophilosis,1,484.0,39,AFS,39.5,None,Antibiotics + Isolation,-13.3
+Lumpy Skin,0,391.8,37,AFS,39.0,Ringworm,Topical Treatment + Monitoring,-5.2
+Lumpy Skin,0,546.9,51,AFS,38.6,Ringworm,Topical Treatment + Monitoring,-5.6
+Pediculosis,1,463.1,64,AFS,39.3,None,Antiparasitic + Monitoring,-8.5
+Ringworm,2,367.3,23,AFS,40.5,None,Antifungal + Topical Care,-9.5
+FMD,0,537.1,88,AFS,38.7,None,Supportive Care Only,-3.7
+FMD,2,405.1,44,AFS,40.2,None,Antiviral + Quarantine,-23.3
+FMD,0,509.6,49,AFS,38.7,None,Supportive Care Only,-6.0
+Dermatophilosis,0,546.6,29,AFS,38.5,None,Topical Treatment + Monitoring,-5.4
+Dermatophilosis,2,436.9,72,AFS,41.2,Dermatophilosis,Antibiotics + Isolation,-17.8
+Contagious,0,501.2,15,AFS,38.7,None,Antibiotics + Isolation,-9.0
+Healthy,0,395.7,87,AFS,38.4,None,No Treatment Required,0.0
+Contagious,0,421.0,46,AFS,38.8,Contagious,Antibiotics + Isolation,-9.9
+Mastitis,1,433.9,60,AFS,39.2,None,Anti-inflammatory + Rest,-13.0
+Contagious,1,482.3,42,AFS,39.6,None,Antibiotics + Isolation,-13.9
+Pediculosis,2,493.5,91,AFS,40.7,Dermatophilosis,Antiparasitic + Monitoring,-12.2
+Ringworm,1,427.2,47,AFS,39.6,Contagious,Topical Treatment + Monitoring,-6.5
+Dermatophilosis,1,363.8,66,AFS,39.0,Dermatophilosis,Antibiotics + Isolation,-10.5
+Dermatophilosis,2,461.5,90,AFS,41.2,None,Antibiotics + Isolation,-18.4
+Contagious,1,521.6,41,AFS,39.5,None,Antibiotics + Isolation,-13.9
+Healthy,0,506.0,55,AFS,38.4,None,No Treatment Required,0.0
+Healthy,0,425.2,77,AFS,38.5,Ringworm,No Treatment Required,0.0
+Dermatophilosis,0,360.5,21,AFS,38.6,None,Topical Treatment + Monitoring,-4.2
+Lumpy Skin,0,494.1,89,AFS,38.6,None,Topical Treatment + Monitoring,-6.9
+Lumpy Skin,0,387.8,63,AFS,38.8,None,Topical Treatment + Monitoring,-6.9
+Healthy,0,462.4,24,AFS,38.7,Mastitis,No Treatment Required,0.0
+Lumpy Skin,1,547.3,21,AFS,39.4,Pediculosis,Antibiotics + Isolation,-13.9
+FMD,1,535.4,67,AFS,39.7,None,Antibiotics + Isolation,-14.8
+Contagious,2,378.6,29,AFS,40.4,Ringworm,Antibiotics + Isolation,-20.7
+Contagious,2,361.0,32,AFS,40.5,None,Antibiotics + Isolation,-21.1
+Lumpy Skin,1,401.8,63,AFS,39.1,Mastitis,Antibiotics + Isolation,-15.1
+Ringworm,2,417.0,88,AFS,40.4,FMD,Antifungal + Topical Care,-9.5
+FMD,2,368.3,74,AFS,40.8,Pediculosis,Antiviral + Quarantine,-23.8
+FMD,0,440.0,30,AFS,38.9,Ringworm,Supportive Care Only,-5.8
+FMD,0,526.5,51,AFS,38.6,Ringworm,Supportive Care Only,-3.6
+Healthy,0,519.0,40,AFS,38.4,None,No Treatment Required,0.0
+Mastitis,0,368.1,94,AFS,38.8,None,Anti-inflammatory + Rest,-4.9
+FMD,0,529.1,43,AFS,38.7,FMD,Supportive Care Only,-5.1
+Lumpy Skin,1,509.3,87,AFS,39.6,None,Antibiotics + Isolation,-14.0
+Dermatophilosis,0,351.8,73,AFS,38.6,None,Topical Treatment + Monitoring,-3.6
+Ringworm,1,522.7,50,AFS,39.7,None,Topical Treatment + Monitoring,-8.2
+Pediculosis,1,424.4,29,AFS,39.1,None,Antiparasitic + Monitoring,-7.7
+Contagious,0,543.3,46,AFS,38.8,None,Antibiotics + Isolation,-7.2
+Pediculosis,2,438.7,87,AFS,40.1,None,Antiparasitic + Monitoring,-12.9
+Ringworm,1,360.3,79,AFS,39.7,None,Topical Treatment + Monitoring,-7.0
+Pediculosis,1,414.1,61,AFS,39.0,FMD,Antiparasitic + Monitoring,-7.9
+Dermatophilosis,1,465.3,28,AFS,39.2,Contagious,Antibiotics + Isolation,-11.1
+Healthy,0,426.2,45,AFS,38.3,None,No Treatment Required,0.0
+Dermatophilosis,0,429.1,26,AFS,38.5,Lumpy Skin,Topical Treatment + Monitoring,-5.2
+FMD,2,485.4,62,AFS,39.9,None,Antiviral + Quarantine,-25.6
+Pediculosis,0,525.5,21,AFS,38.6,None,Antiparasitic + Monitoring,-5.1
+Lumpy Skin,1,351.5,88,AFS,39.3,None,Antibiotics + Isolation,-13.1
+FMD,1,438.9,51,AFS,39.6,None,Antibiotics + Isolation,-15.9
+Contagious,1,521.7,89,AFS,39.0,None,Antibiotics + Isolation,-15.3
+Contagious,0,490.3,88,AFS,38.7,None,Antibiotics + Isolation,-7.2
+Dermatophilosis,1,377.4,78,AFS,39.2,None,Antibiotics + Isolation,-11.1
+Healthy,0,520.4,24,AFS,38.4,Contagious,No Treatment Required,0.0
+Healthy,0,456.3,85,AFS,38.4,FMD,No Treatment Required,0.0
+Ringworm,1,350.4,16,AFS,39.4,Dermatophilosis,Topical Treatment + Monitoring,-9.3
+Dermatophilosis,1,453.7,83,AFS,39.0,None,Antibiotics + Isolation,-12.8
+Mastitis,0,450.8,68,AFS,38.5,None,Anti-inflammatory + Rest,-5.8
+Pediculosis,2,523.5,34,AFS,40.0,FMD,Antiparasitic + Monitoring,-10.8
+Mastitis,1,437.7,83,AFS,39.5,None,Anti-inflammatory + Rest,-12.2
+Pediculosis,0,514.7,48,AFS,38.7,None,Antiparasitic + Monitoring,-3.8
+Dermatophilosis,1,549.8,27,AFS,39.1,None,Antibiotics + Isolation,-10.5
+Mastitis,1,403.4,80,AFS,39.5,Mastitis,Anti-inflammatory + Rest,-10.7
+Ringworm,1,413.1,38,AFS,39.2,None,Topical Treatment + Monitoring,-6.4
+FMD,0,538.6,64,AFS,38.9,Dermatophilosis,Supportive Care Only,-6.5
+Contagious,2,521.6,62,AFS,40.5,None,Antibiotics + Isolation,-20.8
+Lumpy Skin,2,354.9,69,AFS,39.9,None,Antiviral + Quarantine,-23.4
+Mastitis,2,363.1,86,AFS,41.0,Mastitis,Antibiotics + Isolation,-19.9
+FMD,1,546.5,36,AFS,39.6,None,Antibiotics + Isolation,-16.1
+Dermatophilosis,2,490.3,75,AFS,41.2,Mastitis,Antibiotics + Isolation,-18.1
+Mastitis,2,478.2,87,AFS,40.5,Pediculosis,Antibiotics + Isolation,-20.6
+Ringworm,0,445.6,72,AFS,38.9,Contagious,Topical Treatment + Monitoring,-3.8
+Dermatophilosis,0,375.1,27,AFS,38.5,None,Topical Treatment + Monitoring,-3.5
+Pediculosis,2,546.6,32,AFS,41.3,Dermatophilosis,Antiparasitic + Monitoring,-12.0
+Mastitis,1,517.8,22,AFS,39.3,None,Anti-inflammatory + Rest,-11.3
+Mastitis,0,532.2,74,AFS,38.5,Dermatophilosis,Anti-inflammatory + Rest,-5.9
+Mastitis,1,418.5,20,AFS,39.1,FMD,Anti-inflammatory + Rest,-11.7
+Ringworm,2,387.9,48,AFS,39.9,None,Antifungal + Topical Care,-8.6
+Ringworm,1,371.9,42,AFS,39.7,None,Topical Treatment + Monitoring,-8.6
+Pediculosis,2,543.3,40,AFS,41.0,None,Antiparasitic + Monitoring,-11.7
+Pediculosis,1,528.6,53,AFS,39.3,None,Antiparasitic + Monitoring,-9.5
+Contagious,1,473.9,85,AFS,39.4,None,Antibiotics + Isolation,-14.7
+Mastitis,1,473.7,77,AFS,39.1,Contagious,Anti-inflammatory + Rest,-10.8
+Mastitis,1,520.2,95,AFS,39.5,None,Anti-inflammatory + Rest,-10.2
+Healthy,0,540.8,14,AFS,38.7,None,No Treatment Required,0.0
+Mastitis,1,359.6,88,AFS,39.2,None,Anti-inflammatory + Rest,-11.0
+Healthy,0,394.5,27,AFS,38.7,None,No Treatment Required,0.0
+Pediculosis,0,486.7,22,AFS,38.9,None,Antiparasitic + Monitoring,-2.4
+Lumpy Skin,1,546.8,93,AFS,39.8,Pediculosis,Antibiotics + Isolation,-16.8
+Pediculosis,0,533.1,18,AFS,38.9,None,Antiparasitic + Monitoring,-2.2
+Dermatophilosis,2,383.7,15,AFS,40.7,Contagious,Antibiotics + Isolation,-19.2
+Lumpy Skin,0,387.7,41,AFS,38.5,None,Topical Treatment + Monitoring,-6.6
+Dermatophilosis,1,371.4,62,AFS,39.1,None,Antibiotics + Isolation,-13.2
+Lumpy Skin,1,367.4,63,AFS,39.7,None,Antibiotics + Isolation,-14.4
+Mastitis,0,393.7,55,AFS,38.8,None,Anti-inflammatory + Rest,-7.8
+Lumpy Skin,1,452.1,84,AFS,39.3,None,Antibiotics + Isolation,-16.3
+Ringworm,1,546.0,69,AFS,39.5,None,Topical Treatment + Monitoring,-6.8
+FMD,0,521.4,93,AFS,38.7,None,Supportive Care Only,-5.3
+Pediculosis,0,464.7,43,AFS,39.0,None,Antiparasitic + Monitoring,-2.5
+Contagious,1,444.8,29,AFS,39.2,Pediculosis,Antibiotics + Isolation,-13.5
+Mastitis,0,413.1,53,AFS,38.5,None,Anti-inflammatory + Rest,-5.5
+Contagious,0,529.6,86,AFS,38.8,None,Antibiotics + Isolation,-7.6
+Ringworm,0,465.9,69,AFS,38.6,Lumpy Skin,Topical Treatment + Monitoring,-1.0
+Mastitis,0,432.7,63,AFS,39.0,None,Anti-inflammatory + Rest,-4.8
+Mastitis,2,418.9,43,AFS,41.0,None,Antibiotics + Isolation,-21.1
+Lumpy Skin,2,425.7,41,AFS,40.0,None,Antiviral + Quarantine,-23.3
+Healthy,0,433.2,24,AFS,38.8,None,No Treatment Required,0.0
+Pediculosis,0,364.0,52,AFS,38.8,Dermatophilosis,Antiparasitic + Monitoring,-2.9
+Ringworm,1,518.6,69,AFS,39.1,None,Topical Treatment + Monitoring,-6.1
+Pediculosis,0,477.5,82,AFS,38.6,None,Antiparasitic + Monitoring,-4.8
+FMD,1,513.2,64,AFS,39.3,None,Antibiotics + Isolation,-13.4
+Healthy,0,432.2,77,AFS,38.4,Pediculosis,No Treatment Required,0.0
+Dermatophilosis,0,368.7,57,AFS,38.8,None,Topical Treatment + Monitoring,-5.2
+FMD,1,414.0,19,AFS,39.7,Ringworm,Antibiotics + Isolation,-16.2
+Ringworm,2,431.4,90,AFS,39.8,Contagious,Antifungal + Topical Care,-8.2
+Ringworm,1,441.1,61,AFS,39.0,None,Topical Treatment + Monitoring,-7.1
+FMD,2,403.8,27,AFS,41.2,None,Antiviral + Quarantine,-26.2
+Lumpy Skin,1,363.9,60,AFS,39.3,None,Antibiotics + Isolation,-13.5
+Contagious,1,360.6,29,AFS,39.2,None,Antibiotics + Isolation,-14.6
+Pediculosis,1,438.3,49,AFS,39.2,Mastitis,Antiparasitic + Monitoring,-6.4
+Dermatophilosis,1,467.2,83,AFS,39.5,None,Antibiotics + Isolation,-13.1
+Dermatophilosis,2,417.1,17,AFS,40.6,Pediculosis,Antibiotics + Isolation,-17.5
+FMD,0,425.2,61,AFS,39.0,None,Supportive Care Only,-6.3
+Pediculosis,0,382.9,13,AFS,38.9,Pediculosis,Antiparasitic + Monitoring,-2.3
+FMD,1,366.8,70,AFS,39.5,None,Antibiotics + Isolation,-14.7
+FMD,1,411.3,87,AFS,39.5,None,Antibiotics + Isolation,-14.1
+Lumpy Skin,2,351.0,40,AFS,41.3,None,Antiviral + Quarantine,-23.7
+Lumpy Skin,1,394.1,33,AFS,39.6,Contagious,Antibiotics + Isolation,-16.2
+FMD,1,358.3,53,AFS,39.7,None,Antibiotics + Isolation,-16.6
+Ringworm,0,417.7,77,AFS,38.8,Lumpy Skin,Topical Treatment + Monitoring,-4.4
+FMD,1,498.4,59,AFS,39.0,None,Antibiotics + Isolation,-15.8
+Contagious,1,376.8,76,AFS,39.3,Pediculosis,Antibiotics + Isolation,-14.4
+Ringworm,0,366.1,28,AFS,39.0,None,Topical Treatment + Monitoring,-1.3
+Healthy,0,512.7,77,AFS,38.4,Lumpy Skin,No Treatment Required,0.0
+Mastitis,0,538.2,80,AFS,38.5,None,Anti-inflammatory + Rest,-5.8
+Contagious,0,429.9,71,AFS,38.5,None,Antibiotics + Isolation,-9.9
+Contagious,0,359.9,32,AFS,38.7,Ringworm,Antibiotics + Isolation,-6.4
+Healthy,0,449.8,49,AFS,38.6,None,No Treatment Required,0.0
+Contagious,1,447.1,78,AFS,39.5,None,Antibiotics + Isolation,-12.5
+Healthy,0,471.6,68,AFS,38.8,None,No Treatment Required,0.0
+Lumpy Skin,1,403.2,68,AFS,39.6,Lumpy Skin,Antibiotics + Isolation,-13.1
+Pediculosis,0,497.0,44,AFS,38.6,None,Antiparasitic + Monitoring,-3.8
+Dermatophilosis,0,409.4,50,AFS,39.0,Pediculosis,Topical Treatment + Monitoring,-3.9
+Ringworm,2,375.8,61,AFS,40.9,None,Antifungal + Topical Care,-8.8
+Healthy,0,369.3,80,AFS,38.4,Dermatophilosis,No Treatment Required,0.0
+Ringworm,2,427.0,15,AFS,40.8,None,Antifungal + Topical Care,-10.3
+Ringworm,0,440.7,25,AFS,38.8,None,Topical Treatment + Monitoring,-4.2
+Pediculosis,1,540.1,25,AFS,39.4,None,Antiparasitic + Monitoring,-6.8
+Ringworm,1,448.1,44,AFS,39.7,None,Topical Treatment + Monitoring,-8.7
+Lumpy Skin,1,533.6,81,AFS,39.6,None,Antibiotics + Isolation,-15.7
+Healthy,0,545.7,22,AFS,38.5,None,No Treatment Required,0.0
+Lumpy Skin,1,392.1,18,AFS,39.3,None,Antibiotics + Isolation,-14.8
+Healthy,0,409.7,32,AFS,38.8,None,No Treatment Required,0.0
+Contagious,0,449.5,38,AFS,38.9,None,Antibiotics + Isolation,-7.2
+Lumpy Skin,0,447.9,66,AFS,38.8,None,Topical Treatment + Monitoring,-4.0
+Pediculosis,1,513.7,65,AFS,39.1,Lumpy Skin,Antiparasitic + Monitoring,-8.3
+FMD,2,375.3,28,AFS,40.7,None,Antiviral + Quarantine,-26.5
+Ringworm,2,545.3,36,AFS,40.3,None,Antifungal + Topical Care,-11.5
+Lumpy Skin,1,481.8,75,AFS,39.0,Dermatophilosis,Antibiotics + Isolation,-14.9
+Mastitis,0,350.8,74,AFS,38.9,Mastitis,Anti-inflammatory + Rest,-5.6
+Mastitis,0,380.3,42,AFS,38.8,None,Anti-inflammatory + Rest,-4.5
+FMD,0,353.6,26,AFS,38.8,Contagious,Supportive Care Only,-6.6
+FMD,2,443.3,77,AFS,40.0,Mastitis,Antiviral + Quarantine,-23.9
+Pediculosis,0,355.5,85,AFS,38.8,Pediculosis,Antiparasitic + Monitoring,-3.7
+Healthy,0,384.7,50,AFS,38.3,None,No Treatment Required,0.0
+Pediculosis,0,499.1,26,AFS,38.6,Lumpy Skin,Antiparasitic + Monitoring,-5.4
+Healthy,0,353.2,34,AFS,38.5,None,No Treatment Required,0.0
+Mastitis,1,390.9,46,AFS,39.0,None,Anti-inflammatory + Rest,-13.8
+FMD,0,423.9,17,AFS,38.8,None,Supportive Care Only,-6.3
+Lumpy Skin,0,494.6,40,AFS,38.6,None,Topical Treatment + Monitoring,-3.1
+Healthy,0,398.2,43,AFS,38.7,None,No Treatment Required,0.0
+Mastitis,0,368.5,35,AFS,38.6,Ringworm,Anti-inflammatory + Rest,-8.0
+Mastitis,0,398.7,55,AFS,38.5,Ringworm,Anti-inflammatory + Rest,-5.6
+Pediculosis,1,534.0,46,AFS,39.6,Pediculosis,Antiparasitic + Monitoring,-8.1
+Mastitis,1,360.2,64,AFS,39.3,None,Anti-inflammatory + Rest,-10.9
+Contagious,0,454.0,74,AFS,38.7,None,Antibiotics + Isolation,-6.8
+Pediculosis,1,511.9,89,AFS,39.1,Ringworm,Antiparasitic + Monitoring,-9.7
+Healthy,0,428.0,18,AFS,38.5,None,No Treatment Required,0.0
+Healthy,0,384.9,31,AFS,38.4,None,No Treatment Required,0.0
+Ringworm,2,528.8,72,AFS,40.2,None,Antifungal + Topical Care,-9.1
+Contagious,1,471.3,59,AFS,39.2,None,Antibiotics + Isolation,-15.6
+Contagious,1,384.8,91,AFS,39.3,None,Antibiotics + Isolation,-14.4
+FMD,1,482.7,89,AFS,39.2,None,Antibiotics + Isolation,-13.6
+FMD,0,442.4,59,AFS,38.8,Ringworm,Supportive Care Only,-6.6
+Ringworm,2,538.2,13,AFS,41.4,None,Antifungal + Topical Care,-9.8
+Dermatophilosis,2,505.0,71,AFS,40.8,Lumpy Skin,Antibiotics + Isolation,-17.8
+Lumpy Skin,1,502.4,44,AFS,39.4,None,Antibiotics + Isolation,-16.6
+Ringworm,2,440.4,46,AFS,41.4,Dermatophilosis,Antifungal + Topical Care,-8.0
+Dermatophilosis,2,420.0,66,AFS,41.0,None,Antibiotics + Isolation,-19.9
+Ringworm,1,447.1,60,AFS,39.1,None,Topical Treatment + Monitoring,-8.0
+Healthy,0,423.5,90,AFS,38.7,None,No Treatment Required,0.0
+Pediculosis,1,495.7,20,AFS,39.3,None,Antiparasitic + Monitoring,-7.8
+Dermatophilosis,1,355.9,24,AFS,39.4,None,Antibiotics + Isolation,-13.7
+Dermatophilosis,1,413.1,22,AFS,39.4,None,Antibiotics + Isolation,-13.8
+FMD,0,403.5,64,AFS,38.6,Dermatophilosis,Supportive Care Only,-6.3
+Ringworm,1,530.1,23,AFS,39.2,None,Topical Treatment + Monitoring,-7.4
+FMD,2,515.0,18,AFS,40.3,Ringworm,Antiviral + Quarantine,-24.6
+Lumpy Skin,2,385.1,18,AFS,39.9,None,Antiviral + Quarantine,-21.3
+Ringworm,1,541.0,88,AFS,39.5,None,Topical Treatment + Monitoring,-8.1
+Contagious,1,475.9,39,AFS,39.6,None,Antibiotics + Isolation,-14.0
+Contagious,2,482.8,84,AFS,40.1,None,Antibiotics + Isolation,-21.3
+Contagious,0,498.3,42,AFS,39.0,None,Antibiotics + Isolation,-9.6
+Lumpy Skin,1,355.6,58,AFS,39.4,None,Antibiotics + Isolation,-14.8
+Lumpy Skin,0,516.6,19,AFS,38.7,FMD,Topical Treatment + Monitoring,-4.2
+Dermatophilosis,1,462.3,38,AFS,39.3,None,Antibiotics + Isolation,-10.6
+Contagious,1,509.3,31,AFS,39.8,Contagious,Antibiotics + Isolation,-13.9
+Ringworm,0,452.4,42,AFS,38.7,Mastitis,Topical Treatment + Monitoring,-3.4
+Contagious,0,527.2,29,AFS,38.9,None,Antibiotics + Isolation,-6.5
+Healthy,0,361.6,65,AFS,38.4,Dermatophilosis,No Treatment Required,0.0
+Ringworm,1,403.7,42,AFS,39.8,Mastitis,Topical Treatment + Monitoring,-7.9
+Healthy,0,473.6,31,AFS,38.6,None,No Treatment Required,0.0
+FMD,2,491.6,33,AFS,39.8,Dermatophilosis,Antiviral + Quarantine,-26.9
+Pediculosis,0,549.9,44,AFS,38.5,None,Antiparasitic + Monitoring,-2.6
+Pediculosis,0,356.6,34,AFS,39.0,None,Antiparasitic + Monitoring,-3.5
+FMD,0,487.0,55,AFS,38.8,Mastitis,Supportive Care Only,-3.2
+FMD,2,361.1,70,AFS,40.2,Pediculosis,Antiviral + Quarantine,-24.1
+Ringworm,2,479.5,73,AFS,40.9,FMD,Antifungal + Topical Care,-9.5
+Ringworm,1,375.4,30,AFS,39.5,None,Topical Treatment + Monitoring,-8.4
+Pediculosis,0,448.3,29,AFS,38.7,Lumpy Skin,Antiparasitic + Monitoring,-5.3
+Contagious,1,409.8,66,AFS,39.2,Ringworm,Antibiotics + Isolation,-15.5
+Ringworm,1,379.0,92,AFS,39.8,None,Topical Treatment + Monitoring,-6.1
+Ringworm,0,367.0,74,AFS,38.6,None,Topical Treatment + Monitoring,-3.9
+FMD,1,360.5,91,AFS,39.7,None,Antibiotics + Isolation,-16.6
+Lumpy Skin,0,519.1,13,AFS,38.6,None,Topical Treatment + Monitoring,-4.1
+Healthy,0,392.4,77,AFS,38.8,Contagious,No Treatment Required,0.0
+Lumpy Skin,2,355.0,30,AFS,39.9,None,Antiviral + Quarantine,-21.6
+Contagious,2,535.2,72,AFS,40.2,Pediculosis,Antibiotics + Isolation,-20.5
+FMD,2,442.0,30,AFS,40.9,Ringworm,Antiviral + Quarantine,-24.8
+Lumpy Skin,0,449.0,36,AFS,38.8,Contagious,Topical Treatment + Monitoring,-6.0
+Dermatophilosis,1,416.8,88,AFS,39.4,None,Antibiotics + Isolation,-13.0
+Contagious,1,423.3,66,AFS,39.0,None,Antibiotics + Isolation,-12.5
+Contagious,0,386.8,16,AFS,38.6,Lumpy Skin,Antibiotics + Isolation,-9.5
+Mastitis,0,434.0,66,AFS,38.8,None,Anti-inflammatory + Rest,-7.3
+Contagious,0,491.4,27,AFS,38.5,None,Antibiotics + Isolation,-6.3
+FMD,2,538.4,90,AFS,41.3,None,Antiviral + Quarantine,-25.2
+Contagious,1,359.8,88,AFS,39.6,None,Antibiotics + Isolation,-14.8
+Pediculosis,1,446.6,59,AFS,39.7,None,Antiparasitic + Monitoring,-6.9
+FMD,1,456.7,68,AFS,39.8,None,Antibiotics + Isolation,-14.9
+Dermatophilosis,0,375.8,81,AFS,38.9,FMD,Topical Treatment + Monitoring,-6.2
+FMD,1,399.6,17,AFS,39.5,None,Antibiotics + Isolation,-14.3
+Contagious,0,450.3,62,AFS,38.7,None,Antibiotics + Isolation,-7.4
+FMD,1,513.7,47,AFS,39.2,None,Antibiotics + Isolation,-15.6
+Dermatophilosis,1,432.4,63,AFS,39.4,Pediculosis,Antibiotics + Isolation,-10.2
+Ringworm,0,531.4,66,AFS,38.6,None,Topical Treatment + Monitoring,-2.3
+Pediculosis,1,448.9,78,AFS,39.1,None,Antiparasitic + Monitoring,-8.9
+Healthy,0,529.3,58,AFS,38.7,None,No Treatment Required,0.0
+Pediculosis,2,414.1,13,AFS,40.2,None,Antiparasitic + Monitoring,-13.0
+Mastitis,0,495.9,76,AFS,38.8,None,Anti-inflammatory + Rest,-6.6
+Healthy,0,509.2,32,AFS,38.7,None,No Treatment Required,0.0
+Mastitis,0,508.5,35,AFS,38.9,None,Anti-inflammatory + Rest,-7.7
+Pediculosis,1,471.5,88,AFS,39.2,None,Antiparasitic + Monitoring,-7.9
+Mastitis,2,500.5,46,AFS,40.3,Contagious,Antibiotics + Isolation,-21.9
+Pediculosis,0,486.3,14,AFS,38.5,FMD,Antiparasitic + Monitoring,-5.1
+Pediculosis,0,406.8,53,AFS,38.9,Contagious,Antiparasitic + Monitoring,-4.6
+Dermatophilosis,0,410.9,82,AFS,38.7,None,Topical Treatment + Monitoring,-5.2
+Contagious,1,403.4,94,AFS,39.5,Pediculosis,Antibiotics + Isolation,-15.6
+Contagious,1,393.7,54,AFS,39.0,None,Antibiotics + Isolation,-13.2
+Pediculosis,0,408.2,12,AFS,38.9,Mastitis,Antiparasitic + Monitoring,-3.0
+Lumpy Skin,1,367.9,73,AFS,39.0,None,Antibiotics + Isolation,-13.6
+Pediculosis,1,394.7,85,AFS,39.3,None,Antiparasitic + Monitoring,-7.7
+Contagious,0,527.7,77,AFS,38.6,FMD,Antibiotics + Isolation,-6.8
+FMD,2,445.4,76,AFS,41.3,None,Antiviral + Quarantine,-24.0
+FMD,1,407.5,33,AFS,39.4,None,Antibiotics + Isolation,-16.3
+Healthy,0,439.9,17,AFS,38.6,Ringworm,No Treatment Required,0.0
+Healthy,0,362.6,62,AFS,38.6,None,No Treatment Required,0.0
+Dermatophilosis,1,531.2,25,AFS,39.4,None,Antibiotics + Isolation,-12.9
+Healthy,0,372.6,39,AFS,38.7,None,No Treatment Required,0.0
+Healthy,0,436.0,53,AFS,38.3,None,No Treatment Required,0.0
+Dermatophilosis,0,421.0,50,AFS,38.8,None,Topical Treatment + Monitoring,-5.9
+Healthy,0,524.9,45,AFS,38.7,Mastitis,No Treatment Required,0.0
+Dermatophilosis,1,416.6,95,AFS,39.3,None,Antibiotics + Isolation,-12.1
+Contagious,0,549.6,28,AFS,38.8,None,Antibiotics + Isolation,-9.6
+Dermatophilosis,0,457.1,75,AFS,38.9,Dermatophilosis,Topical Treatment + Monitoring,-5.3
+Lumpy Skin,1,385.9,81,AFS,39.0,None,Antibiotics + Isolation,-13.8
+Contagious,1,360.9,65,AFS,39.7,None,Antibiotics + Isolation,-12.8
+Healthy,0,454.1,54,AFS,38.7,Dermatophilosis,No Treatment Required,0.0
+Dermatophilosis,2,389.4,27,AFS,40.9,None,Antibiotics + Isolation,-16.3
+Lumpy Skin,0,414.6,85,AFS,39.0,None,Topical Treatment + Monitoring,-5.5
+FMD,1,407.8,31,AFS,39.7,None,Antibiotics + Isolation,-16.5
+Dermatophilosis,1,416.2,42,AFS,39.3,None,Antibiotics + Isolation,-11.6
+Mastitis,2,436.4,28,AFS,41.0,None,Antibiotics + Isolation,-21.6
+Lumpy Skin,1,405.0,86,AFS,39.5,None,Antibiotics + Isolation,-13.4
+FMD,2,396.8,34,AFS,41.0,None,Antiviral + Quarantine,-25.8
+Contagious,2,450.6,88,AFS,41.0,None,Antibiotics + Isolation,-22.7
+FMD,1,388.6,65,AFS,39.6,None,Antibiotics + Isolation,-13.9
+Contagious,0,457.1,21,AFS,38.5,Pediculosis,Antibiotics + Isolation,-9.6
+Contagious,0,452.0,52,AFS,39.0,Pediculosis,Antibiotics + Isolation,-8.5
+Dermatophilosis,1,372.3,53,AFS,39.6,None,Antibiotics + Isolation,-12.1
+Lumpy Skin,0,357.6,14,AFS,38.6,None,Topical Treatment + Monitoring,-6.1
+Contagious,2,425.4,32,AFS,39.9,None,Antibiotics + Isolation,-20.3
+Lumpy Skin,0,384.6,19,AFS,38.8,None,Topical Treatment + Monitoring,-6.6
+Mastitis,2,359.7,63,AFS,40.8,None,Antibiotics + Isolation,-21.8
+Contagious,0,406.4,59,AFS,38.8,None,Antibiotics + Isolation,-9.6
+Healthy,0,381.8,94,AFS,38.5,None,No Treatment Required,0.0
+Healthy,0,503.3,21,AFS,38.7,None,No Treatment Required,0.0
+Contagious,2,484.6,95,AFS,39.9,None,Antibiotics + Isolation,-20.5
+Mastitis,0,526.5,27,AFS,38.9,None,Anti-inflammatory + Rest,-6.2
+FMD,1,527.5,89,AFS,39.4,Contagious,Antibiotics + Isolation,-14.2
+FMD,1,413.8,41,AFS,39.8,None,Antibiotics + Isolation,-15.8
+Mastitis,1,530.6,56,AFS,39.5,None,Anti-inflammatory + Rest,-13.2
+Mastitis,1,478.5,55,AFS,39.3,Dermatophilosis,Anti-inflammatory + Rest,-10.7
+Mastitis,0,484.5,33,AFS,38.8,Pediculosis,Anti-inflammatory + Rest,-4.7
+Dermatophilosis,1,525.5,72,AFS,39.4,None,Antibiotics + Isolation,-13.9
+Healthy,0,510.4,76,AFS,38.4,None,No Treatment Required,0.0
+Mastitis,2,430.9,93,AFS,41.3,None,Antibiotics + Isolation,-19.5
+FMD,1,428.4,16,AFS,39.6,None,Antibiotics + Isolation,-15.5
+FMD,2,370.3,41,AFS,40.2,None,Antiviral + Quarantine,-23.8
+Pediculosis,1,491.8,27,AFS,39.2,None,Antiparasitic + Monitoring,-8.6
+Healthy,0,395.6,76,AFS,38.5,Mastitis,No Treatment Required,0.0
+Lumpy Skin,1,448.7,54,AFS,39.6,None,Antibiotics + Isolation,-17.0
+FMD,1,406.9,31,AFS,39.5,None,Antibiotics + Isolation,-13.5
+Mastitis,0,439.7,74,AFS,38.8,FMD,Anti-inflammatory + Rest,-6.4
+Ringworm,0,536.6,60,AFS,38.9,None,Topical Treatment + Monitoring,-3.2
+Lumpy Skin,1,536.0,34,AFS,39.2,None,Antibiotics + Isolation,-13.4
+Dermatophilosis,0,529.9,69,AFS,38.7,None,Topical Treatment + Monitoring,-5.9
+Ringworm,1,376.2,66,AFS,39.3,None,Topical Treatment + Monitoring,-9.0
+Dermatophilosis,0,423.0,34,AFS,38.8,None,Topical Treatment + Monitoring,-5.0
+Contagious,0,534.2,92,AFS,38.5,None,Antibiotics + Isolation,-8.4
+Lumpy Skin,1,479.6,35,AFS,39.5,None,Antibiotics + Isolation,-15.9
+Dermatophilosis,0,368.2,63,AFS,38.9,None,Topical Treatment + Monitoring,-6.8
+Dermatophilosis,1,517.1,93,AFS,39.5,None,Antibiotics + Isolation,-10.1
+Healthy,0,390.3,55,AFS,38.8,None,No Treatment Required,0.0
+Pediculosis,0,355.6,21,AFS,38.8,Ringworm,Antiparasitic + Monitoring,-3.1
+Lumpy Skin,2,431.6,90,AFS,40.1,FMD,Antiviral + Quarantine,-23.8
+Pediculosis,0,488.5,34,AFS,39.0,None,Antiparasitic + Monitoring,-3.9
+Ringworm,1,366.5,44,AFS,39.1,None,Topical Treatment + Monitoring,-8.7
+FMD,1,532.3,83,AFS,39.5,None,Antibiotics + Isolation,-15.1
+Dermatophilosis,2,389.5,42,AFS,40.9,None,Antibiotics + Isolation,-16.2
+Contagious,1,464.3,45,AFS,39.7,Dermatophilosis,Antibiotics + Isolation,-13.0
+Mastitis,1,365.4,43,AFS,39.6,None,Anti-inflammatory + Rest,-10.2
+Mastitis,2,466.9,30,AFS,40.7,None,Antibiotics + Isolation,-20.7
+Lumpy Skin,1,364.0,93,AFS,39.5,Contagious,Antibiotics + Isolation,-14.2
+FMD,1,376.4,89,AFS,39.2,None,Antibiotics + Isolation,-15.1
+Healthy,0,419.3,32,AFS,38.7,None,No Treatment Required,0.0
+Dermatophilosis,2,480.5,93,AFS,40.2,None,Antibiotics + Isolation,-19.1
+Healthy,0,376.9,79,AFS,38.4,Pediculosis,No Treatment Required,0.0
+Pediculosis,0,379.0,81,AFS,38.8,None,Antiparasitic + Monitoring,-4.1
+Mastitis,1,512.0,14,AFS,39.4,None,Anti-inflammatory + Rest,-10.9
+Ringworm,0,496.9,58,AFS,38.6,None,Topical Treatment + Monitoring,-4.5
+Contagious,0,448.1,82,AFS,38.9,None,Antibiotics + Isolation,-6.2
+Dermatophilosis,0,403.4,51,AFS,38.9,FMD,Topical Treatment + Monitoring,-6.6
+Lumpy Skin,1,537.5,58,AFS,39.8,None,Antibiotics + Isolation,-16.5
+Lumpy Skin,2,401.0,84,AFS,40.7,None,Antiviral + Quarantine,-23.6
+FMD,0,438.5,21,AFS,38.8,None,Supportive Care Only,-5.1
+FMD,1,382.9,26,AFS,39.8,FMD,Antibiotics + Isolation,-16.9
+Healthy,0,456.4,38,AFS,38.7,None,No Treatment Required,0.0
+Pediculosis,2,382.6,15,AFS,41.3,Pediculosis,Antiparasitic + Monitoring,-12.9
+Mastitis,1,429.0,92,AFS,39.0,None,Anti-inflammatory + Rest,-11.1
+Lumpy Skin,1,415.2,12,AFS,39.5,None,Antibiotics + Isolation,-13.8
+Mastitis,0,359.7,89,AFS,38.7,Mastitis,Anti-inflammatory + Rest,-7.5
+Ringworm,1,354.7,59,AFS,39.1,Contagious,Topical Treatment + Monitoring,-8.3
+Lumpy Skin,1,471.2,49,AFS,39.0,None,Antibiotics + Isolation,-13.5
+Lumpy Skin,0,450.8,60,AFS,39.0,Pediculosis,Topical Treatment + Monitoring,-4.8
+Healthy,0,494.5,17,AFS,38.4,None,No Treatment Required,0.0
+Ringworm,1,529.2,30,AFS,39.4,None,Topical Treatment + Monitoring,-7.4
+Ringworm,1,408.6,72,AFS,39.7,None,Topical Treatment + Monitoring,-6.3
+FMD,1,446.0,92,AFS,39.0,Ringworm,Antibiotics + Isolation,-14.9
+Ringworm,0,351.1,35,AFS,39.0,None,Topical Treatment + Monitoring,-2.4
+Contagious,0,523.5,87,AFS,38.8,None,Antibiotics + Isolation,-7.2
+Mastitis,2,498.6,72,AFS,41.1,None,Antibiotics + Isolation,-19.7
+Ringworm,1,387.7,64,AFS,39.1,Ringworm,Topical Treatment + Monitoring,-6.9
+Healthy,0,403.7,42,AFS,38.4,None,No Treatment Required,0.0
+Mastitis,1,447.9,86,AFS,39.2,None,Anti-inflammatory + Rest,-12.1
+FMD,1,461.3,57,AFS,39.0,None,Antibiotics + Isolation,-14.8
+Dermatophilosis,0,485.8,92,AFS,39.0,None,Topical Treatment + Monitoring,-3.5
+Ringworm,0,481.0,54,AFS,38.9,None,Topical Treatment + Monitoring,-3.5
+Lumpy Skin,2,452.9,91,AFS,41.3,Contagious,Antiviral + Quarantine,-22.5
+FMD,1,409.7,92,AFS,39.1,None,Antibiotics + Isolation,-15.4
+FMD,1,486.8,65,AFS,39.1,Ringworm,Antibiotics + Isolation,-14.8
+Dermatophilosis,1,406.6,89,AFS,39.8,None,Antibiotics + Isolation,-12.3
+Ringworm,0,386.6,58,AFS,38.8,Dermatophilosis,Topical Treatment + Monitoring,-1.7
+Contagious,2,487.2,60,AFS,40.3,None,Antibiotics + Isolation,-23.4
+Mastitis,1,422.7,70,AFS,39.5,Ringworm,Anti-inflammatory + Rest,-13.3
+Contagious,0,436.8,56,AFS,38.6,Lumpy Skin,Antibiotics + Isolation,-8.1
+Dermatophilosis,2,409.8,55,AFS,40.0,None,Antibiotics + Isolation,-18.2
+Healthy,0,428.1,64,AFS,38.4,None,No Treatment Required,0.0
+Pediculosis,0,411.9,58,AFS,38.9,Dermatophilosis,Antiparasitic + Monitoring,-5.1
+Ringworm,0,392.1,12,AFS,38.9,None,Topical Treatment + Monitoring,-4.1
+Contagious,0,532.4,15,AFS,38.7,FMD,Antibiotics + Isolation,-6.2
+Ringworm,1,461.5,34,AFS,39.1,Lumpy Skin,Topical Treatment + Monitoring,-9.2
+Dermatophilosis,1,403.6,22,AFS,39.7,Ringworm,Antibiotics + Isolation,-11.6
+Contagious,2,414.1,57,AFS,40.6,None,Antibiotics + Isolation,-20.3
+Mastitis,2,461.5,23,AFS,40.9,None,Antibiotics + Isolation,-20.7
+Lumpy Skin,0,411.7,42,AFS,38.8,None,Topical Treatment + Monitoring,-5.0
+Dermatophilosis,0,458.8,88,AFS,38.7,None,Topical Treatment + Monitoring,-6.4
+Healthy,0,366.2,24,AFS,38.6,None,No Treatment Required,0.0
+Lumpy Skin,2,526.8,82,AFS,40.0,None,Antiviral + Quarantine,-23.7
+Mastitis,0,392.5,64,AFS,38.5,Mastitis,Anti-inflammatory + Rest,-7.1
+Ringworm,1,451.3,80,AFS,39.1,None,Topical Treatment + Monitoring,-7.8
+Dermatophilosis,1,400.7,44,AFS,39.7,Lumpy Skin,Antibiotics + Isolation,-10.0
+Pediculosis,2,503.9,93,AFS,41.2,None,Antiparasitic + Monitoring,-13.0
+Dermatophilosis,1,414.9,20,AFS,39.5,Ringworm,Antibiotics + Isolation,-10.3
+Lumpy Skin,1,467.1,35,AFS,39.7,None,Antibiotics + Isolation,-15.9
+Lumpy Skin,0,394.9,86,AFS,38.7,None,Topical Treatment + Monitoring,-6.9
+Ringworm,0,430.9,20,AFS,38.6,Mastitis,Topical Treatment + Monitoring,-1.9
+Healthy,0,547.8,81,AFS,38.5,None,No Treatment Required,0.0
+Healthy,0,515.9,14,AFS,38.4,None,No Treatment Required,0.0
+Ringworm,1,443.0,48,AFS,39.4,None,Topical Treatment + Monitoring,-8.0
+Mastitis,1,514.3,48,AFS,39.1,Dermatophilosis,Anti-inflammatory + Rest,-12.0
+Healthy,0,418.4,83,AFS,38.3,Lumpy Skin,No Treatment Required,0.0
+Mastitis,0,540.3,67,AFS,38.6,Dermatophilosis,Anti-inflammatory + Rest,-8.0
+Mastitis,0,536.5,54,AFS,39.0,Dermatophilosis,Anti-inflammatory + Rest,-5.3
+Lumpy Skin,1,485.2,38,AFS,39.4,Contagious,Antibiotics + Isolation,-15.3
+Dermatophilosis,2,471.7,87,AFS,40.1,Lumpy Skin,Antibiotics + Isolation,-17.1
+Dermatophilosis,2,527.4,65,AFS,40.2,None,Antibiotics + Isolation,-16.0
+Lumpy Skin,0,385.2,61,AFS,38.8,Pediculosis,Topical Treatment + Monitoring,-5.7
+Contagious,2,504.3,49,AFS,41.2,None,Antibiotics + Isolation,-22.8
+Ringworm,2,429.4,27,AFS,40.6,None,Antifungal + Topical Care,-9.0
+Ringworm,2,387.9,67,AFS,40.8,None,Antifungal + Topical Care,-9.2
+Contagious,1,424.6,20,AFS,39.4,Pediculosis,Antibiotics + Isolation,-13.0
+Healthy,0,358.2,67,AFS,38.5,Ringworm,No Treatment Required,0.0
+Mastitis,2,534.4,72,AFS,39.9,None,Antibiotics + Isolation,-20.2
+Ringworm,0,421.2,72,AFS,38.9,None,Topical Treatment + Monitoring,-4.5
+Contagious,0,468.4,61,AFS,38.6,None,Antibiotics + Isolation,-6.8
+FMD,2,388.0,88,AFS,41.0,None,Antiviral + Quarantine,-23.6
+Pediculosis,1,505.6,92,AFS,39.3,Contagious,Antiparasitic + Monitoring,-9.9
+Lumpy Skin,1,524.2,90,AFS,39.6,None,Antibiotics + Isolation,-15.7
+Ringworm,1,453.5,37,AFS,39.7,None,Topical Treatment + Monitoring,-8.8
+Contagious,0,537.5,82,AFS,38.8,None,Antibiotics + Isolation,-7.0
+Mastitis,1,499.4,71,AFS,39.2,Lumpy Skin,Anti-inflammatory + Rest,-13.7
+Contagious,0,526.5,54,AFS,39.0,Contagious,Antibiotics + Isolation,-8.3
+Dermatophilosis,2,402.9,88,AFS,41.5,FMD,Antibiotics + Isolation,-17.4
+Mastitis,1,509.2,94,AFS,39.4,FMD,Anti-inflammatory + Rest,-11.9
+Pediculosis,0,415.3,71,AFS,38.6,None,Antiparasitic + Monitoring,-5.8
+Pediculosis,0,534.5,72,AFS,39.0,None,Antiparasitic + Monitoring,-2.3
+Ringworm,0,463.4,77,AFS,38.6,None,Topical Treatment + Monitoring,-3.3
+Pediculosis,1,511.3,79,AFS,39.8,None,Antiparasitic + Monitoring,-8.6
+Pediculosis,1,532.9,70,AFS,39.6,None,Antiparasitic + Monitoring,-9.3
+Healthy,0,382.8,62,AFS,38.5,None,No Treatment Required,0.0
+Contagious,0,352.7,53,AFS,38.8,None,Antibiotics + Isolation,-7.2
+Contagious,2,453.9,53,AFS,41.1,None,Antibiotics + Isolation,-20.5
+Mastitis,1,352.9,59,AFS,39.1,None,Anti-inflammatory + Rest,-11.1
+Contagious,2,455.6,33,AFS,40.4,None,Antibiotics + Isolation,-21.1
+Mastitis,1,521.6,40,AFS,39.3,None,Anti-inflammatory + Rest,-13.9
+FMD,1,499.9,56,AFS,39.4,None,Antibiotics + Isolation,-16.9
+Contagious,1,407.4,18,AFS,39.4,None,Antibiotics + Isolation,-12.3
+Lumpy Skin,1,428.4,71,AFS,39.8,None,Antibiotics + Isolation,-13.3
+Contagious,0,537.4,66,AFS,38.8,None,Antibiotics + Isolation,-8.9
+Pediculosis,0,547.3,88,AFS,38.7,None,Antiparasitic + Monitoring,-2.0
+Healthy,0,520.9,55,AFS,38.7,None,No Treatment Required,0.0
+Pediculosis,0,370.7,67,AFS,38.7,None,Antiparasitic + Monitoring,-3.5
+Pediculosis,2,463.4,29,AFS,40.4,None,Antiparasitic + Monitoring,-11.1
+Lumpy Skin,2,535.9,22,AFS,40.4,None,Antiviral + Quarantine,-24.6
+Ringworm,0,512.7,49,AFS,38.8,Contagious,Topical Treatment + Monitoring,-4.2
+Mastitis,1,426.6,89,AFS,39.3,None,Anti-inflammatory + Rest,-11.1
+FMD,1,514.1,62,AFS,39.7,None,Antibiotics + Isolation,-13.3
+Contagious,0,489.6,26,AFS,38.9,None,Antibiotics + Isolation,-9.5
+Dermatophilosis,1,396.3,91,AFS,39.0,None,Antibiotics + Isolation,-12.4
+Healthy,0,544.6,85,AFS,38.5,Ringworm,No Treatment Required,0.0
+Contagious,0,517.8,18,AFS,39.0,Mastitis,Antibiotics + Isolation,-7.9
+Mastitis,0,437.1,33,AFS,38.8,None,Anti-inflammatory + Rest,-7.8
+FMD,0,452.5,42,AFS,38.7,Dermatophilosis,Supportive Care Only,-5.5
+Dermatophilosis,0,430.0,38,AFS,38.9,None,Topical Treatment + Monitoring,-5.0
+Healthy,0,529.3,20,AFS,38.5,None,No Treatment Required,0.0
+FMD,1,394.2,66,AFS,39.6,None,Antibiotics + Isolation,-16.8
+Lumpy Skin,0,509.2,58,AFS,38.9,Contagious,Topical Treatment + Monitoring,-4.1
+Pediculosis,0,350.5,84,AFS,38.8,None,Antiparasitic + Monitoring,-5.5
+Healthy,0,371.6,82,AFS,38.7,None,No Treatment Required,0.0
+Healthy,0,413.2,92,AFS,38.4,Mastitis,No Treatment Required,0.0
+FMD,1,369.0,95,AFS,39.7,FMD,Antibiotics + Isolation,-14.6
+Ringworm,0,439.0,30,AFS,38.8,None,Topical Treatment + Monitoring,-3.6
+Ringworm,0,462.7,65,AFS,39.0,None,Topical Treatment + Monitoring,-3.5
+Healthy,0,543.8,55,AFS,38.7,Pediculosis,No Treatment Required,0.0
+Lumpy Skin,0,384.3,37,AFS,38.8,None,Topical Treatment + Monitoring,-3.4
+Pediculosis,2,526.0,82,AFS,40.1,None,Antiparasitic + Monitoring,-10.5
+Lumpy Skin,0,546.4,55,AFS,38.5,None,Topical Treatment + Monitoring,-6.9
+Dermatophilosis,2,396.8,64,AFS,40.1,Pediculosis,Antibiotics + Isolation,-17.9
+Lumpy Skin,0,432.2,52,AFS,38.9,Dermatophilosis,Topical Treatment + Monitoring,-6.2
+Lumpy Skin,1,439.4,43,AFS,39.4,FMD,Antibiotics + Isolation,-13.9
+FMD,0,482.0,52,AFS,38.8,Pediculosis,Supportive Care Only,-4.6
+Dermatophilosis,0,404.6,91,AFS,38.6,None,Topical Treatment + Monitoring,-4.2
+Contagious,1,487.5,28,AFS,39.7,None,Antibiotics + Isolation,-14.5
+Ringworm,2,368.5,42,AFS,39.9,Lumpy Skin,Antifungal + Topical Care,-10.2
+Lumpy Skin,0,454.4,83,AFS,38.7,None,Topical Treatment + Monitoring,-5.2
+Lumpy Skin,0,400.0,43,AFS,38.9,None,Topical Treatment + Monitoring,-6.1
+Mastitis,0,352.1,83,AFS,38.9,None,Anti-inflammatory + Rest,-5.6
+FMD,0,371.9,74,AFS,38.9,FMD,Supportive Care Only,-5.9
+Mastitis,0,544.6,28,AFS,38.7,Pediculosis,Anti-inflammatory + Rest,-4.4
+FMD,1,370.2,58,AFS,39.2,None,Antibiotics + Isolation,-14.2
+Mastitis,0,385.1,43,AFS,39.0,Contagious,Anti-inflammatory + Rest,-4.9
+FMD,0,396.9,50,AFS,38.8,None,Supportive Care Only,-3.2
+FMD,2,380.6,77,AFS,40.6,None,Antiviral + Quarantine,-25.2
+Dermatophilosis,0,376.0,44,AFS,38.9,Contagious,Topical Treatment + Monitoring,-3.7
+Mastitis,1,496.1,21,AFS,39.3,None,Anti-inflammatory + Rest,-12.7
+Contagious,1,497.8,84,AFS,39.5,Contagious,Antibiotics + Isolation,-12.2
+Pediculosis,2,395.9,33,AFS,40.4,None,Antiparasitic + Monitoring,-11.8
+Dermatophilosis,1,531.1,63,AFS,39.3,Dermatophilosis,Antibiotics + Isolation,-13.5
+Healthy,0,513.2,87,AFS,38.5,None,No Treatment Required,0.0
+Healthy,0,532.1,21,AFS,38.4,None,No Treatment Required,0.0
+Dermatophilosis,1,487.0,27,AFS,39.6,None,Antibiotics + Isolation,-12.1
+Healthy,0,406.1,50,AFS,38.5,Lumpy Skin,No Treatment Required,0.0
+Mastitis,1,408.0,22,AFS,39.8,None,Anti-inflammatory + Rest,-12.6
+Mastitis,0,536.7,72,AFS,38.5,None,Anti-inflammatory + Rest,-5.7
+Mastitis,2,424.7,16,AFS,40.3,None,Antibiotics + Isolation,-19.2
+FMD,0,374.1,72,AFS,38.8,None,Supportive Care Only,-3.2
+Dermatophilosis,0,411.1,70,AFS,38.7,None,Topical Treatment + Monitoring,-4.9
+Lumpy Skin,0,529.1,43,AFS,38.9,None,Topical Treatment + Monitoring,-4.2
+Healthy,0,375.2,27,AFS,38.6,None,No Treatment Required,0.0
+Contagious,1,446.2,58,AFS,39.1,None,Antibiotics + Isolation,-12.8
+Mastitis,1,389.0,79,AFS,39.5,None,Anti-inflammatory + Rest,-13.0
+Pediculosis,1,407.6,19,AFS,39.2,None,Antiparasitic + Monitoring,-9.8
+Pediculosis,0,380.6,94,AFS,38.6,None,Antiparasitic + Monitoring,-2.0
+Ringworm,0,537.2,21,AFS,38.5,None,Topical Treatment + Monitoring,-2.2
+Dermatophilosis,0,425.6,91,AFS,38.9,None,Topical Treatment + Monitoring,-4.2
+Ringworm,0,388.3,46,AFS,39.0,None,Topical Treatment + Monitoring,-3.4
+Dermatophilosis,0,375.4,74,AFS,38.7,Mastitis,Topical Treatment + Monitoring,-3.8
+Pediculosis,1,353.2,23,AFS,39.3,None,Antiparasitic + Monitoring,-7.7
+Dermatophilosis,2,495.3,72,AFS,41.3,None,Antibiotics + Isolation,-19.6
+FMD,0,383.7,36,AFS,38.7,None,Supportive Care Only,-4.6
+Mastitis,0,412.7,82,AFS,38.9,None,Anti-inflammatory + Rest,-7.6
+Ringworm,0,531.8,73,AFS,38.8,None,Topical Treatment + Monitoring,-2.2
+Dermatophilosis,1,496.1,73,AFS,39.3,Contagious,Antibiotics + Isolation,-13.1
+Lumpy Skin,0,428.2,39,AFS,39.0,None,Topical Treatment + Monitoring,-4.5
+Contagious,2,370.7,28,AFS,41.5,None,Antibiotics + Isolation,-20.8
+Ringworm,1,445.2,23,AFS,39.0,Lumpy Skin,Topical Treatment + Monitoring,-9.9
+Pediculosis,1,446.0,82,AFS,39.1,Lumpy Skin,Antiparasitic + Monitoring,-8.0
+Lumpy Skin,1,454.1,59,AFS,39.1,None,Antibiotics + Isolation,-16.4
+Lumpy Skin,0,417.1,20,AFS,38.5,Dermatophilosis,Topical Treatment + Monitoring,-3.8
+FMD,2,438.3,53,AFS,39.9,None,Antiviral + Quarantine,-23.1
+Dermatophilosis,1,368.7,48,AFS,39.6,Lumpy Skin,Antibiotics + Isolation,-11.5
+Ringworm,1,391.6,56,AFS,39.6,None,Topical Treatment + Monitoring,-7.2
+Pediculosis,0,467.2,33,AFS,38.6,None,Antiparasitic + Monitoring,-4.3
+FMD,1,547.2,37,AFS,39.0,None,Antibiotics + Isolation,-15.4
+Pediculosis,0,365.7,69,AFS,38.9,None,Antiparasitic + Monitoring,-5.5
+Mastitis,0,458.7,48,AFS,38.5,Lumpy Skin,Anti-inflammatory + Rest,-7.5
+Healthy,0,461.7,51,AFS,38.5,Dermatophilosis,No Treatment Required,0.0
+Mastitis,1,375.3,53,AFS,39.6,None,Anti-inflammatory + Rest,-10.2
+FMD,0,471.6,59,AFS,38.8,None,Supportive Care Only,-5.1
+Lumpy Skin,2,359.0,17,AFS,39.9,None,Antiviral + Quarantine,-22.4
+Mastitis,2,516.8,85,AFS,40.7,None,Antibiotics + Isolation,-20.7
+FMD,2,444.1,70,AFS,40.1,Lumpy Skin,Antiviral + Quarantine,-26.5
+Healthy,0,352.1,48,AFS,38.6,FMD,No Treatment Required,0.0
+Mastitis,2,522.6,82,AFS,40.0,None,Antibiotics + Isolation,-20.3
+Mastitis,1,457.6,41,AFS,39.2,None,Anti-inflammatory + Rest,-12.0
+Pediculosis,1,453.0,56,AFS,39.5,None,Antiparasitic + Monitoring,-6.7
+Pediculosis,1,545.1,75,AFS,39.2,None,Antiparasitic + Monitoring,-6.2
+Lumpy Skin,0,541.8,20,AFS,38.5,None,Topical Treatment + Monitoring,-5.6
+Lumpy Skin,2,541.4,64,AFS,40.3,Lumpy Skin,Antiviral + Quarantine,-21.6
+Mastitis,1,391.9,18,AFS,39.3,None,Anti-inflammatory + Rest,-14.0
+FMD,1,546.1,58,AFS,39.6,FMD,Antibiotics + Isolation,-13.2
+Pediculosis,1,464.1,91,AFS,39.6,None,Antiparasitic + Monitoring,-8.1
+Healthy,0,395.6,81,AFS,38.4,None,No Treatment Required,0.0
+FMD,1,350.3,91,AFS,39.1,None,Antibiotics + Isolation,-14.6
+Ringworm,0,449.4,39,AFS,38.6,None,Topical Treatment + Monitoring,-4.9
+FMD,1,364.4,38,AFS,39.2,Contagious,Antibiotics + Isolation,-15.3
+Lumpy Skin,1,402.3,25,AFS,39.7,None,Antibiotics + Isolation,-13.9
+Pediculosis,2,477.2,66,AFS,41.4,Pediculosis,Antiparasitic + Monitoring,-11.0
+Dermatophilosis,0,541.4,19,AFS,38.9,Contagious,Topical Treatment + Monitoring,-4.0
+Mastitis,2,549.1,64,AFS,40.5,None,Antibiotics + Isolation,-20.8
+Mastitis,0,354.5,27,AFS,38.7,None,Anti-inflammatory + Rest,-4.5
+Lumpy Skin,1,454.5,58,AFS,39.3,None,Antibiotics + Isolation,-16.6
+Ringworm,2,494.1,55,AFS,40.0,FMD,Antifungal + Topical Care,-11.9
+Dermatophilosis,0,512.1,92,AFS,38.7,Pediculosis,Topical Treatment + Monitoring,-6.3
+Healthy,0,416.6,32,AFS,38.4,None,No Treatment Required,0.0
+FMD,1,411.9,65,AFS,39.7,Contagious,Antibiotics + Isolation,-14.2
+Mastitis,0,469.2,33,AFS,39.0,Pediculosis,Anti-inflammatory + Rest,-4.5
+FMD,1,487.6,80,AFS,39.1,None,Antibiotics + Isolation,-15.1
+FMD,1,519.2,62,AFS,39.4,FMD,Antibiotics + Isolation,-14.4
+Pediculosis,1,354.5,84,AFS,39.4,None,Antiparasitic + Monitoring,-7.5
+Contagious,2,353.6,60,AFS,40.5,None,Antibiotics + Isolation,-23.4
+Healthy,0,377.3,79,AFS,38.8,Dermatophilosis,No Treatment Required,0.0
+Contagious,1,484.8,41,AFS,39.7,None,Antibiotics + Isolation,-14.7
+Ringworm,2,424.7,23,AFS,40.0,Ringworm,Antifungal + Topical Care,-8.2
+FMD,1,432.6,25,AFS,39.8,None,Antibiotics + Isolation,-15.6
+Healthy,0,504.4,64,AFS,38.5,Ringworm,No Treatment Required,0.0
+Contagious,2,447.1,18,AFS,39.9,None,Antibiotics + Isolation,-22.7
+Pediculosis,0,428.6,15,AFS,38.6,None,Antiparasitic + Monitoring,-2.0
+Mastitis,1,384.6,80,AFS,39.2,None,Anti-inflammatory + Rest,-13.4
+FMD,2,394.3,60,AFS,41.2,None,Antiviral + Quarantine,-23.9
+Contagious,1,484.1,94,AFS,39.1,Dermatophilosis,Antibiotics + Isolation,-13.6
+Lumpy Skin,1,458.6,48,AFS,39.1,None,Antibiotics + Isolation,-15.4
+Pediculosis,1,492.8,34,AFS,39.7,Mastitis,Antiparasitic + Monitoring,-8.0
+Mastitis,1,400.0,85,AFS,39.7,None,Anti-inflammatory + Rest,-10.4
+Contagious,1,530.6,89,AFS,39.8,Ringworm,Antibiotics + Isolation,-15.6
+Pediculosis,1,370.4,71,AFS,39.1,None,Antiparasitic + Monitoring,-6.6
+Healthy,0,516.8,71,AFS,38.4,None,No Treatment Required,0.0
+Mastitis,1,394.3,44,AFS,39.4,Ringworm,Anti-inflammatory + Rest,-10.8
+Ringworm,2,441.4,26,AFS,41.3,None,Antifungal + Topical Care,-10.5
+Ringworm,0,403.0,68,AFS,38.7,None,Topical Treatment + Monitoring,-1.3
+Contagious,1,392.7,22,AFS,39.6,Ringworm,Antibiotics + Isolation,-14.0
+Dermatophilosis,0,439.8,75,AFS,38.9,None,Topical Treatment + Monitoring,-3.2
+Dermatophilosis,1,432.4,70,AFS,39.7,Pediculosis,Antibiotics + Isolation,-10.2
+FMD,1,385.5,34,AFS,39.0,None,Antibiotics + Isolation,-16.1
+Pediculosis,1,392.8,18,AFS,39.1,None,Antiparasitic + Monitoring,-7.6
+Contagious,1,378.8,31,AFS,39.8,Ringworm,Antibiotics + Isolation,-12.5
+Contagious,0,467.1,15,AFS,38.8,None,Antibiotics + Isolation,-7.6
+Contagious,1,481.7,23,AFS,39.0,None,Antibiotics + Isolation,-16.0
+Dermatophilosis,2,467.9,95,AFS,40.5,None,Antibiotics + Isolation,-18.6
+Mastitis,0,397.5,48,AFS,39.0,Mastitis,Anti-inflammatory + Rest,-5.3
+FMD,1,511.2,71,AFS,39.6,Lumpy Skin,Antibiotics + Isolation,-14.0
+FMD,2,455.1,48,AFS,41.3,Lumpy Skin,Antiviral + Quarantine,-24.3
+Dermatophilosis,0,427.7,87,AFS,38.9,None,Topical Treatment + Monitoring,-4.3
+Ringworm,0,406.8,24,AFS,38.6,Lumpy Skin,Topical Treatment + Monitoring,-3.0
+Healthy,0,427.2,82,AFS,38.5,None,No Treatment Required,0.0
+FMD,0,468.2,46,AFS,38.7,None,Supportive Care Only,-6.8
+FMD,0,473.5,47,AFS,38.6,None,Supportive Care Only,-6.6
+Dermatophilosis,1,389.4,92,AFS,39.1,Ringworm,Antibiotics + Isolation,-10.6
+Healthy,0,427.0,74,AFS,38.4,None,No Treatment Required,0.0
+Pediculosis,0,511.2,42,AFS,38.9,None,Antiparasitic + Monitoring,-2.8
+Contagious,0,402.2,20,AFS,38.6,None,Antibiotics + Isolation,-8.9
+Mastitis,0,457.1,17,AFS,38.6,Ringworm,Anti-inflammatory + Rest,-7.1
+Ringworm,1,420.2,63,AFS,39.3,None,Topical Treatment + Monitoring,-8.3
+Pediculosis,1,449.2,46,AFS,39.1,None,Antiparasitic + Monitoring,-8.6
+Ringworm,0,378.1,63,AFS,38.7,None,Topical Treatment + Monitoring,-3.0
+Dermatophilosis,0,445.3,94,AFS,38.7,None,Topical Treatment + Monitoring,-6.4
+Mastitis,1,518.3,25,AFS,39.6,None,Anti-inflammatory + Rest,-13.5
+Lumpy Skin,1,367.4,89,AFS,39.3,Contagious,Antibiotics + Isolation,-14.2
+Lumpy Skin,1,412.8,78,AFS,39.2,None,Antibiotics + Isolation,-15.8
+Ringworm,0,525.7,85,AFS,38.7,None,Topical Treatment + Monitoring,-2.9
+Ringworm,0,418.6,87,AFS,38.8,None,Topical Treatment + Monitoring,-1.9
+Lumpy Skin,0,450.6,41,AFS,38.9,None,Topical Treatment + Monitoring,-5.8
+Healthy,0,398.4,36,AFS,38.3,None,No Treatment Required,0.0
+Lumpy Skin,2,481.4,43,AFS,39.9,Pediculosis,Antiviral + Quarantine,-23.1
+Pediculosis,0,534.1,89,AFS,38.6,None,Antiparasitic + Monitoring,-5.7
+Healthy,0,371.0,82,AFS,38.4,Lumpy Skin,No Treatment Required,0.0
+Mastitis,1,352.6,25,AFS,39.7,None,Anti-inflammatory + Rest,-12.2
+Lumpy Skin,0,533.4,88,AFS,38.6,None,Topical Treatment + Monitoring,-3.3
+Dermatophilosis,0,369.0,58,AFS,38.7,None,Topical Treatment + Monitoring,-4.7
+Dermatophilosis,2,532.8,90,AFS,41.2,Contagious,Antibiotics + Isolation,-17.1
+Healthy,0,435.8,15,AFS,38.3,None,No Treatment Required,0.0
+Dermatophilosis,0,519.8,20,AFS,38.8,None,Topical Treatment + Monitoring,-3.2
+Lumpy Skin,2,423.0,24,AFS,40.4,None,Antiviral + Quarantine,-23.5
+Ringworm,1,477.6,19,AFS,39.1,None,Topical Treatment + Monitoring,-8.3
+Pediculosis,1,524.5,92,AFS,39.4,Lumpy Skin,Antiparasitic + Monitoring,-8.2
+FMD,0,522.4,70,AFS,38.8,Lumpy Skin,Supportive Care Only,-6.4
+Contagious,0,468.5,34,AFS,38.7,None,Antibiotics + Isolation,-8.3
+Pediculosis,0,483.5,61,AFS,38.8,None,Antiparasitic + Monitoring,-2.4
+Ringworm,0,501.2,71,AFS,38.6,None,Topical Treatment + Monitoring,-1.8
+Lumpy Skin,2,506.3,24,AFS,40.2,None,Antiviral + Quarantine,-23.9
+Lumpy Skin,0,502.4,49,AFS,38.7,None,Topical Treatment + Monitoring,-4.4
+Lumpy Skin,0,418.2,26,AFS,38.8,None,Topical Treatment + Monitoring,-7.0
+Contagious,1,510.7,20,AFS,39.6,None,Antibiotics + Isolation,-15.7
+Contagious,1,471.5,65,AFS,39.1,None,Antibiotics + Isolation,-13.8
+Healthy,0,479.1,88,AFS,38.6,None,No Treatment Required,0.0
+FMD,1,504.7,85,AFS,39.4,None,Antibiotics + Isolation,-14.2
+Mastitis,2,487.6,28,AFS,40.6,None,Antibiotics + Isolation,-19.3
+Healthy,0,445.3,27,AFS,38.3,Ringworm,No Treatment Required,0.0
+Lumpy Skin,2,371.6,69,AFS,39.9,None,Antiviral + Quarantine,-24.0
+Contagious,1,476.0,28,AFS,39.4,None,Antibiotics + Isolation,-15.4
+Lumpy Skin,1,407.3,89,AFS,39.4,Contagious,Antibiotics + Isolation,-13.3
+Mastitis,0,370.8,34,AFS,38.8,FMD,Anti-inflammatory + Rest,-7.5
+Healthy,0,411.1,53,AFS,38.7,None,No Treatment Required,0.0
+Ringworm,0,549.4,82,AFS,38.7,Dermatophilosis,Topical Treatment + Monitoring,-3.5
+Contagious,0,454.1,61,AFS,38.6,Lumpy Skin,Antibiotics + Isolation,-7.1
+Dermatophilosis,2,377.7,32,AFS,41.5,None,Antibiotics + Isolation,-18.2
+FMD,1,453.5,37,AFS,39.4,Lumpy Skin,Antibiotics + Isolation,-14.8
+Dermatophilosis,2,549.4,26,AFS,41.4,Mastitis,Antibiotics + Isolation,-19.1
+Mastitis,0,466.2,26,AFS,38.9,FMD,Anti-inflammatory + Rest,-6.4
+Ringworm,0,514.9,24,AFS,39.0,None,Topical Treatment + Monitoring,-1.6
+Contagious,1,434.6,75,AFS,39.7,Dermatophilosis,Antibiotics + Isolation,-13.9
+Pediculosis,1,390.9,56,AFS,39.3,FMD,Antiparasitic + Monitoring,-8.7
+Lumpy Skin,1,520.8,71,AFS,39.2,None,Antibiotics + Isolation,-15.3
+Dermatophilosis,0,470.3,71,AFS,39.0,Lumpy Skin,Topical Treatment + Monitoring,-4.9
+Dermatophilosis,1,508.4,50,AFS,39.6,None,Antibiotics + Isolation,-12.8
+Contagious,1,436.6,71,AFS,39.8,None,Antibiotics + Isolation,-13.8
+FMD,0,474.8,73,AFS,38.7,None,Supportive Care Only,-4.8
+Pediculosis,2,443.6,50,AFS,41.3,None,Antiparasitic + Monitoring,-10.2
+Dermatophilosis,1,487.9,66,AFS,39.8,None,Antibiotics + Isolation,-11.0
+Pediculosis,1,400.5,39,AFS,39.4,Contagious,Antiparasitic + Monitoring,-8.7
+Lumpy Skin,0,537.8,85,AFS,38.6,Ringworm,Topical Treatment + Monitoring,-5.0
+Ringworm,1,434.0,73,AFS,39.3,None,Topical Treatment + Monitoring,-7.8
+Contagious,0,476.9,31,AFS,38.7,None,Antibiotics + Isolation,-9.5
+Dermatophilosis,0,413.7,48,AFS,38.8,None,Topical Treatment + Monitoring,-3.3
+Mastitis,0,542.0,53,AFS,38.9,None,Anti-inflammatory + Rest,-6.9
+Lumpy Skin,0,437.7,35,AFS,38.5,None,Topical Treatment + Monitoring,-5.9
+FMD,1,468.1,59,AFS,39.5,None,Antibiotics + Isolation,-15.3
+Pediculosis,0,386.2,67,AFS,38.9,Dermatophilosis,Antiparasitic + Monitoring,-3.1
+Lumpy Skin,0,546.8,58,AFS,38.7,None,Topical Treatment + Monitoring,-3.6
+Contagious,2,368.7,23,AFS,40.7,None,Antibiotics + Isolation,-22.0
+Dermatophilosis,2,438.6,25,AFS,41.3,None,Antibiotics + Isolation,-18.4
+Mastitis,1,487.4,30,AFS,39.3,None,Anti-inflammatory + Rest,-11.8
+Contagious,0,430.5,43,AFS,38.8,None,Antibiotics + Isolation,-8.2
+Mastitis,2,375.5,73,AFS,40.7,None,Antibiotics + Isolation,-20.8
+Healthy,0,529.9,30,AFS,38.6,None,No Treatment Required,0.0
+Ringworm,0,497.4,14,AFS,38.6,Pediculosis,Topical Treatment + Monitoring,-3.2
+Dermatophilosis,1,380.8,31,AFS,39.1,None,Antibiotics + Isolation,-11.2
+Ringworm,0,518.2,58,AFS,38.9,None,Topical Treatment + Monitoring,-1.3
+Healthy,0,387.8,48,AFS,38.4,None,No Treatment Required,0.0
+Ringworm,1,493.4,40,AFS,39.6,None,Topical Treatment + Monitoring,-9.0
+FMD,2,402.5,26,AFS,40.5,None,Antiviral + Quarantine,-26.3
+Contagious,0,409.3,16,AFS,39.0,None,Antibiotics + Isolation,-9.1
+Ringworm,1,482.7,66,AFS,39.1,Lumpy Skin,Topical Treatment + Monitoring,-6.1
+Ringworm,1,354.7,81,AFS,39.7,None,Topical Treatment + Monitoring,-6.7
+Mastitis,0,519.3,47,AFS,38.8,None,Anti-inflammatory + Rest,-6.1
+Pediculosis,0,452.4,57,AFS,38.7,None,Antiparasitic + Monitoring,-4.2
+Mastitis,2,525.1,78,AFS,41.4,None,Antibiotics + Isolation,-20.9
+Pediculosis,0,418.1,73,AFS,38.6,None,Antiparasitic + Monitoring,-3.1
+Contagious,0,403.7,48,AFS,38.7,Dermatophilosis,Antibiotics + Isolation,-8.5
+Healthy,0,470.4,67,AFS,38.7,Pediculosis,No Treatment Required,0.0
+Lumpy Skin,1,391.9,27,AFS,39.5,None,Antibiotics + Isolation,-16.3
+Contagious,2,518.7,61,AFS,40.4,Lumpy Skin,Antibiotics + Isolation,-21.2
+Ringworm,2,456.0,68,AFS,40.4,Dermatophilosis,Antifungal + Topical Care,-11.3
+Mastitis,0,442.2,15,AFS,38.8,Mastitis,Anti-inflammatory + Rest,-6.1
+FMD,0,549.7,12,AFS,38.7,None,Supportive Care Only,-5.4
+FMD,0,525.3,12,AFS,38.6,Dermatophilosis,Supportive Care Only,-4.9
+FMD,0,520.9,60,AFS,38.6,None,Supportive Care Only,-4.8
+Lumpy Skin,0,407.0,94,AFS,38.9,Lumpy Skin,Topical Treatment + Monitoring,-6.0
+Dermatophilosis,1,506.2,51,AFS,39.7,None,Antibiotics + Isolation,-10.9
+Pediculosis,0,489.1,93,AFS,38.5,None,Antiparasitic + Monitoring,-5.3
+Contagious,1,425.2,82,AFS,39.7,Pediculosis,Antibiotics + Isolation,-14.9
+Dermatophilosis,0,364.1,68,AFS,38.9,None,Topical Treatment + Monitoring,-7.0
+FMD,1,375.8,34,AFS,39.0,Contagious,Antibiotics + Isolation,-15.8
+Healthy,0,352.2,42,AFS,38.4,None,No Treatment Required,0.0
+Mastitis,0,360.9,87,AFS,38.6,Contagious,Anti-inflammatory + Rest,-5.0
+Dermatophilosis,0,529.3,24,AFS,38.8,None,Topical Treatment + Monitoring,-4.9
+Lumpy Skin,0,392.6,43,AFS,38.7,Pediculosis,Topical Treatment + Monitoring,-3.9
+FMD,1,461.7,31,AFS,39.7,Lumpy Skin,Antibiotics + Isolation,-16.2
+Contagious,1,549.9,56,AFS,39.5,Contagious,Antibiotics + Isolation,-15.3
+Mastitis,1,384.2,45,AFS,39.6,None,Anti-inflammatory + Rest,-10.1
+Lumpy Skin,0,544.1,37,AFS,38.6,None,Topical Treatment + Monitoring,-3.8
+Ringworm,1,379.3,71,AFS,39.1,Contagious,Topical Treatment + Monitoring,-6.7
+FMD,1,418.3,32,AFS,39.4,None,Antibiotics + Isolation,-15.2
+Contagious,2,535.2,15,AFS,40.3,Lumpy Skin,Antibiotics + Isolation,-22.7
+Lumpy Skin,1,526.8,71,AFS,39.7,Lumpy Skin,Antibiotics + Isolation,-13.1
+FMD,0,424.7,58,AFS,38.8,None,Supportive Care Only,-7.0
+Ringworm,2,474.8,92,AFS,39.8,None,Antifungal + Topical Care,-10.0
+Healthy,0,450.3,80,AFS,38.4,Lumpy Skin,No Treatment Required,0.0
+Mastitis,1,449.1,13,AFS,39.1,None,Anti-inflammatory + Rest,-11.5
+FMD,1,461.4,23,AFS,39.4,Ringworm,Antibiotics + Isolation,-16.3
+Mastitis,1,407.6,55,AFS,39.4,None,Anti-inflammatory + Rest,-13.7
+Pediculosis,2,393.7,95,AFS,40.6,Dermatophilosis,Antiparasitic + Monitoring,-11.9
+Mastitis,0,448.1,58,AFS,39.0,Contagious,Anti-inflammatory + Rest,-7.7
+Healthy,0,442.9,55,AFS,38.3,Ringworm,No Treatment Required,0.0
+Contagious,1,542.8,63,AFS,39.3,Lumpy Skin,Antibiotics + Isolation,-14.3
+FMD,1,484.1,20,AFS,39.0,None,Antibiotics + Isolation,-16.3
+Ringworm,0,507.3,93,AFS,38.5,None,Topical Treatment + Monitoring,-3.3
+Dermatophilosis,1,540.9,58,AFS,39.6,None,Antibiotics + Isolation,-12.8
+Mastitis,1,515.3,53,AFS,39.2,None,Anti-inflammatory + Rest,-10.9
+Dermatophilosis,2,364.5,42,AFS,40.2,Contagious,Antibiotics + Isolation,-17.2
+Dermatophilosis,1,528.2,51,AFS,39.4,None,Antibiotics + Isolation,-10.5
+Pediculosis,0,360.3,27,AFS,38.7,Dermatophilosis,Antiparasitic + Monitoring,-5.4
+Mastitis,0,394.2,91,AFS,38.8,None,Anti-inflammatory + Rest,-7.5
+Dermatophilosis,1,363.7,38,AFS,39.3,None,Antibiotics + Isolation,-10.8
+Dermatophilosis,1,394.9,29,AFS,39.3,None,Antibiotics + Isolation,-12.5
+Dermatophilosis,0,361.0,24,AFS,39.0,None,Topical Treatment + Monitoring,-3.8
+Mastitis,0,480.7,16,AFS,38.9,None,Anti-inflammatory + Rest,-7.0
+Pediculosis,1,489.9,39,AFS,39.4,Ringworm,Antiparasitic + Monitoring,-6.6
+Lumpy Skin,1,537.7,35,AFS,39.2,None,Antibiotics + Isolation,-16.7
+Ringworm,2,427.4,43,AFS,40.4,None,Antifungal + Topical Care,-8.5
+FMD,2,541.3,75,AFS,41.0,None,Antiviral + Quarantine,-24.3
+Pediculosis,0,510.2,49,AFS,38.5,None,Antiparasitic + Monitoring,-5.9
+Ringworm,0,483.6,77,AFS,38.6,None,Topical Treatment + Monitoring,-2.3
+Ringworm,2,547.4,64,AFS,40.7,None,Antifungal + Topical Care,-8.2
+Ringworm,0,453.9,58,AFS,39.0,None,Topical Treatment + Monitoring,-2.4
+Dermatophilosis,0,430.1,47,AFS,38.6,None,Topical Treatment + Monitoring,-5.8
+Mastitis,0,432.4,44,AFS,38.9,FMD,Anti-inflammatory + Rest,-6.2
+Lumpy Skin,1,479.9,32,AFS,39.3,None,Antibiotics + Isolation,-14.9
+FMD,1,415.8,34,AFS,39.6,None,Antibiotics + Isolation,-13.3
+Healthy,0,460.8,93,AFS,38.5,None,No Treatment Required,0.0
+Contagious,2,543.4,25,AFS,40.9,None,Antibiotics + Isolation,-20.9
+Dermatophilosis,1,396.2,47,AFS,39.1,None,Antibiotics + Isolation,-13.2
+Pediculosis,0,493.1,22,AFS,39.0,None,Antiparasitic + Monitoring,-2.1
+Healthy,0,440.2,21,AFS,38.5,None,No Treatment Required,0.0
+Mastitis,2,401.6,69,AFS,40.6,None,Antibiotics + Isolation,-21.1
+Healthy,0,364.7,36,AFS,38.7,FMD,No Treatment Required,0.0
+Lumpy Skin,1,505.8,83,AFS,39.1,Ringworm,Antibiotics + Isolation,-13.7
+Contagious,1,376.2,23,AFS,39.2,Lumpy Skin,Antibiotics + Isolation,-14.7
+Lumpy Skin,1,470.9,54,AFS,39.0,None,Antibiotics + Isolation,-14.4
+Ringworm,1,441.5,91,AFS,39.5,None,Topical Treatment + Monitoring,-7.3
+Pediculosis,0,536.6,48,AFS,38.8,None,Antiparasitic + Monitoring,-2.9
+FMD,0,403.9,85,AFS,38.5,None,Supportive Care Only,-4.4
+Lumpy Skin,2,379.4,23,AFS,40.9,Dermatophilosis,Antiviral + Quarantine,-23.6
+Ringworm,1,502.2,31,AFS,39.2,None,Topical Treatment + Monitoring,-6.7
+Dermatophilosis,0,434.3,30,AFS,38.8,None,Topical Treatment + Monitoring,-6.0
+Healthy,0,429.8,92,AFS,38.8,None,No Treatment Required,0.0
+Healthy,0,537.6,61,AFS,38.7,None,No Treatment Required,0.0
+FMD,0,350.2,20,AFS,38.9,None,Supportive Care Only,-6.8
+Contagious,1,464.6,12,AFS,39.7,None,Antibiotics + Isolation,-15.5
+Contagious,1,390.0,15,AFS,39.4,None,Antibiotics + Isolation,-14.3
+FMD,1,475.0,79,AFS,39.0,None,Antibiotics + Isolation,-14.4
+Dermatophilosis,0,505.5,48,AFS,38.8,None,Topical Treatment + Monitoring,-5.2
+Healthy,0,404.9,90,AFS,38.6,FMD,No Treatment Required,0.0
+Mastitis,1,548.9,40,AFS,39.6,None,Anti-inflammatory + Rest,-11.9
+Ringworm,0,352.4,90,AFS,38.9,None,Topical Treatment + Monitoring,-1.0
+Lumpy Skin,0,381.1,27,AFS,38.6,Dermatophilosis,Topical Treatment + Monitoring,-3.8
+FMD,1,431.7,74,AFS,39.1,None,Antibiotics + Isolation,-13.6
+Ringworm,1,351.4,82,AFS,39.7,None,Topical Treatment + Monitoring,-7.1
+Mastitis,2,446.3,25,AFS,40.6,None,Antibiotics + Isolation,-21.4
+Lumpy Skin,2,454.3,17,AFS,41.2,Contagious,Antiviral + Quarantine,-25.0
+Mastitis,0,356.9,24,AFS,38.6,None,Anti-inflammatory + Rest,-5.9
+FMD,1,384.4,88,AFS,39.4,None,Antibiotics + Isolation,-13.9
+Ringworm,1,434.6,45,AFS,39.5,Ringworm,Topical Treatment + Monitoring,-9.1
+FMD,1,528.3,50,AFS,39.1,None,Antibiotics + Isolation,-14.1
+Mastitis,2,510.3,93,AFS,41.0,None,Antibiotics + Isolation,-19.1
+Contagious,0,522.4,47,AFS,38.7,None,Antibiotics + Isolation,-8.4
+Dermatophilosis,2,428.3,68,AFS,39.8,None,Antibiotics + Isolation,-19.9
+Ringworm,0,375.5,83,AFS,38.8,None,Topical Treatment + Monitoring,-1.2
+Mastitis,2,423.4,26,AFS,40.5,None,Antibiotics + Isolation,-18.5
+Ringworm,1,477.4,27,AFS,39.4,Ringworm,Topical Treatment + Monitoring,-6.7
+Pediculosis,0,463.6,93,AFS,38.5,None,Antiparasitic + Monitoring,-5.6
+Mastitis,1,366.5,56,AFS,39.5,None,Anti-inflammatory + Rest,-13.7
+Ringworm,1,407.9,90,AFS,39.3,None,Topical Treatment + Monitoring,-6.3
+Dermatophilosis,1,452.5,37,AFS,39.4,None,Antibiotics + Isolation,-10.8
+Ringworm,0,498.4,72,AFS,38.9,FMD,Topical Treatment + Monitoring,-1.1
+Dermatophilosis,1,446.9,77,AFS,39.0,None,Antibiotics + Isolation,-11.0
+Dermatophilosis,0,499.9,80,AFS,38.7,None,Topical Treatment + Monitoring,-3.7
+Pediculosis,0,438.7,31,AFS,38.7,None,Antiparasitic + Monitoring,-4.4
+Pediculosis,1,420.8,95,AFS,39.5,None,Antiparasitic + Monitoring,-6.2
+Mastitis,1,415.0,58,AFS,39.0,Lumpy Skin,Anti-inflammatory + Rest,-12.2
+Mastitis,2,447.0,81,AFS,40.0,Mastitis,Antibiotics + Isolation,-18.4
+Dermatophilosis,1,400.0,50,AFS,39.3,None,Antibiotics + Isolation,-13.3
+Mastitis,1,536.7,84,AFS,39.8,None,Anti-inflammatory + Rest,-13.8
+Contagious,2,495.8,83,AFS,40.6,None,Antibiotics + Isolation,-21.5
+Ringworm,0,398.0,32,AFS,39.0,None,Topical Treatment + Monitoring,-2.0
+Pediculosis,2,351.6,45,AFS,39.9,Dermatophilosis,Antiparasitic + Monitoring,-12.9
+Healthy,0,480.8,33,AFS,38.4,None,No Treatment Required,0.0
+FMD,2,529.0,37,AFS,40.4,Mastitis,Antiviral + Quarantine,-25.8
+Mastitis,2,453.8,92,AFS,40.0,None,Antibiotics + Isolation,-19.8
+Ringworm,1,373.3,46,AFS,39.0,None,Topical Treatment + Monitoring,-6.4
+Lumpy Skin,1,530.8,31,AFS,39.4,None,Antibiotics + Isolation,-15.2
+Ringworm,2,533.0,16,AFS,40.2,None,Antifungal + Topical Care,-9.7
+Ringworm,1,440.6,27,AFS,39.5,FMD,Topical Treatment + Monitoring,-8.0
+Pediculosis,2,548.1,65,AFS,39.9,None,Antiparasitic + Monitoring,-13.5
+Pediculosis,0,438.4,14,AFS,38.6,Pediculosis,Antiparasitic + Monitoring,-5.9
+Healthy,0,481.2,26,AFS,38.7,None,No Treatment Required,0.0
+Mastitis,1,433.3,73,AFS,39.2,None,Anti-inflammatory + Rest,-13.4
+Healthy,0,447.4,38,AFS,38.7,None,No Treatment Required,0.0
+Dermatophilosis,0,410.5,92,AFS,38.8,None,Topical Treatment + Monitoring,-5.0
+Pediculosis,0,490.6,63,AFS,38.8,Contagious,Antiparasitic + Monitoring,-3.5
+Mastitis,0,357.1,26,AFS,38.7,None,Anti-inflammatory + Rest,-7.3
+Dermatophilosis,1,533.2,32,AFS,39.6,None,Antibiotics + Isolation,-13.0
+Pediculosis,1,353.0,24,AFS,39.1,Lumpy Skin,Antiparasitic + Monitoring,-9.9
+Contagious,1,548.7,75,AFS,39.1,None,Antibiotics + Isolation,-15.5
+Healthy,0,352.9,41,AFS,38.7,Contagious,No Treatment Required,0.0
+Pediculosis,1,356.4,65,AFS,39.7,Mastitis,Antiparasitic + Monitoring,-8.5
+Healthy,0,506.0,71,AFS,38.7,Mastitis,No Treatment Required,0.0
+Healthy,0,428.3,29,AFS,38.4,None,No Treatment Required,0.0
+Ringworm,0,509.1,27,AFS,38.6,None,Topical Treatment + Monitoring,-1.4
+Contagious,1,512.1,93,AFS,39.4,None,Antibiotics + Isolation,-12.3
+Pediculosis,1,430.9,77,AFS,39.4,None,Antiparasitic + Monitoring,-7.9
+FMD,0,445.1,90,AFS,38.9,None,Supportive Care Only,-4.2
+FMD,1,495.5,50,AFS,39.4,None,Antibiotics + Isolation,-13.4
+Pediculosis,1,519.8,47,AFS,39.0,None,Antiparasitic + Monitoring,-9.2
+Lumpy Skin,0,353.7,19,AFS,38.5,None,Topical Treatment + Monitoring,-4.0
+Lumpy Skin,1,390.3,61,AFS,39.4,None,Antibiotics + Isolation,-15.8
+Dermatophilosis,1,542.4,83,AFS,39.6,None,Antibiotics + Isolation,-13.9
+Lumpy Skin,1,520.2,58,AFS,39.1,None,Antibiotics + Isolation,-13.4
+Pediculosis,1,450.5,95,AFS,39.4,None,Antiparasitic + Monitoring,-7.3
+FMD,0,525.0,19,AFS,38.5,None,Supportive Care Only,-4.2
+FMD,1,433.1,31,AFS,39.4,None,Antibiotics + Isolation,-13.6
+FMD,1,543.7,55,AFS,39.6,None,Antibiotics + Isolation,-13.7
+FMD,0,404.7,55,AFS,38.7,Dermatophilosis,Supportive Care Only,-5.0
+Contagious,0,507.5,24,AFS,38.9,Pediculosis,Antibiotics + Isolation,-8.7
+Ringworm,0,430.6,71,AFS,38.8,None,Topical Treatment + Monitoring,-1.4
+Mastitis,2,366.8,24,AFS,41.0,Contagious,Antibiotics + Isolation,-18.2
+Mastitis,0,540.9,23,AFS,38.7,None,Anti-inflammatory + Rest,-6.3
+Lumpy Skin,1,449.4,39,AFS,39.4,None,Antibiotics + Isolation,-13.7
+Contagious,2,467.0,69,AFS,40.4,Pediculosis,Antibiotics + Isolation,-20.7
+Lumpy Skin,2,492.6,17,AFS,40.0,None,Antiviral + Quarantine,-24.4
+FMD,1,526.6,23,AFS,39.3,Lumpy Skin,Antibiotics + Isolation,-13.9
+Contagious,0,359.1,18,AFS,38.9,Lumpy Skin,Antibiotics + Isolation,-8.9
+Mastitis,2,401.7,89,AFS,39.8,None,Antibiotics + Isolation,-22.0
+Lumpy Skin,0,545.3,20,AFS,39.0,None,Topical Treatment + Monitoring,-5.4
+Ringworm,1,445.6,44,AFS,39.2,None,Topical Treatment + Monitoring,-9.0
+Mastitis,1,507.3,71,AFS,39.2,None,Anti-inflammatory + Rest,-13.1
+Pediculosis,1,408.0,71,AFS,39.5,None,Antiparasitic + Monitoring,-7.2
+Pediculosis,0,533.4,25,AFS,38.7,None,Antiparasitic + Monitoring,-2.6
+Mastitis,1,543.7,68,AFS,39.6,Pediculosis,Anti-inflammatory + Rest,-12.3
+Ringworm,0,351.6,42,AFS,38.7,None,Topical Treatment + Monitoring,-2.2
+FMD,1,444.1,36,AFS,39.1,FMD,Antibiotics + Isolation,-15.5
+Mastitis,0,498.3,41,AFS,38.9,Ringworm,Anti-inflammatory + Rest,-4.5
+Contagious,0,439.6,39,AFS,38.7,None,Antibiotics + Isolation,-7.6
+Healthy,0,544.1,17,AFS,38.6,None,No Treatment Required,0.0
+FMD,1,476.6,77,AFS,39.4,Lumpy Skin,Antibiotics + Isolation,-13.9
+Contagious,2,481.6,54,AFS,41.3,None,Antibiotics + Isolation,-23.5
+Lumpy Skin,0,463.8,16,AFS,38.7,Lumpy Skin,Topical Treatment + Monitoring,-5.1
+Healthy,0,360.2,85,AFS,38.5,None,No Treatment Required,0.0
+Ringworm,1,448.4,49,AFS,39.2,None,Topical Treatment + Monitoring,-9.2
+Dermatophilosis,0,513.6,54,AFS,38.8,None,Topical Treatment + Monitoring,-3.8
+Healthy,0,540.1,76,AFS,38.4,Pediculosis,No Treatment Required,0.0
+Healthy,0,460.8,39,AFS,38.3,None,No Treatment Required,0.0
+FMD,1,404.9,46,AFS,39.5,None,Antibiotics + Isolation,-13.9
+Mastitis,0,499.3,15,AFS,38.9,None,Anti-inflammatory + Rest,-7.7
+Contagious,1,548.0,25,AFS,39.6,None,Antibiotics + Isolation,-14.3
+Healthy,0,418.9,27,AFS,38.8,None,No Treatment Required,0.0
+Mastitis,2,403.3,38,AFS,40.2,None,Antibiotics + Isolation,-18.2
+Pediculosis,2,495.8,62,AFS,41.2,Pediculosis,Antiparasitic + Monitoring,-10.7
+Dermatophilosis,0,379.0,52,AFS,38.6,None,Topical Treatment + Monitoring,-5.2
+Lumpy Skin,2,532.3,65,AFS,41.0,Pediculosis,Antiviral + Quarantine,-24.3
+Ringworm,1,454.8,61,AFS,39.5,Lumpy Skin,Topical Treatment + Monitoring,-7.3
+Mastitis,1,437.1,92,AFS,39.3,None,Anti-inflammatory + Rest,-10.2
+Contagious,0,488.9,40,AFS,38.7,None,Antibiotics + Isolation,-7.6
+Ringworm,0,537.4,53,AFS,38.8,None,Topical Treatment + Monitoring,-4.9
+Contagious,0,377.5,90,AFS,38.8,Dermatophilosis,Antibiotics + Isolation,-8.1
+Pediculosis,0,357.5,65,AFS,38.9,None,Antiparasitic + Monitoring,-2.8
+Ringworm,1,526.3,91,AFS,39.1,None,Topical Treatment + Monitoring,-6.8
+Contagious,0,438.5,50,AFS,38.7,None,Antibiotics + Isolation,-7.8
+Mastitis,1,491.2,51,AFS,39.5,Ringworm,Anti-inflammatory + Rest,-13.6
+Lumpy Skin,1,502.8,14,AFS,39.4,Dermatophilosis,Antibiotics + Isolation,-13.5
+Mastitis,1,501.8,26,AFS,39.3,None,Anti-inflammatory + Rest,-10.8
+Lumpy Skin,0,368.1,68,AFS,38.8,Lumpy Skin,Topical Treatment + Monitoring,-3.7
+Ringworm,1,503.5,12,AFS,39.3,Contagious,Topical Treatment + Monitoring,-7.5
+Contagious,0,381.9,30,AFS,38.8,None,Antibiotics + Isolation,-7.0
+Healthy,0,425.6,57,AFS,38.7,None,No Treatment Required,0.0
+Ringworm,0,351.8,69,AFS,39.0,None,Topical Treatment + Monitoring,-1.0
+Healthy,0,520.1,90,AFS,38.5,None,No Treatment Required,0.0
+Ringworm,1,519.1,49,AFS,39.2,None,Topical Treatment + Monitoring,-8.9
+FMD,2,530.4,59,AFS,40.3,None,Antiviral + Quarantine,-25.5
+Ringworm,1,460.8,56,AFS,39.4,None,Topical Treatment + Monitoring,-8.7
+FMD,2,377.9,17,AFS,40.8,None,Antiviral + Quarantine,-24.4
+Contagious,2,490.0,41,AFS,40.8,None,Antibiotics + Isolation,-22.1
+Lumpy Skin,0,539.8,76,AFS,39.0,None,Topical Treatment + Monitoring,-6.2
+Lumpy Skin,2,354.8,25,AFS,41.3,None,Antiviral + Quarantine,-22.0
+FMD,2,468.8,63,AFS,40.5,None,Antiviral + Quarantine,-23.4
+Dermatophilosis,0,421.5,50,AFS,38.6,None,Topical Treatment + Monitoring,-6.9
+Pediculosis,1,517.6,75,AFS,39.4,None,Antiparasitic + Monitoring,-7.5
+Pediculosis,0,423.7,65,AFS,38.9,FMD,Antiparasitic + Monitoring,-4.9
+Contagious,1,447.0,68,AFS,39.8,None,Antibiotics + Isolation,-15.7
+Contagious,1,441.8,70,AFS,39.5,Pediculosis,Antibiotics + Isolation,-12.7
+Pediculosis,2,449.3,63,AFS,40.1,None,Antiparasitic + Monitoring,-12.9
+Lumpy Skin,1,444.1,21,AFS,39.6,None,Antibiotics + Isolation,-14.2
+FMD,0,350.7,20,AFS,38.7,None,Supportive Care Only,-6.0
+Ringworm,0,386.3,54,AFS,38.9,None,Topical Treatment + Monitoring,-2.2
+Healthy,0,387.6,18,AFS,38.6,None,No Treatment Required,0.0
+Lumpy Skin,0,496.3,92,AFS,38.6,None,Topical Treatment + Monitoring,-6.1
+Lumpy Skin,1,398.7,71,AFS,39.1,Ringworm,Antibiotics + Isolation,-16.2
+Pediculosis,2,364.3,66,AFS,41.0,None,Antiparasitic + Monitoring,-13.3
+Dermatophilosis,0,402.7,73,AFS,38.5,None,Topical Treatment + Monitoring,-4.5
+Dermatophilosis,1,368.8,58,AFS,39.3,Dermatophilosis,Antibiotics + Isolation,-13.5
+Contagious,2,357.5,89,AFS,41.4,None,Antibiotics + Isolation,-22.5
+Dermatophilosis,1,396.2,72,AFS,39.8,None,Antibiotics + Isolation,-10.6
+Lumpy Skin,0,441.1,44,AFS,38.8,None,Topical Treatment + Monitoring,-3.6
+Healthy,0,379.1,68,AFS,38.4,FMD,No Treatment Required,0.0
+FMD,0,448.4,24,AFS,38.6,FMD,Supportive Care Only,-6.1
+Ringworm,0,481.3,81,AFS,38.9,Mastitis,Topical Treatment + Monitoring,-3.2
+Contagious,0,494.5,85,AFS,38.8,Contagious,Antibiotics + Isolation,-9.4
+Mastitis,0,406.7,30,AFS,38.7,Dermatophilosis,Anti-inflammatory + Rest,-7.8
+Lumpy Skin,2,497.9,60,AFS,41.2,None,Antiviral + Quarantine,-22.6
+Contagious,2,395.0,16,AFS,40.5,None,Antibiotics + Isolation,-23.1
+Mastitis,1,511.3,31,AFS,39.6,None,Anti-inflammatory + Rest,-10.2
+Ringworm,1,413.5,86,AFS,39.6,None,Topical Treatment + Monitoring,-9.1
+Healthy,0,529.5,85,AFS,38.5,FMD,No Treatment Required,0.0
+Lumpy Skin,0,491.5,12,AFS,38.6,None,Topical Treatment + Monitoring,-5.4
+Pediculosis,0,489.8,33,AFS,38.7,Lumpy Skin,Antiparasitic + Monitoring,-5.7
+Dermatophilosis,1,481.6,42,AFS,39.2,None,Antibiotics + Isolation,-10.9
+Dermatophilosis,1,414.2,36,AFS,39.1,Lumpy Skin,Antibiotics + Isolation,-11.2
+FMD,1,381.2,83,AFS,39.6,Contagious,Antibiotics + Isolation,-16.5
+FMD,2,375.7,91,AFS,40.9,None,Antiviral + Quarantine,-25.6
+Lumpy Skin,2,454.9,25,AFS,40.1,None,Antiviral + Quarantine,-21.2
+Dermatophilosis,1,543.3,18,AFS,39.7,Contagious,Antibiotics + Isolation,-12.1
+Dermatophilosis,1,509.8,80,AFS,39.1,Mastitis,Antibiotics + Isolation,-11.7
+Dermatophilosis,1,545.8,42,AFS,39.4,None,Antibiotics + Isolation,-11.5
+Ringworm,1,407.4,16,AFS,39.6,None,Topical Treatment + Monitoring,-6.7
+Ringworm,1,442.1,87,AFS,39.1,None,Topical Treatment + Monitoring,-9.7
+Contagious,0,391.0,89,AFS,38.9,None,Antibiotics + Isolation,-7.1
+Pediculosis,1,406.2,21,AFS,39.6,None,Antiparasitic + Monitoring,-6.7
+FMD,0,536.4,29,AFS,38.5,None,Supportive Care Only,-4.6
+Ringworm,1,501.2,79,AFS,39.2,Dermatophilosis,Topical Treatment + Monitoring,-9.0
+Lumpy Skin,0,516.9,59,AFS,38.8,None,Topical Treatment + Monitoring,-5.0
+Dermatophilosis,0,412.5,90,AFS,38.8,FMD,Topical Treatment + Monitoring,-4.4
+Mastitis,0,382.1,72,AFS,38.6,None,Anti-inflammatory + Rest,-5.4
+Ringworm,0,400.8,55,AFS,38.8,None,Topical Treatment + Monitoring,-4.7
+Healthy,0,405.0,27,AFS,38.8,Contagious,No Treatment Required,0.0
+Pediculosis,0,500.0,60,AFS,38.6,Pediculosis,Antiparasitic + Monitoring,-2.8
+FMD,2,522.7,66,AFS,40.3,None,Antiviral + Quarantine,-25.3
+Lumpy Skin,0,530.9,47,AFS,38.5,None,Topical Treatment + Monitoring,-4.4
+FMD,2,532.4,13,AFS,41.0,None,Antiviral + Quarantine,-23.3
+Pediculosis,2,420.0,73,AFS,41.1,None,Antiparasitic + Monitoring,-13.7
+FMD,2,535.1,80,AFS,41.0,None,Antiviral + Quarantine,-23.6
+Dermatophilosis,0,498.8,77,AFS,38.7,Mastitis,Topical Treatment + Monitoring,-6.3
+Dermatophilosis,2,368.5,39,AFS,40.1,None,Antibiotics + Isolation,-16.2
+FMD,0,534.5,63,AFS,38.7,Dermatophilosis,Supportive Care Only,-6.0
+Mastitis,1,525.7,72,AFS,39.3,Contagious,Anti-inflammatory + Rest,-10.4
+Pediculosis,0,524.0,80,AFS,38.9,None,Antiparasitic + Monitoring,-3.2
+Pediculosis,1,524.1,83,AFS,39.7,Contagious,Antiparasitic + Monitoring,-9.0
+Mastitis,1,533.5,92,AFS,39.5,None,Anti-inflammatory + Rest,-13.8
+Pediculosis,0,523.9,73,AFS,38.8,None,Antiparasitic + Monitoring,-3.9
+Lumpy Skin,2,429.1,21,AFS,41.3,None,Antiviral + Quarantine,-24.2
+Ringworm,0,540.6,61,AFS,38.5,Contagious,Topical Treatment + Monitoring,-4.7
+FMD,1,463.3,76,AFS,39.4,None,Antibiotics + Isolation,-14.2
+Healthy,0,404.6,50,AFS,38.3,None,No Treatment Required,0.0
+Healthy,0,509.8,25,AFS,38.6,None,No Treatment Required,0.0
+Healthy,0,363.8,49,AFS,38.6,Contagious,No Treatment Required,0.0
+Pediculosis,0,538.5,50,AFS,38.9,None,Antiparasitic + Monitoring,-4.5
+Pediculosis,0,503.5,56,AFS,38.6,Contagious,Antiparasitic + Monitoring,-2.8
+Pediculosis,1,439.9,34,AFS,39.2,None,Antiparasitic + Monitoring,-9.6
+Pediculosis,0,522.2,33,AFS,38.5,Contagious,Antiparasitic + Monitoring,-5.1
+Lumpy Skin,0,451.9,43,AFS,38.7,Ringworm,Topical Treatment + Monitoring,-3.1
+Dermatophilosis,0,456.2,47,AFS,38.8,Dermatophilosis,Topical Treatment + Monitoring,-6.1
+Pediculosis,2,415.9,57,AFS,40.7,None,Antiparasitic + Monitoring,-12.2
+Lumpy Skin,2,462.0,39,AFS,41.1,Contagious,Antiviral + Quarantine,-22.0
+Healthy,0,358.0,57,AFS,38.4,None,No Treatment Required,0.0
+Ringworm,1,515.3,73,AFS,39.0,Ringworm,Topical Treatment + Monitoring,-9.7
+Ringworm,1,422.4,17,AFS,39.3,None,Topical Treatment + Monitoring,-7.5
+Healthy,0,408.5,59,AFS,38.6,None,No Treatment Required,0.0
+Healthy,0,540.6,23,AFS,38.6,Mastitis,No Treatment Required,0.0
+Healthy,0,430.7,27,AFS,38.7,None,No Treatment Required,0.0
+Healthy,0,541.3,87,AFS,38.5,None,No Treatment Required,0.0
+Lumpy Skin,2,478.3,84,AFS,40.5,None,Antiviral + Quarantine,-21.6
+Mastitis,2,498.5,53,AFS,41.0,None,Antibiotics + Isolation,-21.4
+Dermatophilosis,0,482.1,21,AFS,38.9,None,Topical Treatment + Monitoring,-6.5
+Mastitis,1,354.0,60,AFS,39.4,None,Anti-inflammatory + Rest,-10.6
+Pediculosis,2,382.4,54,AFS,40.4,None,Antiparasitic + Monitoring,-10.7
+Pediculosis,0,501.4,56,AFS,39.0,None,Antiparasitic + Monitoring,-3.7
+Mastitis,2,502.4,51,AFS,40.4,None,Antibiotics + Isolation,-21.1
+FMD,1,367.2,26,AFS,39.5,None,Antibiotics + Isolation,-15.6
+Mastitis,2,460.9,22,AFS,41.5,None,Antibiotics + Isolation,-21.9
+FMD,0,476.8,19,AFS,38.7,None,Supportive Care Only,-4.9
+Dermatophilosis,0,478.0,73,AFS,38.6,None,Topical Treatment + Monitoring,-4.5
+Contagious,0,463.8,86,AFS,38.9,None,Antibiotics + Isolation,-8.0
+Healthy,0,427.9,41,AFS,38.7,Ringworm,No Treatment Required,0.0
+Lumpy Skin,2,505.3,39,AFS,40.5,None,Antiviral + Quarantine,-22.2
+Dermatophilosis,0,517.0,38,AFS,38.5,None,Topical Treatment + Monitoring,-5.3
+Mastitis,1,363.1,61,AFS,39.1,None,Anti-inflammatory + Rest,-11.2
+Pediculosis,1,490.5,30,AFS,39.0,None,Antiparasitic + Monitoring,-8.4
+FMD,1,372.1,70,AFS,39.4,None,Antibiotics + Isolation,-15.2
+Ringworm,2,442.5,17,AFS,40.2,Mastitis,Antifungal + Topical Care,-11.3
+FMD,1,395.6,49,AFS,39.4,None,Antibiotics + Isolation,-15.6
+Mastitis,1,544.2,92,AFS,39.7,None,Anti-inflammatory + Rest,-10.2
+Contagious,0,515.8,19,AFS,38.6,None,Antibiotics + Isolation,-8.8
+Healthy,0,417.6,41,AFS,38.7,Mastitis,No Treatment Required,0.0
+FMD,0,477.3,59,AFS,38.6,None,Supportive Care Only,-6.6
+Healthy,0,482.9,38,AFS,38.5,None,No Treatment Required,0.0
+Pediculosis,0,503.1,62,AFS,38.8,Mastitis,Antiparasitic + Monitoring,-3.5
+Ringworm,0,539.5,93,AFS,38.5,None,Topical Treatment + Monitoring,-4.1
+Lumpy Skin,0,460.8,54,AFS,38.9,None,Topical Treatment + Monitoring,-5.8
+Contagious,0,482.9,76,AFS,38.7,None,Antibiotics + Isolation,-9.8
+Ringworm,0,354.6,31,AFS,38.6,Pediculosis,Topical Treatment + Monitoring,-1.0
+Mastitis,0,371.6,27,AFS,38.5,None,Anti-inflammatory + Rest,-4.6
+FMD,1,441.0,64,AFS,39.5,FMD,Antibiotics + Isolation,-13.6
+Pediculosis,0,359.3,45,AFS,38.8,None,Antiparasitic + Monitoring,-2.9
+Mastitis,0,516.8,40,AFS,39.0,None,Anti-inflammatory + Rest,-6.0
+Dermatophilosis,0,385.6,70,AFS,38.7,None,Topical Treatment + Monitoring,-6.3
+Mastitis,1,510.2,62,AFS,39.8,Pediculosis,Anti-inflammatory + Rest,-13.4
+Lumpy Skin,1,494.9,53,AFS,39.0,None,Antibiotics + Isolation,-14.6
+Ringworm,0,375.5,42,AFS,39.0,None,Topical Treatment + Monitoring,-4.9
+Dermatophilosis,1,501.7,33,AFS,39.6,Pediculosis,Antibiotics + Isolation,-13.7
+Mastitis,2,419.9,37,AFS,40.2,None,Antibiotics + Isolation,-21.7
+Lumpy Skin,1,533.5,60,AFS,39.2,Mastitis,Antibiotics + Isolation,-14.2
+Dermatophilosis,0,435.1,28,AFS,38.7,None,Topical Treatment + Monitoring,-4.1
+Contagious,1,358.9,42,AFS,39.8,None,Antibiotics + Isolation,-13.5
+Dermatophilosis,1,472.4,33,AFS,39.5,None,Antibiotics + Isolation,-11.1
+Pediculosis,0,459.1,50,AFS,38.7,Mastitis,Antiparasitic + Monitoring,-4.3
+Healthy,0,519.5,69,AFS,38.4,None,No Treatment Required,0.0
+Pediculosis,2,409.4,37,AFS,40.5,None,Antiparasitic + Monitoring,-13.6
+Contagious,0,486.6,84,AFS,38.7,FMD,Antibiotics + Isolation,-7.9
+Pediculosis,1,401.4,70,AFS,39.4,Lumpy Skin,Antiparasitic + Monitoring,-8.5
+Contagious,1,486.8,40,AFS,39.4,None,Antibiotics + Isolation,-13.5
+Pediculosis,0,542.6,76,AFS,38.8,None,Antiparasitic + Monitoring,-2.3
+Healthy,0,530.1,75,AFS,38.4,None,No Treatment Required,0.0
+Dermatophilosis,2,476.6,35,AFS,41.0,None,Antibiotics + Isolation,-17.0
+Pediculosis,2,384.9,43,AFS,40.3,None,Antiparasitic + Monitoring,-12.3
+Mastitis,0,434.7,25,AFS,38.7,None,Anti-inflammatory + Rest,-7.4
+Pediculosis,0,475.4,20,AFS,38.6,Pediculosis,Antiparasitic + Monitoring,-3.3
+Lumpy Skin,1,392.5,59,AFS,39.3,Lumpy Skin,Antibiotics + Isolation,-16.4
+Contagious,1,490.6,92,AFS,39.6,None,Antibiotics + Isolation,-12.7
+Pediculosis,1,402.6,86,AFS,39.4,Mastitis,Antiparasitic + Monitoring,-7.3
+FMD,1,502.2,40,AFS,39.6,Contagious,Antibiotics + Isolation,-13.1
+Lumpy Skin,1,459.2,87,AFS,39.8,None,Antibiotics + Isolation,-16.6
+Mastitis,2,411.7,26,AFS,40.4,None,Antibiotics + Isolation,-18.6
+Mastitis,2,447.7,50,AFS,40.9,None,Antibiotics + Isolation,-18.3
+Pediculosis,0,498.0,78,AFS,38.7,None,Antiparasitic + Monitoring,-3.2
+Contagious,1,491.7,27,AFS,39.2,None,Antibiotics + Isolation,-13.7
+Dermatophilosis,0,400.5,26,AFS,39.0,None,Topical Treatment + Monitoring,-6.6
+Mastitis,2,375.2,62,AFS,41.2,Pediculosis,Antibiotics + Isolation,-20.0
+Healthy,0,498.7,66,AFS,38.7,None,No Treatment Required,0.0
+Dermatophilosis,0,442.5,61,AFS,38.8,None,Topical Treatment + Monitoring,-6.5
+Dermatophilosis,2,386.1,50,AFS,41.2,None,Antibiotics + Isolation,-17.0
+Contagious,1,522.2,95,AFS,39.1,Lumpy Skin,Antibiotics + Isolation,-14.3
+FMD,0,366.9,17,AFS,38.9,None,Supportive Care Only,-7.0
+Healthy,0,387.6,58,AFS,38.7,None,No Treatment Required,0.0
+Pediculosis,1,423.3,14,AFS,39.7,None,Antiparasitic + Monitoring,-6.2
+Mastitis,1,512.2,39,AFS,39.4,None,Anti-inflammatory + Rest,-12.6
+Lumpy Skin,1,482.8,63,AFS,39.3,Mastitis,Antibiotics + Isolation,-14.9
+Ringworm,1,530.0,83,AFS,39.4,Lumpy Skin,Topical Treatment + Monitoring,-7.0
+FMD,1,376.1,26,AFS,39.2,Pediculosis,Antibiotics + Isolation,-16.5
+Contagious,2,511.1,24,AFS,41.3,None,Antibiotics + Isolation,-20.2
+Pediculosis,0,427.1,17,AFS,38.9,Lumpy Skin,Antiparasitic + Monitoring,-2.8
+Ringworm,0,507.2,75,AFS,38.7,None,Topical Treatment + Monitoring,-2.2
+Pediculosis,1,404.8,47,AFS,39.6,None,Antiparasitic + Monitoring,-7.7
+Dermatophilosis,1,447.1,47,AFS,39.4,None,Antibiotics + Isolation,-12.9
+Ringworm,1,526.9,12,AFS,39.0,Mastitis,Topical Treatment + Monitoring,-7.2
+Healthy,0,446.3,92,AFS,38.4,Lumpy Skin,No Treatment Required,0.0
+Ringworm,1,495.5,85,AFS,39.1,None,Topical Treatment + Monitoring,-8.4
+Healthy,0,407.2,68,AFS,38.5,None,No Treatment Required,0.0
+Pediculosis,2,502.4,61,AFS,39.9,None,Antiparasitic + Monitoring,-12.2
+Contagious,0,521.7,32,AFS,38.9,Pediculosis,Antibiotics + Isolation,-9.1
+Healthy,0,421.1,62,AFS,38.6,Ringworm,No Treatment Required,0.0
+FMD,0,417.3,12,AFS,39.0,None,Supportive Care Only,-5.3
+Mastitis,0,473.4,51,AFS,38.6,None,Anti-inflammatory + Rest,-7.1
+Contagious,1,406.4,36,AFS,39.1,FMD,Antibiotics + Isolation,-15.6
+Mastitis,1,405.9,27,AFS,39.2,Mastitis,Anti-inflammatory + Rest,-10.5
+Pediculosis,0,442.9,31,AFS,38.6,Ringworm,Antiparasitic + Monitoring,-3.8
+FMD,1,371.3,26,AFS,39.3,None,Antibiotics + Isolation,-14.6
+Ringworm,0,469.8,28,AFS,38.8,None,Topical Treatment + Monitoring,-3.5
+Lumpy Skin,1,365.2,48,AFS,39.2,None,Antibiotics + Isolation,-13.5
+FMD,0,353.8,64,AFS,38.7,None,Supportive Care Only,-4.0
+Dermatophilosis,0,376.0,95,AFS,38.7,Contagious,Topical Treatment + Monitoring,-3.4
+FMD,1,474.7,40,AFS,39.7,Pediculosis,Antibiotics + Isolation,-15.2
+Healthy,0,437.6,76,AFS,38.5,Ringworm,No Treatment Required,0.0
+Ringworm,0,351.1,61,AFS,38.5,Mastitis,Topical Treatment + Monitoring,-2.1
+Healthy,0,521.6,15,AFS,38.7,None,No Treatment Required,0.0
+Contagious,1,512.0,58,AFS,39.7,None,Antibiotics + Isolation,-13.2
+Mastitis,2,523.7,83,AFS,40.5,None,Antibiotics + Isolation,-21.0
+Healthy,0,528.6,92,AFS,38.6,FMD,No Treatment Required,0.0
+Dermatophilosis,0,394.2,19,AFS,38.9,None,Topical Treatment + Monitoring,-6.8
+Lumpy Skin,2,485.6,73,AFS,40.3,Ringworm,Antiviral + Quarantine,-22.2
+Healthy,0,483.3,35,AFS,38.7,Dermatophilosis,No Treatment Required,0.0
+Ringworm,1,478.3,28,AFS,39.5,Dermatophilosis,Topical Treatment + Monitoring,-7.7
+Contagious,2,395.0,13,AFS,40.0,None,Antibiotics + Isolation,-23.3
+Mastitis,0,483.4,15,AFS,38.8,None,Anti-inflammatory + Rest,-7.4
+Ringworm,0,371.1,34,AFS,39.0,None,Topical Treatment + Monitoring,-4.4
+Ringworm,2,394.4,42,AFS,41.1,None,Antifungal + Topical Care,-8.3
+Mastitis,1,531.9,66,AFS,39.7,None,Anti-inflammatory + Rest,-12.6
+Pediculosis,0,525.5,69,AFS,38.9,None,Antiparasitic + Monitoring,-2.0
+Dermatophilosis,1,370.0,18,AFS,39.5,Lumpy Skin,Antibiotics + Isolation,-13.0
+Ringworm,0,468.7,90,AFS,38.8,Ringworm,Topical Treatment + Monitoring,-4.7
+Healthy,0,356.1,17,AFS,38.5,Ringworm,No Treatment Required,0.0
+Pediculosis,0,456.4,56,AFS,38.9,None,Antiparasitic + Monitoring,-5.5
+Ringworm,1,508.6,73,AFS,39.6,Pediculosis,Topical Treatment + Monitoring,-9.9
+Mastitis,1,466.9,67,AFS,39.1,None,Anti-inflammatory + Rest,-13.9
+Dermatophilosis,1,493.3,27,AFS,39.3,None,Antibiotics + Isolation,-11.5
+Contagious,0,380.9,26,AFS,38.6,None,Antibiotics + Isolation,-9.5
+Contagious,0,383.9,18,AFS,38.6,Lumpy Skin,Antibiotics + Isolation,-6.2
+Healthy,0,409.6,45,AFS,38.6,None,No Treatment Required,0.0
+FMD,0,449.8,28,AFS,38.6,None,Supportive Care Only,-5.1
+FMD,1,374.3,35,AFS,39.5,None,Antibiotics + Isolation,-16.6
+Dermatophilosis,1,501.3,87,AFS,39.6,None,Antibiotics + Isolation,-13.6
+Mastitis,2,470.7,59,AFS,40.8,None,Antibiotics + Isolation,-21.5
+Lumpy Skin,2,398.9,45,AFS,41.0,Contagious,Antiviral + Quarantine,-23.7
+Mastitis,2,409.2,53,AFS,40.6,None,Antibiotics + Isolation,-18.6
+Pediculosis,0,488.0,92,AFS,38.9,Contagious,Antiparasitic + Monitoring,-4.2
+FMD,0,508.4,53,AFS,38.9,Mastitis,Supportive Care Only,-3.3
+Healthy,0,375.8,63,AFS,38.5,None,No Treatment Required,0.0
+FMD,0,459.8,93,AFS,38.8,None,Supportive Care Only,-6.5
+Lumpy Skin,2,519.3,16,AFS,39.9,Dermatophilosis,Antiviral + Quarantine,-23.6
+Healthy,0,543.6,48,AFS,38.4,None,No Treatment Required,0.0
+FMD,1,440.6,60,AFS,39.4,None,Antibiotics + Isolation,-14.3
+Pediculosis,0,474.5,22,AFS,38.7,None,Antiparasitic + Monitoring,-5.9
+Healthy,0,443.6,84,AFS,38.6,None,No Treatment Required,0.0
+Pediculosis,1,371.4,72,AFS,39.5,None,Antiparasitic + Monitoring,-9.3
+Pediculosis,0,356.8,22,AFS,38.6,Ringworm,Antiparasitic + Monitoring,-5.8
+Ringworm,0,543.5,75,AFS,38.7,Pediculosis,Topical Treatment + Monitoring,-3.7
+Mastitis,2,486.0,76,AFS,41.1,None,Antibiotics + Isolation,-18.3
+Pediculosis,2,455.2,88,AFS,41.4,None,Antiparasitic + Monitoring,-10.5
+Dermatophilosis,2,402.7,20,AFS,39.9,Lumpy Skin,Antibiotics + Isolation,-19.3
+Mastitis,0,491.1,27,AFS,38.9,Ringworm,Anti-inflammatory + Rest,-6.2
+FMD,1,355.3,86,AFS,39.6,None,Antibiotics + Isolation,-13.2
+Ringworm,1,458.8,38,AFS,39.0,None,Topical Treatment + Monitoring,-6.9
