@@ -15,6 +15,8 @@ class DashboardScreen extends StatelessWidget {
       const _NavItem('Cow Feed', AppRoutes.feed),
       const _NavItem('Animal Birth', AppRoutes.animalBirth),
       const _NavItem('Disease Detection', AppRoutes.disease),
+      const _NavItem('Complete Disease Analysis', AppRoutes.diseaseAnalyze),
+      const _NavItem('Model Comparison', AppRoutes.diseaseCompare),
       const _NavItem('Behavior Detection', AppRoutes.behavior),
       const _NavItem('Egg Hatch', AppRoutes.eggHatch),
       const _NavItem('Milk Market', AppRoutes.milkMarket),

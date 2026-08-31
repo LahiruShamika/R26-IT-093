@@ -4,6 +4,12 @@
 <dict>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>Used to capture cattle photos for disease and behavior detection.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Used to select cattle photos and videos for disease and behavior analysis.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Used when recording cattle videos for behavior analysis.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
