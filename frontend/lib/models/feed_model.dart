@@ -743,7 +743,12 @@ class _FeedScreenState extends State<FeedScreen> {
     );
   }
 
-  {
+  Widget _buildFeedItem(
+      String label,
+      String value,
+      IconData icon,
+      ColorScheme cs,
+      ) {
     return Padding(
       padding:
       const EdgeInsets.symmetric(vertical: 12),
