@@ -42,3 +42,18 @@ def quick_diagnosis():
             "image_received": image is not None,
         }
     )
+
+
+@disease_bp.post("/api/video/analyze")
+def analyze_video():
+    video = request.files.get("video")
+    return jsonify(
+        {
+            "endpoint": "/api/video/analyze",
+            "implemented": False,
+            "video_received": video is not None,
+            "frame_interval": request.form.get("frame_interval"),
+            "detect_disease": request.form.get("detect_disease"),
+            "detect_behavior": request.form.get("detect_behavior"),
+        }
+    )

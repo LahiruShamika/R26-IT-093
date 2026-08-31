@@ -46,6 +46,7 @@ class ApiConstants {
   static const String flaskDiseaseDetect = '/api/disease/detect';
   static const String flaskDiseaseAnalyze = '/api/disease/analyze';
   static const String flaskQuickDiagnosis = '/api/quick-diagnosis';
+  static const String flaskVideoAnalyze = '/api/video/analyze';
   static const String flaskBehaviorDetect = '/api/behavior/detect-from-video';
   static const String flaskBehaviorSnapshot = '/api/behavior/snapshot';
   static String flaskBehaviorAnalyze(String cowId) =>

@@ -20,5 +20,6 @@ class FlaskMlService {
   // POST {{flask_url}}/api/quick-diagnosis
   // POST {{flask_url}}/api/behavior/detect-from-video
   // POST {{flask_url}}/api/behavior/snapshot
-  // GET  {{flask_url}}/api/behavior/analyze/:cow_id
+  // POST {{flask_url}}/api/behavior/analyze/:cow_id
+  // POST {{flask_url}}/api/video/analyze
 }

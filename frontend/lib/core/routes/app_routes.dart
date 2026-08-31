@@ -16,6 +16,7 @@ import 'package:smart_farm/screens/predictions/egg_hatch_screen.dart';
 import 'package:smart_farm/screens/predictions/milk_market_screen.dart';
 import 'package:smart_farm/screens/predictions/model_comparison_screen.dart';
 import 'package:smart_farm/screens/predictions/nutrition_screen.dart';
+import 'package:smart_farm/screens/predictions/video_analysis_screen.dart';
 
 class AppRoutes {
   static const String dashboard = '/';
@@ -31,6 +32,7 @@ class AppRoutes {
   static const String diseaseAnalyze = '/predictions/disease-analyze';
   static const String diseaseCompare = '/predictions/disease-compare';
   static const String behavior = '/predictions/behavior';
+  static const String videoAnalysis = '/predictions/video-analysis';
   static const String eggHatch = '/predictions/egg-hatch';
   static const String milkMarket = '/predictions/milk-market';
   static const String nutrition = '/predictions/nutrition';
@@ -50,6 +52,7 @@ class AppRoutes {
         diseaseAnalyze: (_) => const CompleteDiseaseAnalysisScreen(),
         diseaseCompare: (_) => const ModelComparisonScreen(),
         behavior: (_) => const BehaviorDetectionScreen(),
+        videoAnalysis: (_) => const VideoAnalysisScreen(),
         eggHatch: (_) => const EggHatchScreen(),
         milkMarket: (_) => const MilkMarketScreen(),
         nutrition: (_) => const NutritionScreen(),
